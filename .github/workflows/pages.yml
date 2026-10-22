@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build page branch
 
 on:
   push:
@@ -9,16 +9,13 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  group: page-branch
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: read
-      pages: read
     env:
       ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
     steps:
@@ -53,22 +50,38 @@ jobs:
           python3 tools/inspect_blueprint.py artifacts/structure-example/four-cells.blueprintx --output artifacts/structure-example/fields.json
       - name: Build website
         run: pnpm build:pages
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
+          name: website
           path: apps/web/dist
+          if-no-files-found: error
+          retention-days: 1
 
-  deploy:
+  publish:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     needs: build
     permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      contents: write
     steps:
-      - name: Publish website
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v4
+        with:
+          name: website
+          path: ${{ runner.temp }}/website
+      - name: Publish page branch
+        run: |
+          test -s "$RUNNER_TEMP/website/index.html"
+          git fetch --no-tags --depth=1 origin page
+          git worktree add --detach "$RUNNER_TEMP/page" FETCH_HEAD
+          rsync -a --delete --exclude=.git "$RUNNER_TEMP/website/" "$RUNNER_TEMP/page/"
+          git -C "$RUNNER_TEMP/page" config user.name 'github-actions[bot]'
+          git -C "$RUNNER_TEMP/page" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$RUNNER_TEMP/page" add --all
+          if git -C "$RUNNER_TEMP/page" diff --cached --quiet; then
+            echo '网站产物未变化，跳过提交。'
+            exit 0
+          fi
+          git -C "$RUNNER_TEMP/page" commit -m "自动构建网站：${GITHUB_SHA}"
+          git -C "$RUNNER_TEMP/page" push origin HEAD:page

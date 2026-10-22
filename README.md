@@ -2,7 +2,7 @@
 
 <!-- project-links:start -->
 
-[在线演示](https://gamehomeland.github.io/) · [源码仓库](https://github.com/gamehomeland/gamehomeland.github.io)
+[在线演示](https://jx3homeland.com/) · [源码仓库](https://github.com/gamehomeland/gamehomeland.github.io)
 <!-- project-links:end -->
 
 将图片转换为剑网3家园拼布组件，或在 3D 场景中布置家具与地下室，导出 `.blueprintx` 蓝图、工程文件和家具清单。
@@ -98,7 +98,7 @@ pnpm dev
 
 ```sh
 pnpm check          # 资料校验、类型检查、测试、网页与离线页构建
-pnpm build:pages    # 生成GitHub Pages静态页面
+pnpm build:pages    # 生成用于 page 分支的静态网页
 pnpm build:core     # 可复用的JavaScript与类型声明
 pnpm desktop        # 构建并运行桌面应用
 pnpm build:desktop  # 当前系统与架构的桌面应用和发行包
@@ -199,19 +199,19 @@ node --import tsx examples/export-material-board.ts
 
 项目代码采用 [MIT-0](LICENSE)：可以自由使用、修改、集成、分发和商用，无需署名、保留本项目许可声明或申请授权。第三方依赖分别遵循其许可证，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
-## GitHub Pages
+## 网页部署
 
-部署操作见[GitHub Pages 部署指南](DEPLOYMENT.md)。
+源码保存在 [`gamehomeland/gamehomeland.github.io`](https://github.com/gamehomeland/gamehomeland.github.io) 的 `main` 分支。`.github/workflows/pages.yml` 在推送到 `main` 或手动触发时，检查发布地址、资料、类型、导出核心及 Python 工具，再执行 `pnpm build:pages`，将完整 `apps/web/dist/` 产物更新至 `page` 分支根目录。`page` 分支只保存构建结果，后续修改提交到 `main`。
 
-优先使用 `gamehomeland.github.io` 仓库，网页地址为 `https://gamehomeland.github.io/`。**首次提交前填写实际账号并运行：**
+Cloudflare Pages 连接该仓库时，生产分支选择 `page`、框架选择 `None`、构建命令填写 `exit 0`、构建输出目录填写 `/`，根目录留空。自定义域名 `jx3homeland.com` 需在 Cloudflare 完成绑定；仓库配置中的网址不代表已经上线。详细操作和验收见[部署指南](DEPLOYMENT.md)。
+
+修改仓库或网页地址时，运行以下命令同步 `site.config.json` 和本页顶部链接；重新构建后，网页右上角“开源仓库”使用同一仓库地址：
 
 ```sh
-node scripts/configure-site.mjs --owner gamehomeland
+node scripts/configure-site.mjs --owner gamehomeland --repo gamehomeland.github.io --site https://jx3homeland.com/
 node scripts/configure-site.mjs --check
 ```
 
-当前部署账号为 `gamehomeland`；迁移到其他账号时请更新该参数。命令同步更新本页顶部的在线演示、源码仓库链接和 `site.config.json`；重新构建后，网页右上角“开源仓库”使用同一地址。尚未设置地址时保留入口，本地功能仍可使用。
-
-`.github/workflows/pages.yml` 在推送到 `main` 或手动触发时检查发布地址、资料、类型和测试，再构建并发布 `apps/web/dist`。仓库的 Settings → Pages → Source 选择 **GitHub Actions**。发布检查会拒绝缺失地址、README 链接不一致或与当前仓库不符的配置。
+发布检查会拒绝缺失地址、README 链接不一致或与当前仓库不符的配置。
 
 谢绝 txjydps.online/pindou2jx3/ 的作者及相关开发团队浏览本网站，以及使用、复制、修改或再发布本项目源码与衍生版本。其他开发者可自由使用、修改和二次开发。实现思路公开分享，不必把一项功能当作独家珍宝。会做的人，不止你们。
