@@ -1,0 +1,53 @@
+{
+  "name": "jx3-homeland-blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT-0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "configure:site": "node scripts/configure-site.mjs",
+    "check:site": "node scripts/configure-site.mjs --check",
+    "catalog": "node scripts/build-catalog.mjs && node scripts/verify-model-library.mjs && node scripts/build-content.mjs",
+    "check:models": "node scripts/verify-model-library.mjs",
+    "dev": "pnpm catalog && vite --config apps/web/vite.config.ts",
+    "build:web": "pnpm catalog && vite build --config apps/web/vite.config.ts && node scripts/build-offline.mjs",
+    "build:pages": "pnpm catalog && vite build --mode pages --config apps/web/vite.config.ts",
+    "build:core": "pnpm catalog && tsc -p packages/core/tsconfig.json",
+    "desktop": "pnpm build:web && electron apps/desktop",
+    "build:desktop": "pnpm build:web && node scripts/package-desktop.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm catalog && pnpm typecheck && pnpm test && pnpm build:web",
+    "samples": "pnpm catalog && tsx scripts/samples.ts",
+    "test:desktop": "electron apps/desktop --self-test",
+    "test:packaged": "node scripts/test-desktop.mjs",
+    "dev:desktop": "pnpm desktop",
+    "preview": "node scripts/preview.mjs",
+    "build:review": "pnpm samples && node scripts/build-review.mjs",
+    "package:source": "node scripts/package-source.mjs",
+    "example:core": "pnpm catalog && tsx examples/export-blueprint.ts",
+    "example:structure": "pnpm catalog && tsx examples/inspect-component.ts",
+    "format": "prettier --write packages/core/src apps/web apps/desktop scripts tests \"docs/*.md\" README.md CONTRIBUTING.md DEPLOYMENT.md THIRD_PARTY_NOTICES.md package.json site.config.json"
+  },
+  "dependencies": {
+    "fflate": "0.8.3",
+    "spark-md5": "3.0.2",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@types/node": "^24.0.0",
+    "@types/spark-md5": "^3.0.5",
+    "@types/three": "0.185.0",
+    "electron": "45.0.0",
+    "markdown-it": "15.0.3",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

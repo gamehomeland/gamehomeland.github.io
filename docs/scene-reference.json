@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "scope": "Static scene/resource reference. Not complete rendering or an in-game calibration.",
+  "weather_presets": [
+    {
+      "time": 1,
+      "weather": 1,
+      "environment": "晴天_中午"
+    },
+    {
+      "time": 1,
+      "weather": 2,
+      "environment": "雨天_中午"
+    },
+    {
+      "time": 1,
+      "weather": 3,
+      "environment": "雪天_中午"
+    },
+    {
+      "time": 2,
+      "weather": 1,
+      "environment": "晴天_早晨"
+    },
+    {
+      "time": 2,
+      "weather": 2,
+      "environment": "雨天_早晨"
+    },
+    {
+      "time": 2,
+      "weather": 3,
+      "environment": "雪天_早晨"
+    },
+    {
+      "time": 3,
+      "weather": 1,
+      "environment": "晴天_黑夜"
+    },
+    {
+      "time": 3,
+      "weather": 2,
+      "environment": "雨天_黑夜"
+    },
+    {
+      "time": 3,
+      "weather": 3,
+      "environment": "雪天_黑夜"
+    }
+  ],
+  "design_ground_presets": [
+    {
+      "length": 212,
+      "width": 216,
+      "private": true
+    },
+    {
+      "length": 104,
+      "width": 112,
+      "private": true
+    },
+    {
+      "length": 56,
+      "width": 112,
+      "private": true
+    },
+    {
+      "length": 72,
+      "width": 100,
+      "private": false
+    },
+    {
+      "length": 56,
+      "width": 72,
+      "private": false
+    },
+    {
+      "length": 40,
+      "width": 56,
+      "private": false
+    },
+    {
+      "length": 32,
+      "width": 40,
+      "private": false
+    }
+  ],
+  "furniture_dye": {
+    "configured_resources": 790,
+    "cloth_resources_checked": 144,
+    "cloth_dye_entries": [],
+    "scope": "Configured detail indices, not arbitrary RGB tint"
+  },
+  "render_checks": {
+    "material_paths": [
+      "mtl_std.fx5",
+      "mtl_std_colorize.fx5"
+    ],
+    "material_class": "MATERIALID_STANDARD",
+    "forward_paths": [
+      "ForwardLightFull",
+      "ForwardLightMinimal"
+    ],
+    "local_tonemap_gate": "bEnableRenderLevelLow && bEnableForwardMinimal",
+    "local_tonemap_exposure": 0.5,
+    "wetness_mask_in_inspected_path": [
+      1,
+      1
+    ],
+    "render_rain_in_inspected_path": "identity",
+    "snow_surface_up_dot_min": 0.8,
+    "scene_probe_function": "ComputeIBL_MultipleEnvProbe",
+    "opacity_modifiers": [
+      "material opacity",
+      "model alpha",
+      "distance fade"
+    ]
+  },
+  "resources": [
+    {
+      "path": "UI/Scheme/Case/Homeland/Homeland_FurnitureColor.tab",
+      "bytes": 68148,
+      "sha256": "677b35e9e7e0351bc6555ec3dc602556139ea307723c615477f8f152fd347419"
+    },
+    {
+      "path": "ui/Scheme/Case/Homeland/Homeland_Weather.tab",
+      "bytes": 171,
+      "sha256": "211d689eca570b25a23599a9cf06ddb52c082e6e83052748e10d44d4d611ca12"
+    },
+    {
+      "path": "ui/Scheme/Case/Homeland/GroundArea.tab",
+      "bytes": 128,
+      "sha256": "487c67d329642976460c68041f9c27d139d35c1c2991305747df632c9ed80829"
+    },
+    {
+      "path": "ui/Config/Default/Homeland/BuildingView/HLBView_WeatherSetting.lua",
+      "bytes": 2351,
+      "sha256": "b633f507763f8b7fcfa7af3739ba987be25b9efdaa3f15798fe8a16a866b7409"
+    },
+    {
+      "path": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Other.lua",
+      "bytes": 25334,
+      "sha256": "984ce42fc2e02ee2ff14ec386d1a4c9743197a2b80e99c0548a4a19853c6f9ec"
+    },
+    {
+      "path": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_SingleItemOp.lua",
+      "bytes": 7163,
+      "sha256": "e3f35c40eaf2f30c213f91d37881e299dd3c5c83f0789f63cee2352757e735dc"
+    },
+    {
+      "path": "ui/Config/Default/Homeland/BuildingView/HLBView_ItemOpColor.lua",
+      "bytes": 4967,
+      "sha256": "c774cd5231d361296ab2ecac385c8f347f0315ec654744466f990ca1af97fbbb"
+    },
+    {
+      "path": "ui/Script/FurnitureData.lua",
+      "bytes": 9269,
+      "sha256": "b407c8a6b125bd17d98fba1f23498ea8a8425925d925bc194c061a44b3a75253"
+    },
+    {
+      "path": "ui/Script/table.lua",
+      "bytes": 321048,
+      "sha256": "0a9bb3a274c2f4ac2ea9000dabf7936512cace6a498194ccebbeeeba93b3a0fe"
+    },
+    {
+      "path": "ui/Script/common/table_defs.lua",
+      "bytes": 258550,
+      "sha256": "5ce88e486521bd883082085ae77685fe9a9ab5689598f15dfd6121d86aef5627"
+    },
+    {
+      "path": "ui/Config/Default/Filter_Base.lua",
+      "bytes": 46334,
+      "sha256": "f8421f8f8c783b4734f105373fb9f15be5f9a22625a9d42be130e7501a44ecbd"
+    },
+    {
+      "path": "ui/Script/DynamicWeather_Base.lua",
+      "bytes": 6046,
+      "sha256": "d8bb321aecb09c8763fb80b7e860d2c43585505d9dfeced47acb945cf12c36b9"
+    },
+    {
+      "path": "ui/Config/Default/Homeland/DynamicWeatherSetting.lua",
+      "bytes": 19279,
+      "sha256": "6c6057a07698a41fc524f9df62ae01431d1a09d6438e2d42fd1a3940e10316fe"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/CommonParam.h",
+      "bytes": 147496,
+      "sha256": "f1970678e39ce4125596fb8046589f69853687b3b3e3b3195d7d80217d6c7440"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/ModelBasePixelShader.fx5",
+      "bytes": 92289,
+      "sha256": "69dcb7069f0009eedf03062eaebd67fc911e4db91518929713f16187621b5f9f"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/ForwardLightingEntrance.h5",
+      "bytes": 8652,
+      "sha256": "b66c36413f059988a9046f40cb06ba4e1949480ae7bb13cd11967b7c1f4178de"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/ShadingModel.h5",
+      "bytes": 83750,
+      "sha256": "996cf643f58f57a93305ba9746ec9cb8b06d9da8d5a44f56c209a0a9bc19ed76"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/DynamicWeatherCommon.h",
+      "bytes": 2512,
+      "sha256": "d251a9b9310304a541382772a02e61c2604a51d5568aabf88f40d5f24de0cd8f"
+    },
+    {
+      "path": "data/material/Shader_DX11_HD/GIForwardCommon.h5",
+      "bytes": 19723,
+      "sha256": "2392f5e901bcdd6ce11c5d970877ea494422ee2367525835c95d5609fd2e84ff"
+    },
+    {
+      "path": "data/material/material/mtl_std.fx5",
+      "bytes": 3973,
+      "sha256": "365098864aed97bc75867b45b4d490ebfc0275e763f40397370230e4a19ba542"
+    },
+    {
+      "path": "data/material/material/mtl_std_colorize.fx5",
+      "bytes": 7856,
+      "sha256": "10fcaa3c5acd45334a4fcbb2e01e5048856beb6f63aac909d8aace0f3bdea0aa"
+    }
+  ],
+  "not_verified": [
+    "complete scene light settings",
+    "full deferred/postprocess pipeline",
+    "server-side scene rules",
+    "real-game lighting calibration"
+  ]
+}

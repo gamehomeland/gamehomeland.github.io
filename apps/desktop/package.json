@@ -1,0 +1,10 @@
+{
+  "name": "jx3-homeland-blueprint-desktop",
+  "productName": "家园蓝图",
+  "version": "0.1.0",
+  "description": "在本机将图片导出为剑网3家园蓝图",
+  "main": "main.cjs",
+  "author": "JX3 Homeland contributors",
+  "license": "MIT-0",
+  "private": true
+}

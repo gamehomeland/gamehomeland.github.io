@@ -1,0 +1,3 @@
+numpy==2.4.6
+Pillow==12.2.0
+texture2ddecoder==1.0.6

@@ -1,0 +1,40 @@
+{
+  "client_version": "1-5-0-9988",
+  "native_module": {
+    "file": "JX3RepresentX64.dll",
+    "sha256": "41a444e3ca632dc6ebebd386d6047d7ddc8d39098be707ac78ad7b8a83e4b4da"
+  },
+  "functions": {
+    "save_model": "0x8e4960",
+    "load_node": "0x8dd820",
+    "add_child": "0x899b70",
+    "attach_anchor": "0x8cc240",
+    "set_detail": "0x8e5690",
+    "show_transparent_base": "0x8e71f0",
+    "set_initially_hidden_model_visible": "0x8e5ea0",
+    "combine_prefab_node": "0x8cf540",
+    "scale_validation": "0x8ca870",
+    "checksum": "0x89e9f0",
+    "scale_validation_probe": "0x8ca970"
+  },
+  "checksum_xor_bytes": "33333333333333333333333333333333",
+  "verification_scope": "Static client/resource analysis and file inspection; no new in-game import claim.",
+  "lua_modules": {
+    "HLBOp_Blueprint": [
+      "StartLoadBlueprint",
+      "LoadNormalBlueprint",
+      "LoadMoveBlueprint",
+      "EndNormalLoadBlueprint",
+      "SavePartBlueprint"
+    ],
+    "HLBOp_Step": ["StartOneStep", "EndOneStep", "Undo", "Redo", "RealUndo", "RealRedo"],
+    "HLBOp_Check": ["Check", "CheckSave", "CheckAutoSave"],
+    "HLBOp_Amount": ["RequestConsumption", "OnRequestConsumptionResult"],
+    "HLBOp_Save": ["DoSave", "DoAutoSave", "DoApplyBak"]
+  },
+  "display_transform": {
+    "source_function": "data/material/Shader_DX11_HD/CommonParam.h",
+    "source_call": "data/material/Shader_DX11_HD/ModelBasePixelShader.fx5",
+    "scope": "Neutral reference using the low forward branch; scene rendering not verified"
+  }
+}

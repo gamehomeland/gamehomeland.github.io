@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+apps/web/dist/
+packages/core/dist/
+packages/core/src/catalog.generated.ts
+apps/web/src/content.generated.ts
+data/
+pnpm-lock.yaml
+tests/fixtures/

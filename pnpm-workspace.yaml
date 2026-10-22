@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+allowBuilds:
+  electron: true
+  esbuild: true
+minimumReleaseAgeExclude:
+  - electron@45.0.0
+  - vite@8.3.5

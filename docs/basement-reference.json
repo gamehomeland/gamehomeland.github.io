@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 1,
+  "scope": "地下室原始模型贴图、地板挂接与整屋蓝图；游戏导入保存重载待验收",
+  "module": {
+    "name": "JX3RepresentX64.dll",
+    "sha256": "41a444e3ca632dc6ebebd386d6047d7ddc8d39098be707ac78ad7b8a83e4b4da"
+  },
+  "furniture": [
+    {
+      "tableId": 3805,
+      "type": 1,
+      "furnitureId": 2149,
+      "representId": 82,
+      "name": "地下室·沧州石",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    },
+    {
+      "tableId": 3806,
+      "type": 1,
+      "furnitureId": 2150,
+      "representId": 83,
+      "name": "地下室·雪浪石",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    },
+    {
+      "tableId": 6860,
+      "type": 1,
+      "furnitureId": 2151,
+      "representId": 84,
+      "name": "地下室·石质",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    },
+    {
+      "tableId": 6910,
+      "type": 1,
+      "furnitureId": 2040,
+      "representId": 74,
+      "name": "地下室·木质·4米",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    },
+    {
+      "tableId": 8823,
+      "type": 1,
+      "furnitureId": 5466,
+      "representId": 113,
+      "name": "地下室·木质·8米",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    },
+    {
+      "tableId": 9217,
+      "type": 1,
+      "furnitureId": 5863,
+      "representId": 114,
+      "name": "地下室·石质·8米",
+      "category": [
+        1,
+        10,
+        null
+      ],
+      "scaleRangeRaw": "",
+      "axisScaleRaw": "",
+      "heightLimitRaw": "",
+      "freeRotationRaw": "",
+      "interactionRaw": "",
+      "testFlagRaw": "",
+      "brushModeCountRaw": "2"
+    }
+  ],
+  "brushes": [
+    {
+      "id": "74",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement01_AB400",
+      "type": "2",
+      "extent": "400",
+      "top": "0",
+      "bottom": "-400",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "2040",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "0",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "79",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement01_AB400",
+      "type": "2",
+      "extent": "400",
+      "top": "0",
+      "bottom": "0",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "BasementAnti",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "2040",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "0",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "82",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement02_AB400",
+      "type": "2",
+      "extent": "400",
+      "top": "0",
+      "bottom": "-400",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "2149",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "83",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement03_AB400",
+      "type": "2",
+      "extent": "400",
+      "top": "0",
+      "bottom": "-400",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "2150",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "84",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement04_AB400",
+      "type": "2",
+      "extent": "400",
+      "top": "0",
+      "bottom": "-400",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "2151",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "113",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement08_AB800",
+      "type": "2",
+      "extent": "800",
+      "top": "0",
+      "bottom": "-800",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "5466",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "",
+      "bNotyfyOBB": ""
+    },
+    {
+      "id": "114",
+      "path": "data/source/Home/building/TY/TY_Base_M_basement04_AB800",
+      "type": "2",
+      "extent": "800",
+      "top": "0",
+      "bottom": "-800",
+      "hexagons": "0",
+      "uniform": "0",
+      "layer": "15",
+      "szTag": "H_Pool;Basement",
+      "dwTag": "0",
+      "FurnitureType": "1",
+      "FurnitureID": "5863",
+      "TerrainWater": "1",
+      "RepresentTags": "",
+      "dwRepresentType": "",
+      "bNotyfyOBB": ""
+    }
+  ],
+  "holeModels": [
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement01_AB400_TerrainHole.mesh",
+      "bytes": 552,
+      "sha256": "135c3773deaad531b6e04955c39122c2beec6969f0d873a3390037433ecfa5a7",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -2.0,
+          -0.3,
+          -2.0
+        ],
+        [
+          2.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    },
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement02_AB400_TerrainHole.mesh",
+      "bytes": 552,
+      "sha256": "789cf122c263707ec5830a5c1138cdcf3b70c8a630b7e9e93c827094d6250bfd",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -2.0,
+          -0.3,
+          -2.0
+        ],
+        [
+          2.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    },
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement03_AB400_TerrainHole.mesh",
+      "bytes": 552,
+      "sha256": "789cf122c263707ec5830a5c1138cdcf3b70c8a630b7e9e93c827094d6250bfd",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -2.0,
+          -0.3,
+          -2.0
+        ],
+        [
+          2.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    },
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement04_AB400_TerrainHole.mesh",
+      "bytes": 552,
+      "sha256": "b53635362cc43d2af9be65e6c6edb4181bf75b36f185a9293c9d324c69e435d2",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -2.0,
+          -0.3,
+          -2.0
+        ],
+        [
+          2.0,
+          0.0,
+          2.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    },
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement04_AB800_TerrainHole.mesh",
+      "bytes": 584,
+      "sha256": "bb24c1ab1e4c74d6e5fa5be429eefc1434b5650f05a6ab409a4bc42d1921cfd0",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -4.0,
+          -0.5999998474121093,
+          -4.0
+        ],
+        [
+          4.0,
+          7.569789772787772e-10,
+          4.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    },
+    {
+      "path": "data/source/Home/building/TY/TY_Base_M_basement08_AB800_TerrainHole.mesh",
+      "bytes": 584,
+      "sha256": "2de5ae25dfb980541e717457d0ff4c9431fffe338b1fba7141967d74ece398c1",
+      "layoutFlag": "0xe4000000",
+      "geometryDecoded": "positions and triangle indices only",
+      "boundsM": [
+        [
+          -4.0,
+          -0.6,
+          -4.0
+        ],
+        [
+          4.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 4
+    }
+  ],
+  "native": {
+    "anchorTags": "0x827c90",
+    "cascadeBrushTypeCheck": "0x872360",
+    "createRenderBrush": "0x8d0d80",
+    "holePathFormatter": "0x89eb50",
+    "saveCascadeBrush": "0x8e4280",
+    "cascadeConstructor": "0x873ba0",
+    "neighborMask": "0x874090",
+    "cascadeConfirm": "0x872810",
+    "sameExtentGroup": "0x8120c0",
+    "normalizeMask": "0x8a01f0",
+    "variantPath": "0x89f990",
+    "createBrushSetsRotation": "0x8b14c0",
+    "attachAnchor": "0x8cc240"
+  },
+  "render": {
+    "holePathFormat": "%s_TerrainHole.mesh",
+    "modelFlag": "eKG3DSNMF_TerrainHoleModel",
+    "modelFlagValue": 4,
+    "conditional": true,
+    "modelVariants": 144,
+    "materialPacks": 6,
+    "preview": "client meshes, UV, base color, normal and metal-roughness; neutral web lighting"
+  },
+  "blueprint": {
+    "nodeType": 9,
+    "fixedBytesWithoutChildren": 44,
+    "brushResourceBits": 16,
+    "maskBits": 16,
+    "extraByteMeaning": "compatibility field, historical semantic name unresolved",
+    "defaultExtraByte": 1,
+    "neighborBits": {
+      "+Z": 1,
+      "+X": 2,
+      "-Z": 4,
+      "-X": 8,
+      "-Y": 16,
+      "+Y": 32,
+      "terrainHole": 64
+    },
+    "exportRoot": "global type5 -> type9 with normalized rotation -> actual floor type5 -> Model0"
+  },
+  "ui": {
+    "isBasement": "FurnitureData.IsAutoBottomBrush / Homeland_GetModelIDsForBasement",
+    "grouping": "HLBView_ItemOpMain rejects grouped basement brush selection",
+    "multiSelectDefault": false,
+    "heightInterface": "SetObjLocalPos(HOMELAND_SET_OBJ_LOCAL_POS_TYPE.Y, value)"
+  },
+  "limits": {
+    "sampleEditorHeightRangeM": [
+      -4,
+      8
+    ],
+    "heightRangeScope": "35 bound furniture resources, local Y only; not a global basement depth limit",
+    "negativePositionCreatesHole": false,
+    "editorMaxCells": 512,
+    "editorMaxBottomM": 32,
+    "nativeRayLocalYCheck": 3600,
+    "nativeCheckScope": "one ray placement path; not asserted as universal depth"
+  },
+  "notVerified": [
+    "非水平地下室挂面与复杂子树",
+    "任意地形碰撞与通行",
+    "游戏环境光照完整重放",
+    "兼容字节的历史业务名称",
+    "地下室蓝图导入保存重载"
+  ],
+  "sources": [
+    {
+      "path": "Represent/homeland/ID_Brush.txt",
+      "bytes": 14783,
+      "sha256": "1864196a45d696efcb138605fae0bbb0eeeac8e90a67f5f243ec402e105147b8"
+    },
+    {
+      "path": "UI/Scheme/Case/Homeland/Homeland_FurnitureInfo.tab",
+      "bytes": 576144,
+      "sha256": "cd7fd21c2a12d8306bc401d7b28c2e9d31676b918bf3f0815d9e2724cb16f5ae"
+    }
+  ]
+}

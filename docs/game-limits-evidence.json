@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scope": "Static implementation and numeric resource checks. Not a live account capacity or a server-side import test.",
+  "modules": {
+    "JX3LogicEditOperationX64.dll": {
+      "sha256": "ac9bf247dd7b402612781e03085388bf7906e10d1eccab187817201e568a5a93"
+    },
+    "JX3RepresentX64.dll": {
+      "sha256": "41a444e3ca632dc6ebebd386d6047d7ddc8d39098be707ac78ad7b8a83e4b4da"
+    }
+  },
+  "lua_resources": [
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Blueprint.lua",
+      "sha256": "85a36dabf35c341e3bca42e41d81197f48de26019e3802e691d25b4e67857252"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Check.lua",
+      "sha256": "683096dcfcc34238471a3f828f554bfb6031ea805b0da724e5811199b0a200b6"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingView/HLBView_ItemOpScale.lua",
+      "sha256": "9f6fce515ad13b54005207e4986d08f064323c4103ddbad70a610519e34ed720"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingView/HLBView_ItemOpHeight.lua",
+      "sha256": "6b12c50af3e6bde18f983ddfe59faac5a7681d162707237b2aadaf9d490fb0e6"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingView/HLBView_Saveusage.lua",
+      "sha256": "92d97fa88dfaa74d81a1e48c629e94fe5eb6b7474aa03e18cc479e6117011e37"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingView/HLBView_ErrorItemList.lua",
+      "sha256": "b296805fbc0d7b490754f5ebc871d5d8235c04ab88910fec92f5f6a7828b6268"
+    }
+  ],
+  "checks": [
+    {
+      "id": "category-capacity",
+      "kind": "dynamic",
+      "source": ["HLBOp_Check.CheckAdd", "HLBView_ErrorItemList.UpdateErrorItemOverflow"],
+      "rule": "GetLevelFurnitureConfig(category1,category2,level).LimCount compared with current plus added count"
+    },
+    {
+      "id": "per-item-capacity",
+      "kind": "dynamic",
+      "source": ["HLBOp_Check.CheckAdd"],
+      "rule": "GetFurnitureConfig(id).nMaxAmountPerLand; PENDANT branch uses 1; available stock checked separately"
+    },
+    {
+      "id": "storage-usage",
+      "kind": "observed-native-threshold",
+      "module": "JX3LogicEditOperationX64.dll",
+      "lua_rva": "0x3a8e70",
+      "check_rva": "0x431ae0",
+      "query_rva": "0x3a8f70",
+      "cost_rva": "0x42da10",
+      "accumulate_rva": "0x42ffe0",
+      "threshold": 7936,
+      "reject_comparator": ">=",
+      "unit": "model-specific storage cost, not furniture count"
+    },
+    {
+      "id": "land-object-usage",
+      "kind": "observed-native-threshold",
+      "module": "JX3LogicEditOperationX64.dll",
+      "lua_rva": "0x3a8ef0",
+      "check_rva": "0x431ac0",
+      "query_rva": "0x3a9010",
+      "cost_rva": "0x42da50",
+      "accumulate_rva": "0x42ffe0",
+      "threshold": 12288,
+      "reject_comparator": ">=",
+      "unit": "model-specific object cost, not furniture count"
+    },
+    {
+      "id": "sdk-save-size",
+      "kind": "observed-native-threshold",
+      "module": "JX3LogicEditOperationX64.dll",
+      "query_rva": "0x293370",
+      "upload_rva": "0x290e90",
+      "source": ["HLBView_Saveusage.UpdateLimitationProgress"],
+      "ordinary_bytes": 3145728,
+      "private_branch_bytes": 6291456,
+      "uncompressed_reject_comparator": ">=",
+      "encoded_overhead": 1000,
+      "encoded_reject_comparator": ">",
+      "encoded_limit": "runtime configuration field; no universal constant asserted",
+      "scope": "game save/upload data, not ZIP or blueprintx size"
+    },
+    {
+      "id": "global-scene-size",
+      "kind": "scene-dependent",
+      "module": "JX3RepresentX64.dll",
+      "prepare_rva": "0x8c5270",
+      "load_rva": "0x8b8e70",
+      "rule": "global scene dimensions compared with current scene; not a universal local component size"
+    },
+    {
+      "id": "scale-and-height",
+      "kind": "per-resource",
+      "source": [
+        "HLBView_ItemOpScale.Update",
+        "HLBView_ItemOpHeight.Update",
+        "Homeland_FurnitureInfo.tab"
+      ],
+      "rule": "szScaleRange and szHeightLimit; empty height range does not prove unlimited placement"
+    },
+    {
+      "id": "editing-state",
+      "kind": "state-dependent",
+      "source": [
+        "HLBOp_Check.Check",
+        "HLBOp_Check.CheckSave",
+        "HLBOp_Check.CheckAutoSave",
+        "HLBOp_Blueprint.StartLoadBlueprint"
+      ],
+      "rule": "unfinished editing operations and furniture error list can block save"
+    },
+    {
+      "id": "child-count-field",
+      "kind": "format-width",
+      "module": "JX3RepresentX64.dll",
+      "save_rva": "0x8e4960",
+      "load_rva": "0x8dd820",
+      "bits": 16,
+      "scope": "field capacity, not placement capacity"
+    },
+    {
+      "id": "cloth-scale",
+      "kind": "verified-resource-data",
+      "variants": 144,
+      "sizes_m": [2.0, 4.0],
+      "min_scale": 0.25,
+      "max_scale": 2,
+      "source": "data/furniture_palette.json"
+    }
+  ],
+  "unconfirmed": [
+    "universal total furniture count",
+    "all plot dimensions",
+    "complete server-side rules",
+    "universal attachment limit"
+  ]
+}

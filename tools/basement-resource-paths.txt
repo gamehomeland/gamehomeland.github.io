@@ -1,0 +1,8 @@
+Represent/homeland/ID_Brush.txt
+UI/Scheme/Case/Homeland/Homeland_FurnitureInfo.tab
+data/source/Home/building/TY/TY_Base_M_basement01_AB400_TerrainHole.mesh
+data/source/Home/building/TY/TY_Base_M_basement02_AB400_TerrainHole.mesh
+data/source/Home/building/TY/TY_Base_M_basement03_AB400_TerrainHole.mesh
+data/source/Home/building/TY/TY_Base_M_basement04_AB400_TerrainHole.mesh
+data/source/Home/building/TY/TY_Base_M_basement04_AB800_TerrainHole.mesh
+data/source/Home/building/TY/TY_Base_M_basement08_AB800_TerrainHole.mesh

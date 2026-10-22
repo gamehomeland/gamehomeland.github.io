@@ -1,0 +1,309 @@
+{
+  "scope": "已核对的37份普通Mesh材质转换；不代表完整游戏光照、动画或Prefab装配",
+  "models": 37,
+  "validatorErrors": 0,
+  "validatorWarnings": 0,
+  "embeddedPng": 289,
+  "maximumTexture": 1024,
+  "resources": [
+    {
+      "name": "西苑亭灯 · 网格",
+      "file": "model-3.glb",
+      "glbSha256": "b82bb827582a4684f6fd9d1400cd9d7d541a8a539e21dce93431298880a6a1d7",
+      "styles": ["原始样式"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "天青照影方椅",
+      "file": "model-4.glb",
+      "glbSha256": "9020368a872ae4d6b0bb0963ce498991dff35645bcae1075be24ded9b1ad3100",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "香薰蜡烛",
+      "file": "model-5.glb",
+      "glbSha256": "ac10993e7b2420012af7fa98c382b65565fadbd073d3e727185e72cdf039988c",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "拼布",
+      "file": "model-2.glb",
+      "glbSha256": "953cb22a8d24d80427973852d6266f884374b0c6734aaac9cac9db7a66a2f06a",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "挂接基座",
+      "file": "model-1.glb",
+      "glbSha256": "6a1011da00a03314cc2e4a730a9362aa40a6211bd8ae2ca84a1d65cf54efc178",
+      "styles": ["Default", "Default"],
+      "materialCount": 2,
+      "approximation": [
+        "混合模式5使用普通透明近似",
+        "特效单层材质使用静态颜色近似，未复现时间动画和深度效果"
+      ]
+    },
+    {
+      "name": "云笺鹤羽案",
+      "file": "furniture-20784.glb",
+      "glbSha256": "3d21002a888656ccd6465adb7d7b10616b758dbd0fcf6649c36ea601b7e38e18",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "碧空之眼玉石桌",
+      "file": "furniture-19314.glb",
+      "glbSha256": "34d7403970c73dbe37336ba41d540f6a622b1ae5774747851e4158de6a1993ed",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "秋意软椅",
+      "file": "furniture-18157.glb",
+      "glbSha256": "7f9d44d649a13e783337d40a2c387beeeedc32ec723c0e7d5361ec271a92057d",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": []
+    },
+    {
+      "name": "鹤唳松云榻",
+      "file": "furniture-20778.glb",
+      "glbSha256": "a2fcb9536cb390f7e4ddefe1de6d705f78b3319bc5d9866b958b45ce39619799",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "夜缀星穹床",
+      "file": "furniture-19309.glb",
+      "glbSha256": "8abf3b225472750b56a896e158b14a0e6f97afc1344274de779860c31cd435da",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "沉醉东风床",
+      "file": "furniture-18842.glb",
+      "glbSha256": "acc5557b7b114e1d5c6e47937050932a36fb2bc63a0c32dc12d768e2be89fa5a",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": []
+    },
+    {
+      "name": "虚天鼎·仿",
+      "file": "furniture-21286.glb",
+      "glbSha256": "431391b104d856e0e22e444ea01b80de1aaea1438c0b990ace47e69a78689cc9",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "醉浣芙蓉盆",
+      "file": "furniture-20844.glb",
+      "glbSha256": "0cdfef58dee06882b6f3d6a2112295e2f6581c154429250a1e78e4fbd0083859",
+      "styles": ["Default"],
+      "materialCount": 4,
+      "approximation": ["水面使用静态颜色近似，未复现深度、波动和折射"]
+    },
+    {
+      "name": "花枝垂蔓盆架",
+      "file": "furniture-19716.glb",
+      "glbSha256": "7b5cd4512af29c13868798a2a3ab75d93310b5aa83cc04c4f5be3eb3f43bc308",
+      "styles": ["Default"],
+      "materialCount": 3,
+      "approximation": ["水面使用静态颜色近似，未复现深度、波动和折射"]
+    },
+    {
+      "name": "素木·圆柱",
+      "file": "furniture-21276.glb",
+      "glbSha256": "3745b2c08e2ea3fafa3d58d55ab7fbdca4fc429fea577ba83a200e2e9189a9f8",
+      "styles": ["白"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "门8米·二",
+      "file": "furniture-19213.glb",
+      "glbSha256": "bd8eeedbb31edce810e88e79a8084432ddd251da5f2831e02924a4dbdca62df2",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "正修君·竹",
+      "file": "furniture-20864.glb",
+      "glbSha256": "64935cd99d3ad7530311f9c9b4db3c5144c0b5e9a7e453251ee96f2813dbaa42",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "叠平仲",
+      "file": "furniture-21288.glb",
+      "glbSha256": "efd74a4436ba4fb73410b65c74f7568ce33e73930e18794ad4a6133339124d80",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "云兔提珠",
+      "file": "furniture-21287.glb",
+      "glbSha256": "26d51dbae2b4a77fa7dff7cd4f14582d00ea9d4e77361d11570858b5070c50ab",
+      "styles": ["Default"],
+      "materialCount": 2,
+      "approximation": []
+    },
+    {
+      "name": "渡良辰",
+      "file": "furniture-21278.glb",
+      "glbSha256": "5164c1fb5d47b3b0a5729c4b669fe7619cf7ff90289e90cadc6d18da2c9fcecd",
+      "styles": ["Default"],
+      "materialCount": 4,
+      "approximation": []
+    },
+    {
+      "name": "青羽衔书",
+      "file": "furniture-20782.glb",
+      "glbSha256": "a21dd76c71ea4c8326d52873970fb4f4f6e657348c2192f4844dd0b7e9119233",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": []
+    },
+    {
+      "name": "雪鹤归",
+      "file": "furniture-20783.glb",
+      "glbSha256": "e96b930fbea5703c7784d2a092345cd519a9e51f1e2845466dd81e11cc82c43f",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": []
+    },
+    {
+      "name": "羽化登仙台",
+      "file": "furniture-20785.glb",
+      "glbSha256": "d07b58177396c2c5b56cf87f6a81aa629207d7ffede1941b554a91f5e5fe8a43",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "抱朴凳",
+      "file": "furniture-20786.glb",
+      "glbSha256": "cdd8472bf4730c5626e06a53c8869fa86d9250df586c1d8ea5766694947ff977",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 12,
+      "approximation": []
+    },
+    {
+      "name": "栖风弄影",
+      "file": "furniture-20788.glb",
+      "glbSha256": "3f0ae122a273a2d9fed44ce5bca1593979c36ec87959e3329c20dbcd7f68b94a",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": []
+    },
+    {
+      "name": "雪羽翩跹",
+      "file": "furniture-20789.glb",
+      "glbSha256": "1989fa56a5e05768945d626547427e234699c6a4b91dd47241756a9906e3c0cd",
+      "styles": ["原", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 6,
+      "approximation": ["渐变UV重叠高度有753291个采样冲突，采用图集内最后覆盖值"]
+    },
+    {
+      "name": "太真碧昙盆栽",
+      "file": "furniture-20811.glb",
+      "glbSha256": "07d2f3121805be30e8b4bfb9bf53da04ccb7c17cacf9fafa8f887c9776314bdc",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "闲庭嗅芳盆栽",
+      "file": "furniture-20812.glb",
+      "glbSha256": "8aa121f036243b7d0b1098c7118d283e342b99dce620b62c2b58005ccb00d6ed",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "玄霜镂月瓶",
+      "file": "furniture-20824.glb",
+      "glbSha256": "3c85c1ac29393c7c94b951c0ed6192ebe068757fa3ad8c12008ed5f13df24e1c",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "玉隐幽芳",
+      "file": "furniture-20840.glb",
+      "glbSha256": "4ab39413c9d1b05c03a33bdeb8ee5b3d24ac0aaad00c7d651e6d4b1f931b04ed",
+      "styles": ["Default"],
+      "materialCount": 3,
+      "approximation": []
+    },
+    {
+      "name": "旱鸭躺平驿",
+      "file": "furniture-20644.glb",
+      "glbSha256": "a22550f6847d550859a502258758c8d4350ed0ccd74196ff16a7fa75959a38be",
+      "styles": ["Default"],
+      "materialCount": 5,
+      "approximation": ["水面使用静态颜色近似，未复现深度、波动和折射"]
+    },
+    {
+      "name": "烟雨纷纷屏",
+      "file": "furniture-20643.glb",
+      "glbSha256": "47ef047c98074da4b62a4966e0d00f919487232640a3bff5cb35fc77bc101869",
+      "styles": ["原色", "红", "黄", "绿", "蓝", "紫"],
+      "materialCount": 18,
+      "approximation": []
+    },
+    {
+      "name": "甜梦云驹",
+      "file": "furniture-20636.glb",
+      "glbSha256": "a55eee425c2dd20a8be63c3b77352304e41160f98967953337030953928df183",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "一丛竹盆景",
+      "file": "furniture-19684.glb",
+      "glbSha256": "50835fbd87aaa7ec3e26c4143685e0547b9d168db62a4c24cc0512e2a3121cc1",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "陶陶兔兔洞",
+      "file": "furniture-19711.glb",
+      "glbSha256": "afe1aa3f3ec01b8bae4bca6dc114af24c4db1959f1e23787a1a686430a6dad78",
+      "styles": ["Default"],
+      "materialCount": 4,
+      "approximation": []
+    },
+    {
+      "name": "金扇满树盆栽",
+      "file": "furniture-19593.glb",
+      "glbSha256": "f0537cfcc8403a32dcf614eeeca84c44740aab2d2b86c399f5a23978896d3178",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    },
+    {
+      "name": "陶然饮茶案",
+      "file": "furniture-19715.glb",
+      "glbSha256": "b547cef7b64b6df4e427baa585920c4b74057d442b02c4b86d0122cf7fc5cd7d",
+      "styles": ["Default"],
+      "materialCount": 1,
+      "approximation": []
+    }
+  ]
+}

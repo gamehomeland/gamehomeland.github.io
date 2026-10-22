@@ -1,0 +1,484 @@
+{
+  "schema_version": 2,
+  "sources": {
+    "furniture": {
+      "path": "UI/Scheme/Case/Homeland/Homeland_FurnitureInfo.tab",
+      "bytes": 576144,
+      "sha256": "cd7fd21c2a12d8306bc401d7b28c2e9d31676b918bf3f0815d9e2724cb16f5ae"
+    },
+    "categories": {
+      "path": "UI/Scheme/Case/Homeland/Homeland_FurnitureCatg.tab",
+      "bytes": 14800,
+      "sha256": "d794a12a2080dcad76861c9658ac372e4ece81c72726d22cc75935a603c07da2"
+    },
+    "resources": {
+      "path": "Represent/homeland/ID_Model.txt",
+      "bytes": 2594904,
+      "sha256": "cded79ea17dad0ef6fd22c37c2ba4f7542929d6c09ce1113645bdeedc4f81301"
+    },
+    "brushes": {
+      "path": "Represent/homeland/ID_Brush.txt",
+      "bytes": 14783,
+      "sha256": "1864196a45d696efcb138605fae0bbb0eeeac8e90a67f5f243ec402e105147b8"
+    },
+    "customBrushes": {
+      "path": "Represent/homeland/ID_CustomBrush.txt",
+      "bytes": 2167,
+      "sha256": "025e6bcf034208fccc80a9784db9e1df4b713c6a8c24cc4d02b196cf14ca13ef"
+    }
+  },
+  "furnitureRows": 9302,
+  "categoryRows": 84,
+  "resourceRows": 17879,
+  "positiveRepresentRows": 9301,
+  "matchedRepresentRows": 9163,
+  "notInModelTableFurnitureTableIds": [
+    689,
+    690,
+    691,
+    692,
+    958,
+    960,
+    962,
+    964,
+    966,
+    968,
+    970,
+    1318,
+    1544,
+    1545,
+    1546,
+    1547,
+    1646,
+    1939,
+    1941,
+    1945,
+    1947,
+    1985,
+    1986,
+    1987,
+    1988,
+    2144,
+    2145,
+    2578,
+    2579,
+    2806,
+    2995,
+    2996,
+    2997,
+    2998,
+    3103,
+    3111,
+    3180,
+    3182,
+    3183,
+    3184,
+    3291,
+    3479,
+    3480,
+    3481,
+    3482,
+    3805,
+    3806,
+    3807,
+    3808,
+    3809,
+    3810,
+    3811,
+    4103,
+    4382,
+    4383,
+    4449,
+    4451,
+    4453,
+    4455,
+    4457,
+    4459,
+    4461,
+    4463,
+    4465,
+    4505,
+    4506,
+    4507,
+    4508,
+    4509,
+    4510,
+    4511,
+    4512,
+    4513,
+    4514,
+    4515,
+    4633,
+    4640,
+    4647,
+    4774,
+    4783,
+    4795,
+    5111,
+    5124,
+    5138,
+    5150,
+    5430,
+    5439,
+    5449,
+    5458,
+    6802,
+    6813,
+    6824,
+    6825,
+    6826,
+    6833,
+    6840,
+    6860,
+    6910,
+    7350,
+    7352,
+    7375,
+    7401,
+    7590,
+    7591,
+    7592,
+    7593,
+    7594,
+    7595,
+    7596,
+    7597,
+    7598,
+    7599,
+    7600,
+    7601,
+    7602,
+    7603,
+    7604,
+    7605,
+    7606,
+    7845,
+    7846,
+    7847,
+    7901,
+    7902,
+    7903,
+    7904,
+    8293,
+    8294,
+    8399,
+    8400,
+    8823,
+    9147,
+    9148,
+    9217,
+    9220,
+    9222,
+    9239,
+    9241
+  ],
+  "duplicateRepresentIds": [],
+  "notInModelTableByFurnitureType": {
+    "1": 111,
+    "3": 7,
+    "4": 20
+  },
+  "notInModelTableBrushModeCounts": {
+    "2": 138
+  },
+  "brushResourceRows": 130,
+  "customBrushResourceRows": 27,
+  "resourceAssociationsByTable": {
+    "resources": 9162,
+    "brushes": 112,
+    "customBrushes": 27
+  },
+  "resolvedResourceRows": 9301,
+  "identityMatchedRows": 9284,
+  "unresolvedFurnitureTableIds": [],
+  "resourceIdentityDifferences": [
+    {
+      "furnitureTableId": 4383,
+      "resourceTable": "brushes",
+      "resourceId": 45,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2897,
+      "resourceIdentities": [
+        [
+          "1",
+          "1498"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4449,
+      "resourceTable": "brushes",
+      "resourceId": 27,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2898,
+      "resourceIdentities": [
+        [
+          "1",
+          "1194"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4451,
+      "resourceTable": "brushes",
+      "resourceId": 28,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2899,
+      "resourceIdentities": [
+        [
+          "1",
+          "1880"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4453,
+      "resourceTable": "brushes",
+      "resourceId": 30,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2900,
+      "resourceIdentities": [
+        [
+          "1",
+          "1882"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4455,
+      "resourceTable": "brushes",
+      "resourceId": 31,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2901,
+      "resourceIdentities": [
+        [
+          "1",
+          "1883"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4457,
+      "resourceTable": "brushes",
+      "resourceId": 32,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2902,
+      "resourceIdentities": [
+        [
+          "1",
+          "1884"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4459,
+      "resourceTable": "brushes",
+      "resourceId": 33,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2903,
+      "resourceIdentities": [
+        [
+          "1",
+          "1196"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4461,
+      "resourceTable": "brushes",
+      "resourceId": 34,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2904,
+      "resourceIdentities": [
+        [
+          "1",
+          "1885"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4463,
+      "resourceTable": "brushes",
+      "resourceId": 35,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2905,
+      "resourceIdentities": [
+        [
+          "1",
+          "1886"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4465,
+      "resourceTable": "brushes",
+      "resourceId": 36,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2906,
+      "resourceIdentities": [
+        [
+          "1",
+          "1887"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4774,
+      "resourceTable": "brushes",
+      "resourceId": 68,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2907,
+      "resourceIdentities": [
+        [
+          "1",
+          "1264"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4783,
+      "resourceTable": "brushes",
+      "resourceId": 69,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2908,
+      "resourceIdentities": [
+        [
+          "1",
+          "1272"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 4795,
+      "resourceTable": "brushes",
+      "resourceId": 70,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2909,
+      "resourceIdentities": [
+        [
+          "1",
+          "1286"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 5430,
+      "resourceTable": "brushes",
+      "resourceId": 58,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2910,
+      "resourceIdentities": [
+        [
+          "1",
+          "1650"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 5439,
+      "resourceTable": "brushes",
+      "resourceId": 59,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2911,
+      "resourceIdentities": [
+        [
+          "1",
+          "1656"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 5449,
+      "resourceTable": "brushes",
+      "resourceId": 60,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2912,
+      "resourceIdentities": [
+        [
+          "1",
+          "1667"
+        ]
+      ]
+    },
+    {
+      "furnitureTableId": 5458,
+      "resourceTable": "brushes",
+      "resourceId": 61,
+      "resourceFound": true,
+      "identityMatched": false,
+      "candidateCount": 1,
+      "furnitureType": 1,
+      "furnitureId": 2913,
+      "resourceIdentities": [
+        [
+          "1",
+          "1673"
+        ]
+      ]
+    }
+  ],
+  "modelPathKinds": {
+    "(empty)": 1,
+    ".ani": 31,
+    ".group": 289,
+    ".mdl": 129,
+    ".mesh": 11793,
+    ".mtl": 1,
+    ".prefab": 4410,
+    ".pss": 373,
+    ".srt": 832,
+    ".st": 20
+  },
+  "scope": "索引元数据，不代表全部条目可购买、可摆放或具备网页模型。空字段保留原值，不能当作关闭、零或无限。",
+  "webModelFiles": 0,
+  "allModelGeometryConverted": false,
+  "gameImportVerified": false
+}

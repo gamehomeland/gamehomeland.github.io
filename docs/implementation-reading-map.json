@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "scope": "静态资源与调用关系复核，不代表服务端规则或游戏内验收。",
+  "sources": [
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Blueprint.lua",
+      "sha256": "85a36dabf35c341e3bca42e41d81197f48de26019e3802e691d25b4e67857252",
+      "functions": [
+        "QueryIsGlobalBlueprint",
+        "StartLoadBlueprint",
+        "OnStartLoadBlueprintResult",
+        "OnLoadBlueprintResult"
+      ],
+      "topic": "文件分类、加载阶段与局部放置的调用关系"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Amount.lua",
+      "sha256": "d0a8d1147ff2f8e94fcec25bc425b695f993cd02870dc8aaf8214211babaa794",
+      "functions": [
+        "RequestConsumption",
+        "OnRequestConsumptionResult"
+      ],
+      "topic": "请求状态及0、1、2阶段的消耗数据收集"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Group.lua",
+      "sha256": "51eca6518e53f3e2953d9870f7a85715bf6ddd74b76057dde3a27a5a675bc787",
+      "functions": [
+        "GroupSelectObj",
+        "RequestGroupObjIDs",
+        "OnUnpackResult"
+      ],
+      "topic": "编辑器分组的独立成员查询与缓存"
+    },
+    {
+      "resource": "ui/Config/Default/Homeland/BuildingOperation/HLBOp_Step.lua",
+      "sha256": "f8f31a47125f0568de5d7ab7e9b83aeaae710d335d6fe4cefa8f8fab437ce997",
+      "functions": [
+        "StartOneStep",
+        "EndOneStep",
+        "Undo",
+        "RealUndo"
+      ],
+      "topic": "撤销操作组及可撤销步骤查询"
+    },
+    {
+      "resource": "ui/Script/FurnitureData.lua",
+      "sha256": "b407c8a6b125bd17d98fba1f23498ea8a8425925d925bc194c061a44b3a75253",
+      "functions": [
+        "GetFurnTypeAndIDByModelID",
+        "GetFurnColorInfos"
+      ],
+      "topic": "表现资源到家具类型编号以及预设样式的映射"
+    }
+  ],
+  "native_references": [
+    "client-evidence.json",
+    "game-limits-evidence.json"
+  ],
+  "example": {
+    "source": "examples/inspect-component.ts",
+    "input_grid": [
+      2,
+      2
+    ],
+    "long_edge_m": 2,
+    "furniture": 5,
+    "nodes": 17,
+    "bytes": 478,
+    "independent_inspector": "tools/inspect_blueprint.py",
+    "game_import_verified": false
+  }
+}

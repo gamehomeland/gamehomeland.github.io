@@ -1,0 +1,142 @@
+name: Desktop release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: desktop-release-${{ inputs.tag || github.ref_name }}
+  cancel-in-progress: false
+
+env:
+  ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+  RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.25.0
+          cache: true
+          cache_dependency_path: pnpm-lock.yaml
+      - name: Check release version
+        run: node scripts/check-release-version.mjs
+      - name: Check publication links
+        run: node scripts/configure-site.mjs --check
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check
+      - run: python3 -m pip install -r tools/requirements.txt
+      - run: python3 -m unittest discover -s tests -p '*_test.py'
+      - run: pnpm example:structure
+      - run: python3 tools/inspect_blueprint.py artifacts/structure-example/four-cells.blueprintx --output artifacts/structure-example/fields.json
+      - run: pnpm package:source
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-common
+          path: |
+            artifacts/家园蓝图-离线版.html
+            artifacts/jx3-homeland-blueprint-source.zip
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+
+  desktop:
+    needs: verify
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { runner: windows-2025, platform: win32, arch: x64, label: Windows }
+          - { runner: windows-11-arm, platform: win32, arch: arm64, label: Windows }
+          - { runner: macos-15-intel, platform: darwin, arch: x64, label: macOS }
+          - { runner: macos-15, platform: darwin, arch: arm64, label: macOS }
+          - { runner: ubuntu-24.04, platform: linux, arch: x64, label: Linux }
+          - { runner: ubuntu-24.04-arm, platform: linux, arch: arm64, label: Linux }
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.25.0
+          cache: true
+          cache_dependency_path: pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build:web
+      - name: Package native application
+        run: node scripts/package-desktop.mjs --platform=${{ matrix.platform }} --arch=${{ matrix.arch }}
+      - name: Prepare Linux display and sandbox
+        if: runner.os == 'Linux'
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends xvfb xauth libgtk-3-0 libnss3 libgbm1 libasound2t64
+          sudo chown root:root "artifacts/desktop/HomelandBlueprint-linux-${{ matrix.arch }}/chrome-sandbox"
+          sudo chmod 4755 "artifacts/desktop/HomelandBlueprint-linux-${{ matrix.arch }}/chrome-sandbox"
+      - name: Verify packaged application (Linux)
+        if: runner.os == 'Linux'
+        run: xvfb-run -a node scripts/test-desktop.mjs
+      - name: Verify packaged application (Windows/macOS)
+        if: runner.os != 'Linux'
+        run: node scripts/test-desktop.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-${{ matrix.platform }}-${{ matrix.arch }}
+          path: |
+            artifacts/家园蓝图-${{ matrix.label }}-${{ matrix.arch }}.*
+            artifacts/desktop-tests-${{ matrix.platform }}-${{ matrix.arch }}.json
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+
+  publish:
+    needs: [verify, desktop]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: release-*
+          path: artifacts/release
+          merge-multiple: true
+      - name: Publish verified assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish-release.mjs

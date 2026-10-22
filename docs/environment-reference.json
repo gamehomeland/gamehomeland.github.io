@@ -1,0 +1,5086 @@
+{
+  "schemaVersion": 1,
+  "usage": "numeric-reference-not-runtime-replay",
+  "angleConvention": "elevation=asin(y/length); azimuth=atan2(-x,-z), not a geographic north assertion",
+  "conditions": "presets can be affected by time, quality and runtime overrides",
+  "presets": [
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "默认",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479004,
+            -0.8191519975662231
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.8901960849761963,
+            0.8470588326454163,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240192,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/environment.json",
+      "sha256": "216c71214a46d6bd084807533d3d5355b768fcf4b7aeb55e3597cd8ce4c8e6a5"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "晴天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.8901960849761963,
+            0.8470588326454163,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/晴天_中午/environment.json",
+      "sha256": "13d9a4722f6f747c3392797277ccbed1f381a4726ae511c2c275ac4023abd0bc"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "晴天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.9535003900527954,
+            0.2588191628456116,
+            -0.15443336963653564
+          ],
+          "diffuse": [
+            1.0,
+            0.6235294342041016,
+            0.49803921580314636,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006841812922,
+            "azimuthFromNegativeZ": 279.2000002894298
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/晴天_早晨/environment.json",
+      "sha256": "a110449d60f73c2637ebce700e88bca6fb5afe6c5d30fb0c51aa73fd496e1223"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.8901960849761963,
+            0.8470588326454163,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.46987611055374146,
+            0.3418562412261963,
+            -0.8138493895530701
+          ],
+          "diffuse": [
+            0.6352941393852234,
+            0.7607843279838562,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.990005920755742,
+            "azimuthFromNegativeZ": 29.999997170697775
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/晴天_黑夜/environment.json",
+      "sha256": "185a50b96cb0cf7b513ac20466de8eddea9240b92aaa653802f543b8d1391554"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雨天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.7382314801216125,
+            0.8588998317718506,
+            0.9843137264251709,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 4.5,
+          "ambientColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "skyLightColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "commonLightColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            0.9960784316062927,
+            0.9960784316062927,
+            0.9960784316062927,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雨天_中午/environment.json",
+      "sha256": "211eef31e796197f8cbb8008266ad4277b0affea7b4a70fd7d20210f9f3341a2"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雨天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.927604615688324,
+            0.3420202434062958,
+            -0.15023916959762573
+          ],
+          "diffuse": [
+            1.0,
+            0.6235294342041016,
+            0.49803921580314636,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.00000633131393,
+            "azimuthFromNegativeZ": 279.2000003097173
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雨天_早晨/environment.json",
+      "sha256": "83bdad2f41ba352b770acdc3f30f25468725079ac7b24220d630fc97f9ec8cad"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9411764740943909,
+            0.8901960849761963,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.5,
+          "ambientColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "skyLightColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "commonLightColor": [
+            0.49803921580314636,
+            0.49803921580314636,
+            0.49803921580314636,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.4699999988079071,
+            0.34200000762939453,
+            -0.8140000104904175
+          ],
+          "diffuse": [
+            0.6352941393852234,
+            0.7607843279838562,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.993977688851857,
+            "azimuthFromNegativeZ": 30.0019465558581
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雨天_黑夜/environment.json",
+      "sha256": "64c180d4687fa6f22b9db284e4435eb9de1a10394123509a3752e0a9fd0d03cf"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雪天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.8901960849761963,
+            0.8470588326454163,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雪天_中午/environment.json",
+      "sha256": "4bd45d81667d1818e65cc4a5bf501567d5746772154e598dee9c941e571e2824"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雪天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.9535003900527954,
+            0.2588191628456116,
+            -0.15443336963653564
+          ],
+          "diffuse": [
+            1.0,
+            0.6235294342041016,
+            0.49803921580314636,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006841812922,
+            "azimuthFromNegativeZ": 279.2000002894298
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雪天_早晨/environment.json",
+      "sha256": "587c61ffbe47381ec50a7237aab21da070701355ebe09e708f7e9b48b5264916"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "hd",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.8901960849761963,
+            0.8470588326454163,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.46987611055374146,
+            0.3418562412261963,
+            -0.8138493895530701
+          ],
+          "diffuse": [
+            0.6352941393852234,
+            0.7607843279838562,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.990005920755742,
+            "azimuthFromNegativeZ": 29.999997170697775
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/env_presets/雪天_黑夜/environment.json",
+      "sha256": "36876d90fca76c293f6267ae7d91cebafdd48522d367548936f7343754a3decc"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "默认",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479,
+            -0.819151997566223
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.890196084976196,
+            0.847058832645416,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240191,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/environment.json",
+      "sha256": "6ad3bebf8a445522e94c95f48db162b28a9c0a9c70e0080db3230b165cdd23ca"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "晴天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.890196084976196,
+            0.847058832645416,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/晴天_中午/environment.json",
+      "sha256": "b649526233508714084d8586e06ecb57ba19d20fceaa8ee94e371cde79b91e9c"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "晴天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.953500390052795,
+            0.258819162845612,
+            -0.154433369636536
+          ],
+          "diffuse": [
+            1.0,
+            0.623529434204102,
+            0.498039215803146,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.00000684181295,
+            "azimuthFromNegativeZ": 279.2000002894298
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/晴天_早晨/environment.json",
+      "sha256": "1f06e53a94e6d1578e2d023037530eaceda545f045ee3cc4ea803daffb6ff656"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.890196084976196,
+            0.847058832645416,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.469876110553741,
+            0.341856241226196,
+            -0.81384938955307
+          ],
+          "diffuse": [
+            0.635294139385223,
+            0.760784327983856,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.99000592075573,
+            "azimuthFromNegativeZ": 29.999997170697753
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/晴天_黑夜/environment.json",
+      "sha256": "2f164bd29e0713f9eac6cc478199544c006c9bc1b787ab27e80157dd01b4f64f"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雨天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            0.738231480121613,
+            0.858899831771851,
+            0.984313726425171,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 4.5,
+          "ambientColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "skyLightColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "commonLightColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            0.996078431606293,
+            0.996078431606293,
+            0.996078431606293,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雨天_中午/environment.json",
+      "sha256": "0815746205cb6eb9b8b41e81e9cc1237f079864ca3f76f687dfced3cebc2cc3a"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雨天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.927604615688324,
+            0.342020243406296,
+            -0.150239169597626
+          ],
+          "diffuse": [
+            1.0,
+            0.623529434204102,
+            0.498039215803146,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.00000633131394,
+            "azimuthFromNegativeZ": 279.2000003097173
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雨天_早晨/environment.json",
+      "sha256": "d476c10a7ad614efbb1d2ddee3b8cf06518a84ebe2860acee8427986378d5fd0"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.941176474094391,
+            0.890196084976196,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.5,
+          "ambientColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "skyLightColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "commonLightColor": [
+            0.498039215803146,
+            0.498039215803146,
+            0.498039215803146,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.469999998807907,
+            0.342000007629395,
+            -0.814000010490417
+          ],
+          "diffuse": [
+            0.635294139385223,
+            0.760784327983856,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.99397768885189,
+            "azimuthFromNegativeZ": 30.001946555858108
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雨天_黑夜/environment.json",
+      "sha256": "0f17240ce203320341b837abbaadbdeb44335e04bc49fa9789d46e8e1d48c2df"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雪天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.890196084976196,
+            0.847058832645416,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雪天_中午/environment.json",
+      "sha256": "9135227b52e340c06ddd788feacc421e7e7f4e8a1a04ad92dedd9f116fa25571"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雪天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.953500390052795,
+            0.258819162845612,
+            -0.154433369636536
+          ],
+          "diffuse": [
+            1.0,
+            0.623529434204102,
+            0.498039215803146,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.0,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.00000684181295,
+            "azimuthFromNegativeZ": 279.2000002894298
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.606201946735382,
+            0.692080497741699,
+            0.391846716403961
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.79502298490424,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雪天_早晨/environment.json",
+      "sha256": "671dcdbffa9986cb2fb9f1be972eb9918a6ea20bb92f9b062ca34a47f68aa4e4"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "bd",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            0.984313726425171,
+            0.890196084976196,
+            0.847058832645416,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 4.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.469876110553741,
+            0.341856241226196,
+            -0.81384938955307
+          ],
+          "diffuse": [
+            0.635294139385223,
+            0.760784327983856,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 19.99000592075573,
+            "azimuthFromNegativeZ": 29.999997170697753
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/bd/env_presets/雪天_黑夜/environment.json",
+      "sha256": "ca512f9525c322ab0d161f2a3d64756a0a49a905dd272f8c360bf589445c4f8e"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "默认",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479004,
+            -0.8191519975662231
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.1750057190656662,
+            0.2239719182252884,
+            0.3499961793422699,
+            0.5000076293945312
+          ],
+          "skyLightColor": [
+            0.18399327993392944,
+            0.23100633919239044,
+            0.32399481534957886,
+            0.5000076293945312
+          ],
+          "commonLightColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.5
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240192,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/environment.json",
+      "sha256": "aa8d291c9a1004d807575dd9f3fed7f286581b82ba3a809ce64d8c8c57120a2b"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "晴天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/晴天_中午/environment.json",
+      "sha256": "3e47e37258459b53ddb05a8ee48f8ba516bb10717cf56cc9b3a4e5514b9f215c"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "晴天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/晴天_早晨/environment.json",
+      "sha256": "64db15a5f2bad87aa46df2cffeea6e3ca15e24beca05fe48d587157e84cfb537"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/晴天_黑夜/environment.json",
+      "sha256": "376d2cea830b59f7626a6de82b6416be3405aef0ffdf9c03c5d81cf8dedb7f03"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雨天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479004,
+            -0.8191519975662231
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.1750057190656662,
+            0.2239719182252884,
+            0.3499961793422699,
+            0.5000076293945312
+          ],
+          "skyLightColor": [
+            0.18399327993392944,
+            0.23100633919239044,
+            0.32399481534957886,
+            0.5000076293945312
+          ],
+          "commonLightColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.5
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240192,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雨天_中午/environment.json",
+      "sha256": "0be02b77e0953dccdfad850bd5db4791a1f0fd8084ccd5d0d5954e1a4fde1024"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雨天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479004,
+            -0.8191519975662231
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.1750057190656662,
+            0.2239719182252884,
+            0.3499961793422699,
+            0.5000076293945312
+          ],
+          "skyLightColor": [
+            0.18399327993392944,
+            0.23100633919239044,
+            0.32399481534957886,
+            0.5000076293945312
+          ],
+          "commonLightColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.5
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240192,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雨天_早晨/environment.json",
+      "sha256": "75377a8e49b9c8ded3d43a01191974e054410234ad12d9528fe9abb6f3e18691"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.0,
+            0.5735764503479004,
+            -0.8191519975662231
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 4.0,
+          "ambientColor": [
+            0.1750057190656662,
+            0.2239719182252884,
+            0.3499961793422699,
+            0.5000076293945312
+          ],
+          "skyLightColor": [
+            0.18399327993392944,
+            0.23100633919239044,
+            0.32399481534957886,
+            0.5000076293945312
+          ],
+          "commonLightColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.5
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.00000219240192,
+            "azimuthFromNegativeZ": 0.0
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.6062019467353821,
+            0.6920804977416992,
+            0.3918467164039612
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 43.795022984904236,
+            "azimuthFromNegativeZ": 122.8784792046384
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雨天_黑夜/environment.json",
+      "sha256": "507d8b810afb7669b2abb0ee906e002f887e157d053c6d65db46ddbcf016aa5b"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雪天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雪天_中午/environment.json",
+      "sha256": "15787bcd5d54a598ea64ea9299be8df581857f0ef98b1267fa2e1151313911b9"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雪天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雪天_早晨/environment.json",
+      "sha256": "cf6c5498aef0875153a5c241ef032e97499e8ca08a4701f32dd4365c35b5d0c7"
+    },
+    {
+      "scene": "空旷原野",
+      "quality": "low",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            0.9843137264251709,
+            0.9122148752212524,
+            0.8626535534858704,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 3.5,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.12133974581956863,
+            0.14999619126319885,
+            0.14905013144016266,
+            1.0
+          ],
+          "skyLightColor": [
+            0.3678492307662964,
+            0.539803147315979,
+            0.7933012843132019,
+            1.0
+          ],
+          "commonLightColor": [
+            0.0319371335208416,
+            0.06236362084746361,
+            0.06741435825824738,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": -90.0,
+            "azimuthFromNegativeZ": 180.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场001/low/env_presets/雪天_黑夜/environment.json",
+      "sha256": "9b313b14513d9df8a6b8affdb413514d6ed622d80bca10bdb039aaebc4f807f2"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "默认",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/environment.json",
+      "sha256": "0269c832c83fd025b530e8b749c447575bba8101f246d14c333df854b82494e8"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "晴天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/晴天_中午/environment.json",
+      "sha256": "5ee21bc2d1fde33dee1c6bba7f0a4a53efc5e79bba674933d4f444cb22815e54"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "晴天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.2588191628456116,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514344,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/晴天_早晨/environment.json",
+      "sha256": "38df652f6f42802a6df5ce2219175dd2f4c6e4f3f605751566f4860caf9216a8"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.2588191628456116,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514344,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.9391428232192993,
+            0.3420202434062958,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.5195544362068176,
+            0.7520866990089417,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390426,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/晴天_黑夜/environment.json",
+      "sha256": "91d00550e8253cbf973842f961e62d864025dc8c82fee70b41c06775111fe366"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雨天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雨天_中午/environment.json",
+      "sha256": "50e5eb3989ce30f2908a7331934362e3f7365ff44743238f4215702e9e2c1800"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雨天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.2588191628456116,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514344,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雨天_早晨/environment.json",
+      "sha256": "1ebf7053dcd0b4ad222d6dfdc17defdce780f2355b49642d58a8d1b41ea9ad78"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.2588191628456116,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514344,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.9391428232192993,
+            0.3420202434062958,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.5195544362068176,
+            0.7520866990089417,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390426,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雨天_黑夜/environment.json",
+      "sha256": "c78598734ba332192b17c74d79d417b7ba30da1c959dcd2b7a368a31334f24bf"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雪天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雪天_中午/environment.json",
+      "sha256": "ce4c875cdf630aaf48360be6f06855dc4656574abf922cf12b54ff64dde0f3d8"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雪天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.2588191628456116,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514344,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雪天_早晨/environment.json",
+      "sha256": "5f8e332515cdf4fca041071b443b4565005c3b3620e866fa97edc0357efa8ac8"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "hd",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 1,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.23325717449188232,
+            0.731353759765625,
+            -0.6408687829971313
+          ],
+          "diffuse": [
+            1.0,
+            0.9633325934410095,
+            0.8269169330596924,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.000004012637014,
+            "azimuthFromNegativeZ": 20.000001058694792
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.9391428232192993,
+            0.3420202434062958,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.5195544362068176,
+            0.7520866990089417,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390426,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/env_presets/雪天_黑夜/environment.json",
+      "sha256": "933cdf1cf8dc723d4a6626529ffc4859b099d3f6cfe1e85dd32367bf35221ccb"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "默认",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/environment.json",
+      "sha256": "90fb996cf215b76dde2e6379fca335f4638755b9be856d98080a1124d227fd5b"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "晴天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/晴天_中午/environment.json",
+      "sha256": "c67be266fbb83599471287ccd9b96a433ee5be2d32feaf7fc604ae4365971ccd"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "晴天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.258819162845612,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514365,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/晴天_早晨/environment.json",
+      "sha256": "ae69d3fc9ddcb5cf9ccf2b3f68661453f34df37131ffb211201a970b36c8fad3"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.258819162845612,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514365,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.939142823219299,
+            0.342020243406296,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.519554436206818,
+            0.752086699008942,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390443,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/晴天_黑夜/environment.json",
+      "sha256": "19c9ee400db89e6239983c4096a336ba60e9c3fcb70eb35eb4dc672348458d96"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雨天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雨天_中午/environment.json",
+      "sha256": "3688449010f009f108fbea7692adc0e09029e2000b9fa8294bb475bbc1c1c2fe"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雨天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.258819162845612,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514365,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雨天_早晨/environment.json",
+      "sha256": "a5b36c3535016cd9e33c890fe8320b7fe0124b28b5d4482d8c689e7f5e54da56"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.258819162845612,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514365,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.939142823219299,
+            0.342020243406296,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.519554436206818,
+            0.752086699008942,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390443,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雨天_黑夜/environment.json",
+      "sha256": "3b0b85dce410410021b19ee085749db2a134d0b823e5413cc2c8e48d7200c036"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雪天_中午",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雪天_中午/environment.json",
+      "sha256": "8997b61c372bd854c4922b67d28b17be3f1a5d8fd59f800c2b91dd243509e024"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雪天_早晨",
+      "flags": {
+        "lightSource": 0,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            0.951251208782196,
+            0.258819162845612,
+            -0.167731374502182
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 15.000006713514365,
+            "azimuthFromNegativeZ": 280.0000070661117
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.57735002040863,
+            0.57735002040863,
+            0.57735002040863
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雪天_早晨/environment.json",
+      "sha256": "2f4823033d8073927f0d49165f53519cdc373928462926aedd47535c28b7d5c4"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "bd",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "lightSource": 1,
+        "enableDayNightCycle": 0
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.233257174491882,
+            0.731353759765625,
+            -0.640868782997131
+          ],
+          "diffuse": [
+            1.0,
+            0.96333259344101,
+            0.826916933059692,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 2.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "skyLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "commonLightColor": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 47.00000401263703,
+            "azimuthFromNegativeZ": 20.000001058694778
+          }
+        },
+        "moonlight": {
+          "dir": [
+            -0.939142823219299,
+            0.342020243406296,
+            0.0321391262114048
+          ],
+          "diffuse": [
+            0.519554436206818,
+            0.752086699008942,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 20.000005969390443,
+            "azimuthFromNegativeZ": 91.95999787787164
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/bd/env_presets/雪天_黑夜/environment.json",
+      "sha256": "d8782c642ed6acc0bf280db915f62d5e79e195c23b8bd24e22436520b3379353"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "默认",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/environment.json",
+      "sha256": "7f97f4677977ca3e661faad068d888b693bc895bd30d35761b7e2b7b874a7165"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "晴天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/晴天_中午/environment.json",
+      "sha256": "8384384f8e251cc2f33409767c51e7642087daae97cce692f5ba8f3fa1706ac9"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "晴天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/晴天_早晨/environment.json",
+      "sha256": "61cd002be0cee888b48d4c85d58757fe57dc640e32ea4dcb5790ea693a62a4ea"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "晴天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/晴天_黑夜/environment.json",
+      "sha256": "fc15064d1b76e0a0cfbc2134540ec2e4672e3892dec40ed97619362d63bd3b3b"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雨天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雨天_中午/environment.json",
+      "sha256": "7e314ab9cc04f88e46ab9edd9c14d9ebf2e0e6e1ced4c13fcb715ac92aea85fd"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雨天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雨天_早晨/environment.json",
+      "sha256": "c524b2502cedbe3a8ab04011a8d01a070224af7c8c7999cd4e8f8b5624dafac9"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雨天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雨天_黑夜/environment.json",
+      "sha256": "3a6d53bf681e91155171fd5a0169397b9d83f06c4c87590a41a426105c33cc97"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雪天_中午",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雪天_中午/environment.json",
+      "sha256": "26b18c7fdf13c9e051818f63fc8b3249b53239b0a2e9ad050f862b3ef438ef1e"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雪天_早晨",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雪天_早晨/environment.json",
+      "sha256": "99829173315fd47eee66094a4560c1e9b9ba44835ef0af5d67a25f713cb61375"
+    },
+    {
+      "scene": "山水画卷",
+      "quality": "low",
+      "preset": "雪天_黑夜",
+      "flags": {
+        "environmentType": 1,
+        "lightSource": 0,
+        "enableDayNightCycle": 1
+      },
+      "lights": {
+        "sunlight": {
+          "dir": [
+            -0.3079098165035248,
+            0.6427876353263855,
+            -0.7014382481575012
+          ],
+          "diffuse": [
+            1.0,
+            0.9369999766349792,
+            0.8859999775886536,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "ambientColor": [
+            0.32582589983940125,
+            0.32845044136047363,
+            0.3351949453353882,
+            0.501960813999176
+          ],
+          "skyLightColor": [
+            0.15642023086547852,
+            0.13818570971488953,
+            0.12483406066894531,
+            0.501960813999176
+          ],
+          "commonLightColor": [
+            0.40782788395881653,
+            0.40555429458618164,
+            0.40555429458618164,
+            0.501960813999176
+          ],
+          "ambientIntensity": 1.0,
+          "skyLightIntensity": 1.0,
+          "commonLightIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 40.000001552187015,
+            "azimuthFromNegativeZ": 23.699996767835355
+          }
+        },
+        "moonlight": {
+          "dir": [
+            0.5773500204086304,
+            0.5773500204086304,
+            0.5773500204086304
+          ],
+          "diffuse": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specular": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "directionAnglesDegrees": {
+            "elevation": 35.264389682754654,
+            "azimuthFromNegativeZ": 225.0
+          }
+        }
+      },
+      "path": "data/source/maps/HD家园设计场002/low/env_presets/雪天_黑夜/environment.json",
+      "sha256": "61971d0b3130e0c5bae00df25147ae8855fa82580a9d75fb613fedd267f861dc"
+    }
+  ]
+}

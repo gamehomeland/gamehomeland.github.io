@@ -1,0 +1,6813 @@
+{
+  "inputBytes": 260644124,
+  "outputBytes": 54926536,
+  "geometryUnchanged": true,
+  "files": [
+    {
+      "inputBytes": 434476,
+      "outputBytes": 261724,
+      "geometryUnchanged": true,
+      "inputSha256": "72c6dad449c00e2661e46065adff2a0849a09d97728736998fa809a2cae54b84",
+      "outputSha256": "9166d58ee50907b7c55ca1a1f02fb2e3b2ab69c89ce295eaeeb5bf33be7312fa",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            256,
+            512
+          ],
+          "to": [
+            256,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 128720,
+          "outputBytes": 33650,
+          "meanRGBErrorAfterResize": 2.5672,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            256,
+            512
+          ],
+          "to": [
+            256,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 66023,
+          "outputBytes": 46756,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            256,
+            512
+          ],
+          "to": [
+            256,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 122723,
+          "outputBytes": 72984,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            256,
+            512
+          ],
+          "to": [
+            256,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 13250,
+          "outputBytes": 4130,
+          "meanRGBErrorAfterResize": 0.333,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-3.glb"
+    },
+    {
+      "inputBytes": 8386588,
+      "outputBytes": 814452,
+      "geometryUnchanged": true,
+      "inputSha256": "78b106b6f305c66db0887dc5b79e838715851dcac0085646aa7576a8fa9f0715",
+      "outputSha256": "68cd1e78db653dfce1eab4a61d4dbfb3d80ae6ec62b3691372d7109034d240ad",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1061150,
+          "outputBytes": 47676,
+          "meanRGBErrorAfterResize": 2.9633,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 424225,
+          "outputBytes": 133984,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 789412,
+          "outputBytes": 278330,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1056327,
+          "outputBytes": 47266,
+          "meanRGBErrorAfterResize": 2.6026,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1035304,
+          "outputBytes": 44628,
+          "meanRGBErrorAfterResize": 2.5946,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1057059,
+          "outputBytes": 45854,
+          "meanRGBErrorAfterResize": 2.7103,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1051031,
+          "outputBytes": 47256,
+          "meanRGBErrorAfterResize": 2.7581,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1037789,
+          "outputBytes": 46116,
+          "meanRGBErrorAfterResize": 2.683,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 800635,
+          "outputBytes": 49104,
+          "meanRGBErrorAfterResize": 2.5191,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-4.glb"
+    },
+    {
+      "inputBytes": 1925220,
+      "outputBytes": 501240,
+      "geometryUnchanged": true,
+      "inputSha256": "357e130f2edbe82b0ed347f58b9e76ab405d4937be996f333df0db21e89b056e",
+      "outputSha256": "570a4296042f53fbc503a9261712dd30c699d97ecc026ecdf84de969ebb3800c",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 636363,
+          "outputBytes": 34456,
+          "meanRGBErrorAfterResize": 1.9992,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 602023,
+          "outputBytes": 184616,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 622528,
+          "outputBytes": 257338,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 48084,
+          "outputBytes": 8168,
+          "meanRGBErrorAfterResize": 0.2309,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-5.glb"
+    },
+    {
+      "inputBytes": 3880,
+      "outputBytes": 3864,
+      "geometryUnchanged": true,
+      "inputSha256": "4fda394257eb695254ad95d94123aec58c4bdd5a0654c8e2589b731b1b3a1a23",
+      "outputSha256": "4c3bdb00fb91c1d05b758c277b6633f4b3bc9ebd0b122032d9675eff4b940df4",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            64,
+            64
+          ],
+          "to": [
+            64,
+            64
+          ],
+          "encoding": "lossless",
+          "inputBytes": 185,
+          "outputBytes": 44,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            64,
+            64
+          ],
+          "to": [
+            64,
+            64
+          ],
+          "encoding": "lossless",
+          "inputBytes": 181,
+          "outputBytes": 42,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            64,
+            64
+          ],
+          "to": [
+            64,
+            64
+          ],
+          "encoding": "lossless",
+          "inputBytes": 182,
+          "outputBytes": 44,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-2.glb"
+    },
+    {
+      "inputBytes": 5492,
+      "outputBytes": 5052,
+      "geometryUnchanged": true,
+      "inputSha256": "6d1740a73b3f00ef7e0f770c1295ebbcfbb718bbe4baf56d9f7a400a7900c9be",
+      "outputSha256": "b7739a8fe7b7d3c97d52aed38b517253256368d2ba9c8e1b695711167ea46d91",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            128,
+            128
+          ],
+          "to": [
+            128,
+            128
+          ],
+          "encoding": "lossless",
+          "inputBytes": 392,
+          "outputBytes": 44,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            128,
+            128
+          ],
+          "to": [
+            128,
+            128
+          ],
+          "encoding": "lossless",
+          "inputBytes": 358,
+          "outputBytes": 44,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-1.glb"
+    },
+    {
+      "inputBytes": 12716784,
+      "outputBytes": 2092048,
+      "geometryUnchanged": true,
+      "inputSha256": "ee1bc34fcff8a73e355c973af2d4a868b7aa53ded3fc5ecd79cd202aa804b013",
+      "outputSha256": "72425be17441c4c298f2964d2e9a05c30d5ecd020f3f93accb1300e6fd0f19b9",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 619506,
+          "outputBytes": 31290,
+          "meanRGBErrorAfterResize": 1.6454,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 473848,
+          "outputBytes": 138328,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 551539,
+          "outputBytes": 231384,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 613198,
+          "outputBytes": 29744,
+          "meanRGBErrorAfterResize": 1.6128,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 625779,
+          "outputBytes": 31418,
+          "meanRGBErrorAfterResize": 1.6555,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 623744,
+          "outputBytes": 33406,
+          "meanRGBErrorAfterResize": 1.7421,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 643867,
+          "outputBytes": 30552,
+          "meanRGBErrorAfterResize": 1.7595,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 623783,
+          "outputBytes": 30938,
+          "meanRGBErrorAfterResize": 1.7181,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1011439,
+          "outputBytes": 111384,
+          "meanRGBErrorAfterResize": 2.8279,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 760608,
+          "outputBytes": 253162,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 945019,
+          "outputBytes": 351998,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 986727,
+          "outputBytes": 107912,
+          "meanRGBErrorAfterResize": 2.4732,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 984505,
+          "outputBytes": 109308,
+          "meanRGBErrorAfterResize": 2.5735,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 993388,
+          "outputBytes": 107980,
+          "meanRGBErrorAfterResize": 2.2314,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            14
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 986528,
+          "outputBytes": 105948,
+          "meanRGBErrorAfterResize": 2.5925,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            15
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 996071,
+          "outputBytes": 109210,
+          "meanRGBErrorAfterResize": 2.6358,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20784.glb"
+    },
+    {
+      "inputBytes": 11168860,
+      "outputBytes": 968500,
+      "geometryUnchanged": true,
+      "inputSha256": "ad69350372a70921658d86f9e04b30cf4da3ab4df88cfffbda4ba3cd8a243db9",
+      "outputSha256": "d791e70d1ccf3a5596b9e43e1b710d917a6c4e0a09cf2a9c048f0e3f8a04901d",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 805254,
+          "outputBytes": 34298,
+          "meanRGBErrorAfterResize": 2.0081,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 441006,
+          "outputBytes": 145430,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 631868,
+          "outputBytes": 270320,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 817506,
+          "outputBytes": 32296,
+          "meanRGBErrorAfterResize": 1.6878,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 847428,
+          "outputBytes": 31792,
+          "meanRGBErrorAfterResize": 1.6082,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 809660,
+          "outputBytes": 31428,
+          "meanRGBErrorAfterResize": 1.7477,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 819250,
+          "outputBytes": 33764,
+          "meanRGBErrorAfterResize": 1.9271,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 829572,
+          "outputBytes": 32484,
+          "meanRGBErrorAfterResize": 1.7438,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 815927,
+          "outputBytes": 33628,
+          "meanRGBErrorAfterResize": 2.0179,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 846222,
+          "outputBytes": 33622,
+          "meanRGBErrorAfterResize": 1.9588,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 855652,
+          "outputBytes": 33368,
+          "meanRGBErrorAfterResize": 1.7899,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 838581,
+          "outputBytes": 31750,
+          "meanRGBErrorAfterResize": 1.8283,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 812690,
+          "outputBytes": 31972,
+          "meanRGBErrorAfterResize": 1.8989,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 838871,
+          "outputBytes": 32214,
+          "meanRGBErrorAfterResize": 1.7943,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19314.glb"
+    },
+    {
+      "inputBytes": 5243740,
+      "outputBytes": 731544,
+      "geometryUnchanged": true,
+      "inputSha256": "0f7e2bd8d34bc25fa704e9cd7c1d4342657a46afd890a674b8db754a2a0385f1",
+      "outputSha256": "eacb073a5594bb6dd0a5d264bb0c087092d01180b02f3ad26d64e2a20df4214b",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 652134,
+          "outputBytes": 43026,
+          "meanRGBErrorAfterResize": 1.9596,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 589290,
+          "outputBytes": 180502,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 675403,
+          "outputBytes": 238924,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 651814,
+          "outputBytes": 41872,
+          "meanRGBErrorAfterResize": 1.9919,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 655426,
+          "outputBytes": 41812,
+          "meanRGBErrorAfterResize": 2.0064,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 654484,
+          "outputBytes": 43852,
+          "meanRGBErrorAfterResize": 2.0019,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 653905,
+          "outputBytes": 43846,
+          "meanRGBErrorAfterResize": 2.1174,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 657681,
+          "outputBytes": 43554,
+          "meanRGBErrorAfterResize": 2.0869,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-18157.glb"
+    },
+    {
+      "inputBytes": 12290820,
+      "outputBytes": 2006368,
+      "geometryUnchanged": true,
+      "inputSha256": "a0ffe1cf67eeccf0f631bdbd755828cc4618e48a00f34ef126e169e3afd75a84",
+      "outputSha256": "ca7189b5a535b604d6bc49216f32b36b525ab56d34ed435a8b9f3b9ddcadf555",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 868805,
+          "outputBytes": 42242,
+          "meanRGBErrorAfterResize": 1.9785,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 725673,
+          "outputBytes": 173494,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 857982,
+          "outputBytes": 325662,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 867344,
+          "outputBytes": 37376,
+          "meanRGBErrorAfterResize": 1.7815,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 869746,
+          "outputBytes": 37084,
+          "meanRGBErrorAfterResize": 1.8228,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 875787,
+          "outputBytes": 39956,
+          "meanRGBErrorAfterResize": 1.8647,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 874758,
+          "outputBytes": 41056,
+          "meanRGBErrorAfterResize": 1.93,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 866923,
+          "outputBytes": 39766,
+          "meanRGBErrorAfterResize": 1.8463,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 665149,
+          "outputBytes": 73100,
+          "meanRGBErrorAfterResize": 2.2157,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 560207,
+          "outputBytes": 178754,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 582693,
+          "outputBytes": 301272,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 656907,
+          "outputBytes": 72620,
+          "meanRGBErrorAfterResize": 2.2226,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 658801,
+          "outputBytes": 72538,
+          "meanRGBErrorAfterResize": 2.1981,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 669219,
+          "outputBytes": 70828,
+          "meanRGBErrorAfterResize": 2.048,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            14
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 674243,
+          "outputBytes": 72294,
+          "meanRGBErrorAfterResize": 2.1306,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            15
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 660774,
+          "outputBytes": 71682,
+          "meanRGBErrorAfterResize": 2.0069,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20778.glb"
+    },
+    {
+      "inputBytes": 17024232,
+      "outputBytes": 2783088,
+      "geometryUnchanged": true,
+      "inputSha256": "a0af578d33549bebc3e1b45f49e2fee9545dcfeee87acce7d2c66ed6cafb180b",
+      "outputSha256": "7f908f21ac95a3169132f88b4e80e059fc9ad6fa754f426bc59e11b48e2c2890",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 715530,
+          "outputBytes": 49698,
+          "meanRGBErrorAfterResize": 2.3536,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 843516,
+          "outputBytes": 221618,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 734176,
+          "outputBytes": 255366,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 731153,
+          "outputBytes": 54452,
+          "meanRGBErrorAfterResize": 2.4729,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 698317,
+          "outputBytes": 49620,
+          "meanRGBErrorAfterResize": 2.371,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 745838,
+          "outputBytes": 52446,
+          "meanRGBErrorAfterResize": 2.3881,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 739724,
+          "outputBytes": 54430,
+          "meanRGBErrorAfterResize": 2.4562,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 737054,
+          "outputBytes": 53668,
+          "meanRGBErrorAfterResize": 2.4276,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1396048,
+          "outputBytes": 181038,
+          "meanRGBErrorAfterResize": 2.8764,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1097281,
+          "outputBytes": 281354,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1019172,
+          "outputBytes": 371914,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1486636,
+          "outputBytes": 183930,
+          "meanRGBErrorAfterResize": 2.8126,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1440884,
+          "outputBytes": 181496,
+          "meanRGBErrorAfterResize": 2.7415,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1461835,
+          "outputBytes": 180270,
+          "meanRGBErrorAfterResize": 2.6125,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            14
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1472031,
+          "outputBytes": 182838,
+          "meanRGBErrorAfterResize": 2.8985,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            15
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1459044,
+          "outputBytes": 182106,
+          "meanRGBErrorAfterResize": 2.7506,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19309.glb"
+    },
+    {
+      "inputBytes": 7549796,
+      "outputBytes": 996972,
+      "geometryUnchanged": true,
+      "inputSha256": "9543334b94c1a2cf3774983fcfd119c0c45bcdc0ec9a1dbd31e161fb6f0f89bc",
+      "outputSha256": "46ccfc04b1b224eed651fc48e06d2a3f74d87d026910b90848f0cd926f5f166a",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 994325,
+          "outputBytes": 52440,
+          "meanRGBErrorAfterResize": 2.5588,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 765184,
+          "outputBytes": 249586,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 921560,
+          "outputBytes": 330250,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 985407,
+          "outputBytes": 53960,
+          "meanRGBErrorAfterResize": 2.4947,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 979607,
+          "outputBytes": 50092,
+          "meanRGBErrorAfterResize": 2.4877,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 952272,
+          "outputBytes": 52950,
+          "meanRGBErrorAfterResize": 2.4098,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 929911,
+          "outputBytes": 53482,
+          "meanRGBErrorAfterResize": 2.4848,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 923154,
+          "outputBytes": 55274,
+          "meanRGBErrorAfterResize": 2.4636,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-18842.glb"
+    },
+    {
+      "inputBytes": 3567632,
+      "outputBytes": 1245768,
+      "geometryUnchanged": true,
+      "inputSha256": "964cbd1f0044ec788ae37aa5f51a54f7e2f02fa42eac2f8803da8b140d34cfa2",
+      "outputSha256": "9754f9a0bd9839204df4acda1bdba0c8f33fd4ef8f9023fb3785eb832c003fac",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1237903,
+          "outputBytes": 87238,
+          "meanRGBErrorAfterResize": 2.4486,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 993391,
+          "outputBytes": 374414,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 979517,
+          "outputBytes": 426888,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-21286.glb"
+    },
+    {
+      "inputBytes": 7710672,
+      "outputBytes": 2335884,
+      "geometryUnchanged": true,
+      "inputSha256": "dc2d3560a4beafbd58e25904128f17aff14a05c1d0e65ffa3f25a78e0149704f",
+      "outputSha256": "a5da13963d5cd3a3a390dfba71b3239c8f32df92b6c399cc7a3ac49fa532be31",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 707549,
+          "outputBytes": 33754,
+          "meanRGBErrorAfterResize": 1.8085,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 413107,
+          "outputBytes": 118546,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 666896,
+          "outputBytes": 302926,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 888410,
+          "outputBytes": 139610,
+          "meanRGBErrorAfterResize": 2.5114,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 688616,
+          "outputBytes": 222294,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1099966,
+          "outputBytes": 370408,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1032328,
+          "outputBytes": 135570,
+          "meanRGBErrorAfterResize": 1.9089,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 612789,
+          "outputBytes": 176556,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1074387,
+          "outputBytes": 308974,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20844.glb"
+    },
+    {
+      "inputBytes": 4092928,
+      "outputBytes": 1406724,
+      "geometryUnchanged": true,
+      "inputSha256": "1ea82a0a48a56209d67e8760613a2917d550b73dc7193086547782179ee08c9d",
+      "outputSha256": "de0ea03de9db746dc4349d4ead73495ae7883ad2a31d21a1996b4b2870bd8b00",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 718343,
+          "outputBytes": 70824,
+          "meanRGBErrorAfterResize": 2.1704,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 581181,
+          "outputBytes": 197608,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 823599,
+          "outputBytes": 311156,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 35363,
+          "outputBytes": 8638,
+          "meanRGBErrorAfterResize": 0.2216,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 658362,
+          "outputBytes": 99198,
+          "meanRGBErrorAfterResize": 2.931,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 422050,
+          "outputBytes": 118744,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 530282,
+          "outputBytes": 276264,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19716.glb"
+    },
+    {
+      "inputBytes": 2280868,
+      "outputBytes": 389008,
+      "geometryUnchanged": true,
+      "inputSha256": "6ec36a7d598fa9ec2914ab82e8ed1594c9de67a34429519edda61c0b24326b5c",
+      "outputSha256": "3516436dbb559f846e1051dfd32469983889ca65817c09204a52cee5286ba60b",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 836002,
+          "outputBytes": 27946,
+          "meanRGBErrorAfterResize": 1.7912,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 519405,
+          "outputBytes": 123722,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 920294,
+          "outputBytes": 231770,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-21276.glb"
+    },
+    {
+      "inputBytes": 409600,
+      "outputBytes": 207288,
+      "geometryUnchanged": true,
+      "inputSha256": "acc3c3fa27df27f6c910a4d2d2e28d86d1caac7ae6647cbf5739fc3147646727",
+      "outputSha256": "a3da61860553a8ca31d3687477f8bc23360b6da41a9729e3795a1dd791ed06b8",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 143731,
+          "outputBytes": 27620,
+          "meanRGBErrorAfterResize": 1.9196,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 127259,
+          "outputBytes": 92394,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 122294,
+          "outputBytes": 70552,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19213.glb"
+    },
+    {
+      "inputBytes": 2664468,
+      "outputBytes": 597220,
+      "geometryUnchanged": true,
+      "inputSha256": "1e84c080469f50c5dd70f2311a5b4a35f81079736a3f91215ac7b2ee03134987",
+      "outputSha256": "6d2d350e7076f4abcfe14dbe2061396ffcb3d38f42d65754c759098416a8a758",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 375602,
+          "outputBytes": 91454,
+          "meanRGBErrorAfterResize": 2.4042,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 573106,
+          "outputBytes": 157012,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1713445,
+          "outputBytes": 346038,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20864.glb"
+    },
+    {
+      "inputBytes": 2619956,
+      "outputBytes": 864420,
+      "geometryUnchanged": true,
+      "inputSha256": "cd4022cf77fb0aedf2c4dd3362ff3aacc02bef4eda318294e02a62181927642c",
+      "outputSha256": "0e388e86a19e348091007095d642cee97d40e289a6750bd41c9620ca1d5c864e",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 837328,
+          "outputBytes": 46664,
+          "meanRGBErrorAfterResize": 1.9747,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 661529,
+          "outputBytes": 187078,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 826102,
+          "outputBytes": 335278,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-21288.glb"
+    },
+    {
+      "inputBytes": 4858032,
+      "outputBytes": 1580968,
+      "geometryUnchanged": true,
+      "inputSha256": "c766a6e4aaa20782e086a780880eed2b83b38f009b954b05445f99996f8af60d",
+      "outputSha256": "f7e0ef1c8e8d118b44ffc85f05a65a3b65b45a5e5eb69e2d00882f5dfb39f6b6",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 971138,
+          "outputBytes": 156106,
+          "meanRGBErrorAfterResize": 2.9107,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 334721,
+          "outputBytes": 140388,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 811078,
+          "outputBytes": 312106,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 42476,
+          "outputBytes": 4658,
+          "meanRGBErrorAfterResize": 0.1481,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1061226,
+          "outputBytes": 178432,
+          "meanRGBErrorAfterResize": 4.3198,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 531732,
+          "outputBytes": 182578,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 808055,
+          "outputBytes": 308544,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-21287.glb"
+    },
+    {
+      "inputBytes": 12699660,
+      "outputBytes": 4481872,
+      "geometryUnchanged": true,
+      "inputSha256": "01c76a32aba7b3c2e4525e1d3608483dbd1da2b9b9632d95dfb5f09b60231a31",
+      "outputSha256": "c13fdf817c60b2feaa93c57af9635749cc276157dcfb68f74cad0c24e0205398",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 443394,
+          "outputBytes": 28992,
+          "meanRGBErrorAfterResize": 2.0499,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 490438,
+          "outputBytes": 172150,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 653267,
+          "outputBytes": 300402,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1306685,
+          "outputBytes": 186750,
+          "meanRGBErrorAfterResize": 3.5866,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1015795,
+          "outputBytes": 316068,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 808358,
+          "outputBytes": 358170,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 104348,
+          "outputBytes": 17602,
+          "meanRGBErrorAfterResize": 0.4769,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1360042,
+          "outputBytes": 134502,
+          "meanRGBErrorAfterResize": 3.4281,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 962750,
+          "outputBytes": 298928,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 893924,
+          "outputBytes": 336654,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1004798,
+          "outputBytes": 145788,
+          "meanRGBErrorAfterResize": 4.1136,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 903838,
+          "outputBytes": 281512,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1263431,
+          "outputBytes": 438136,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 26933,
+          "outputBytes": 3764,
+          "meanRGBErrorAfterResize": 0.0945,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-21278.glb"
+    },
+    {
+      "inputBytes": 4317908,
+      "outputBytes": 754244,
+      "geometryUnchanged": true,
+      "inputSha256": "21ed52ee31978fac0c33c2641df182f81b8dbc6bf36c2e7cf1cef8671346fdbc",
+      "outputSha256": "85629682111c86887120a8f0f516eb181af606d973f53ebd2bda8d2cb85a40d4",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 546108,
+          "outputBytes": 42154,
+          "meanRGBErrorAfterResize": 1.7591,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 391173,
+          "outputBytes": 136228,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 504500,
+          "outputBytes": 211650,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 542701,
+          "outputBytes": 43330,
+          "meanRGBErrorAfterResize": 1.7192,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 542691,
+          "outputBytes": 41780,
+          "meanRGBErrorAfterResize": 1.647,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 546479,
+          "outputBytes": 41838,
+          "meanRGBErrorAfterResize": 1.613,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 548835,
+          "outputBytes": 42622,
+          "meanRGBErrorAfterResize": 1.7797,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 542419,
+          "outputBytes": 41078,
+          "meanRGBErrorAfterResize": 1.6731,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20782.glb"
+    },
+    {
+      "inputBytes": 11190540,
+      "outputBytes": 763352,
+      "geometryUnchanged": true,
+      "inputSha256": "7eb6fe1756ad8deb199515d8b833ae43716b9167cf0c05d769ea4cd03834da0f",
+      "outputSha256": "adb9556badede947abded3be1c262cbc1550a16001642bfffc5c17769d2098eb",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1593972,
+          "outputBytes": 47096,
+          "meanRGBErrorAfterResize": 1.9962,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 98919,
+          "outputBytes": 28692,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1395169,
+          "outputBytes": 339594,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1597006,
+          "outputBytes": 47864,
+          "meanRGBErrorAfterResize": 2.0773,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1605199,
+          "outputBytes": 48406,
+          "meanRGBErrorAfterResize": 2.0904,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1599585,
+          "outputBytes": 47574,
+          "meanRGBErrorAfterResize": 2.049,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1597547,
+          "outputBytes": 47574,
+          "meanRGBErrorAfterResize": 2.0205,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1594144,
+          "outputBytes": 47002,
+          "meanRGBErrorAfterResize": 1.9949,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20783.glb"
+    },
+    {
+      "inputBytes": 16392112,
+      "outputBytes": 2752308,
+      "geometryUnchanged": true,
+      "inputSha256": "a47f227e31097933a7e5b0c18e6a0a8d987bc47548a76a01fa4150b2058aa5d0",
+      "outputSha256": "91648476d748b3923fee75aa2e51c8a5ea1e01b3b9887772ee9052867b6b6488",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 860125,
+          "outputBytes": 69226,
+          "meanRGBErrorAfterResize": 2.2823,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 684157,
+          "outputBytes": 218904,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 944745,
+          "outputBytes": 388028,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 859550,
+          "outputBytes": 68684,
+          "meanRGBErrorAfterResize": 2.1075,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 859192,
+          "outputBytes": 67836,
+          "meanRGBErrorAfterResize": 2.1097,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 859566,
+          "outputBytes": 68172,
+          "meanRGBErrorAfterResize": 2.1901,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 859207,
+          "outputBytes": 68732,
+          "meanRGBErrorAfterResize": 2.25,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 855927,
+          "outputBytes": 66372,
+          "meanRGBErrorAfterResize": 2.1744,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1227304,
+          "outputBytes": 128052,
+          "meanRGBErrorAfterResize": 2.5061,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 836080,
+          "outputBytes": 262586,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1060170,
+          "outputBytes": 377410,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1234773,
+          "outputBytes": 128872,
+          "meanRGBErrorAfterResize": 2.5277,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1230425,
+          "outputBytes": 125740,
+          "meanRGBErrorAfterResize": 2.456,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1235499,
+          "outputBytes": 126426,
+          "meanRGBErrorAfterResize": 2.489,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            14
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1227969,
+          "outputBytes": 126732,
+          "meanRGBErrorAfterResize": 2.5341,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            15
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1223487,
+          "outputBytes": 125766,
+          "meanRGBErrorAfterResize": 2.4432,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20785.glb"
+    },
+    {
+      "inputBytes": 9839280,
+      "outputBytes": 1860144,
+      "geometryUnchanged": true,
+      "inputSha256": "7b52ddcbbbb0a33e88861b5509f6ee8c7255ddf98154b9a1a0b1443347d17819",
+      "outputSha256": "1704dc97099f8252e7dee1707172e9e4c6f1977b89618cc27cccab3c96327ef8",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 857007,
+          "outputBytes": 67824,
+          "meanRGBErrorAfterResize": 2.4171,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 684157,
+          "outputBytes": 218904,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 944745,
+          "outputBytes": 388028,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 858595,
+          "outputBytes": 67842,
+          "meanRGBErrorAfterResize": 2.0953,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 851705,
+          "outputBytes": 66020,
+          "meanRGBErrorAfterResize": 2.0336,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 858182,
+          "outputBytes": 66874,
+          "meanRGBErrorAfterResize": 2.2161,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 858990,
+          "outputBytes": 68382,
+          "meanRGBErrorAfterResize": 2.3342,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 857640,
+          "outputBytes": 67858,
+          "meanRGBErrorAfterResize": 2.2668,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1089460,
+          "outputBytes": 125200,
+          "meanRGBErrorAfterResize": 2.4635,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 836080,
+          "outputBytes": 262586,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1060170,
+          "outputBytes": 377410,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20786.glb"
+    },
+    {
+      "inputBytes": 6336556,
+      "outputBytes": 1081748,
+      "geometryUnchanged": true,
+      "inputSha256": "f08186140bf4111671c5b11f5e12ef7a563385054c92ed6c4482bf286638226a",
+      "outputSha256": "3ae07a870d49cb8cf8f546f9d771710d7ea1d00924647668b87353d228aec2c8",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 745520,
+          "outputBytes": 86058,
+          "meanRGBErrorAfterResize": 2.42,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 640785,
+          "outputBytes": 195722,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1120021,
+          "outputBytes": 312864,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 759809,
+          "outputBytes": 84514,
+          "meanRGBErrorAfterResize": 2.1117,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 755275,
+          "outputBytes": 85418,
+          "meanRGBErrorAfterResize": 2.2368,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 762724,
+          "outputBytes": 84614,
+          "meanRGBErrorAfterResize": 2.238,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 752222,
+          "outputBytes": 85944,
+          "meanRGBErrorAfterResize": 2.5866,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 740184,
+          "outputBytes": 86034,
+          "meanRGBErrorAfterResize": 2.4093,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20788.glb"
+    },
+    {
+      "inputBytes": 6412352,
+      "outputBytes": 1296272,
+      "geometryUnchanged": true,
+      "inputSha256": "337f597a7c69d0e3c9bd847f0f478ee746f82617439ccaf596d1575d28e0df28",
+      "outputSha256": "71b4e5b3e1d5dc721897a626ca81d1dc87aa4259155ffa175294ba2538b468b1",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 872616,
+          "outputBytes": 116084,
+          "meanRGBErrorAfterResize": 2.0263,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 432234,
+          "outputBytes": 191068,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 606847,
+          "outputBytes": 277592,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 875682,
+          "outputBytes": 117126,
+          "meanRGBErrorAfterResize": 2.058,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 874092,
+          "outputBytes": 118468,
+          "meanRGBErrorAfterResize": 2.0229,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 878628,
+          "outputBytes": 118962,
+          "meanRGBErrorAfterResize": 1.9356,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 878170,
+          "outputBytes": 116794,
+          "meanRGBErrorAfterResize": 1.9525,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 871090,
+          "outputBytes": 116616,
+          "meanRGBErrorAfterResize": 2.0105,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20789.glb"
+    },
+    {
+      "inputBytes": 2127348,
+      "outputBytes": 791292,
+      "geometryUnchanged": true,
+      "inputSha256": "e3f4ad734e1f1b733d46ac018282552f52b404a908d71c23672b11ee0d7bc171",
+      "outputSha256": "95e5d3c2f3ca9e8fd56ffbd0c566b49d956cfffa883c9a5f0c5c602c52a8e04f",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 712181,
+          "outputBytes": 71976,
+          "meanRGBErrorAfterResize": 2.5434,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 484704,
+          "outputBytes": 137852,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 654771,
+          "outputBytes": 305370,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20811.glb"
+    },
+    {
+      "inputBytes": 2244048,
+      "outputBytes": 898084,
+      "geometryUnchanged": true,
+      "inputSha256": "8b8ef6f4b01f98eaec47714d2bac6cec738293b9f53c4145310f1f1f6afd1a1c",
+      "outputSha256": "bacd51b7ecbb4f12f7c359952795894c6c54b008f817da8b3ab477300ef65c19",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 697503,
+          "outputBytes": 83014,
+          "meanRGBErrorAfterResize": 2.6271,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 510092,
+          "outputBytes": 148402,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 763676,
+          "outputBytes": 393484,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20812.glb"
+    },
+    {
+      "inputBytes": 2057896,
+      "outputBytes": 846244,
+      "geometryUnchanged": true,
+      "inputSha256": "a0a4db9f70ec8e48881c6287580cc888e4647aa6a12f1fda22ebe986bcac7e8b",
+      "outputSha256": "6442c55bce5d605b777a0dda26581c40ae8522df74534b553c72f3db23807175",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 650607,
+          "outputBytes": 102442,
+          "meanRGBErrorAfterResize": 3.3861,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 389074,
+          "outputBytes": 108728,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 717529,
+          "outputBytes": 333982,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20824.glb"
+    },
+    {
+      "inputBytes": 6051392,
+      "outputBytes": 2236172,
+      "geometryUnchanged": true,
+      "inputSha256": "f4f8e5c565b9704e76cc9c0677348f62d19fc32c2854efa5c77a2b18ae01073e",
+      "outputSha256": "8c5b5de476c0bf4b9aa44fdb35b5fe5ce9935bcf252ff635501f5407a9ca044b",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 869283,
+          "outputBytes": 84692,
+          "meanRGBErrorAfterResize": 2.4876,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 558714,
+          "outputBytes": 177802,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 808995,
+          "outputBytes": 364852,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 832971,
+          "outputBytes": 113200,
+          "meanRGBErrorAfterResize": 2.728,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 946814,
+          "outputBytes": 289032,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 886315,
+          "outputBytes": 354702,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 221184,
+          "outputBytes": 48858,
+          "meanRGBErrorAfterResize": 1.7665,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 285323,
+          "outputBytes": 199384,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 295065,
+          "outputBytes": 256298,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20840.glb"
+    },
+    {
+      "inputBytes": 12014280,
+      "outputBytes": 3288608,
+      "geometryUnchanged": true,
+      "inputSha256": "130f2dc28cd3d53a1356d213c1fc56321d0dc2044bfcf7865e6ce3ed888980d4",
+      "outputSha256": "6e32ed8baa1fdc9658326b9ee42e287f455a09ab234e74a96181f72024f46fc7",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 722864,
+          "outputBytes": 54144,
+          "meanRGBErrorAfterResize": 2.056,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 584718,
+          "outputBytes": 130778,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 2449271,
+          "outputBytes": 545804,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1090160,
+          "outputBytes": 143612,
+          "meanRGBErrorAfterResize": 3.4381,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 865662,
+          "outputBytes": 272988,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1475155,
+          "outputBytes": 310940,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 479080,
+          "outputBytes": 23574,
+          "meanRGBErrorAfterResize": 1.7427,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 205302,
+          "outputBytes": 53366,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 828285,
+          "outputBytes": 200848,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 518800,
+          "outputBytes": 44604,
+          "meanRGBErrorAfterResize": 2.6198,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 426754,
+          "outputBytes": 123170,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1306908,
+          "outputBytes": 322734,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20644.glb"
+    },
+    {
+      "inputBytes": 22181484,
+      "outputBytes": 3525500,
+      "geometryUnchanged": true,
+      "inputSha256": "88e3e1523e5a5c1d6cc13a76e1de8d851c3dcb40502282a39c7be7df87263d9e",
+      "outputSha256": "f522e8d2f0547bd87f2b83d58244c7af3fcbf1c1d8db76666d445008540acce1",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1269988,
+          "outputBytes": 123246,
+          "meanRGBErrorAfterResize": 2.3,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 747440,
+          "outputBytes": 237386,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1148889,
+          "outputBytes": 201778,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1271747,
+          "outputBytes": 124112,
+          "meanRGBErrorAfterResize": 2.4168,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1258901,
+          "outputBytes": 124786,
+          "meanRGBErrorAfterResize": 2.3063,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1285034,
+          "outputBytes": 122546,
+          "meanRGBErrorAfterResize": 2.1717,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1270957,
+          "outputBytes": 125096,
+          "meanRGBErrorAfterResize": 2.3665,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1250904,
+          "outputBytes": 124100,
+          "meanRGBErrorAfterResize": 2.3563,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1041121,
+          "outputBytes": 90310,
+          "meanRGBErrorAfterResize": 3.0593,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 714728,
+          "outputBytes": 205848,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1717382,
+          "outputBytes": 391564,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1034656,
+          "outputBytes": 90130,
+          "meanRGBErrorAfterResize": 3.1133,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1053606,
+          "outputBytes": 96942,
+          "meanRGBErrorAfterResize": 3.3302,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1037740,
+          "outputBytes": 91662,
+          "meanRGBErrorAfterResize": 2.9493,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            14
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1040115,
+          "outputBytes": 92632,
+          "meanRGBErrorAfterResize": 3.1317,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            15
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1035384,
+          "outputBytes": 93828,
+          "meanRGBErrorAfterResize": 3.5055,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            16
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1038017,
+          "outputBytes": 61410,
+          "meanRGBErrorAfterResize": 2.3757,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            17
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 515132,
+          "outputBytes": 140684,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            18
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 1958248,
+          "outputBytes": 495004,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20643.glb"
+    },
+    {
+      "inputBytes": 1886756,
+      "outputBytes": 452812,
+      "geometryUnchanged": true,
+      "inputSha256": "e5d66376eecf13aac73615513ca52f5bc024f3407190190f89af0ea3ce0e4935",
+      "outputSha256": "d505ee458582f18f961143c0906ab2381332828b9f2a175c76a2222b2c1b6c43",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 586296,
+          "outputBytes": 25856,
+          "meanRGBErrorAfterResize": 1.8484,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 579473,
+          "outputBytes": 205540,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 642403,
+          "outputBytes": 142432,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-20636.glb"
+    },
+    {
+      "inputBytes": 571284,
+      "outputBytes": 359088,
+      "geometryUnchanged": true,
+      "inputSha256": "85f9dbc598d9af8c6b01efc7f7ad00a6137af14d61c3e774a0b9f509f00c8d13",
+      "outputSha256": "d85c109ed7a624c129e48c526d391cead51fd00f1e804d354c2fe7c095cb6568",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 186663,
+          "outputBytes": 36950,
+          "meanRGBErrorAfterResize": 1.6389,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 126425,
+          "outputBytes": 94924,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            512,
+            512
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 151840,
+          "outputBytes": 120450,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19684.glb"
+    },
+    {
+      "inputBytes": 9069220,
+      "outputBytes": 3297728,
+      "geometryUnchanged": true,
+      "inputSha256": "d20d492ca028ac482ac298366dde051acd0392962fb444bdf46136ee60072863",
+      "outputSha256": "e12d2a697c723e8c7483c2ac8d1c17021300075751d4dc722b2eb648513b4408",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 581809,
+          "outputBytes": 32570,
+          "meanRGBErrorAfterResize": 1.7753,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 531510,
+          "outputBytes": 183086,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 789418,
+          "outputBytes": 329608,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 547469,
+          "outputBytes": 30906,
+          "meanRGBErrorAfterResize": 1.689,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 471647,
+          "outputBytes": 156494,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 652576,
+          "outputBytes": 292718,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 681913,
+          "outputBytes": 49098,
+          "meanRGBErrorAfterResize": 2.52,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 656618,
+          "outputBytes": 214508,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 790287,
+          "outputBytes": 321332,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 964882,
+          "outputBytes": 155456,
+          "meanRGBErrorAfterResize": 3.7985,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 665414,
+          "outputBytes": 207732,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 670618,
+          "outputBytes": 324908,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 77375,
+          "outputBytes": 10864,
+          "meanRGBErrorAfterResize": 0.4198,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19711.glb"
+    },
+    {
+      "inputBytes": 2229388,
+      "outputBytes": 766260,
+      "geometryUnchanged": true,
+      "inputSha256": "646f7a61cd39e042b2e0e1c6cbac6c5cb44d11347bec9558e5d1c5e90d8b88a6",
+      "outputSha256": "43fa12133f38d080bbcba289c877658c0e5f88e7ef9ab71bdded29200bb7b9ca",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 746575,
+          "outputBytes": 115502,
+          "meanRGBErrorAfterResize": 3.5906,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 601190,
+          "outputBytes": 199796,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 753840,
+          "outputBytes": 363964,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 56127,
+          "outputBytes": 14898,
+          "meanRGBErrorAfterResize": 0.406,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19593.glb"
+    },
+    {
+      "inputBytes": 2682436,
+      "outputBytes": 973176,
+      "geometryUnchanged": true,
+      "inputSha256": "4e6d77f1fb64245e73e497999432592a5710e5eec62c72548f8b15ca0af2f56c",
+      "outputSha256": "ce2eeeb73d03d804a3c5cb4138a0e8bad673f015ca93b99a22b233c279b7c90b",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 800911,
+          "outputBytes": 76730,
+          "meanRGBErrorAfterResize": 2.4235,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 640421,
+          "outputBytes": 181152,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 876563,
+          "outputBytes": 350352,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/furniture-19715.glb"
+    },
+    {
+      "inputBytes": 15957680,
+      "outputBytes": 2553608,
+      "geometryUnchanged": true,
+      "inputSha256": "d23344586a88ae38efeae9509019b76793a7da55d67419d28ba1156b0e74841b",
+      "outputSha256": "4f14c697238787e274a409b5610d14567d0fd6468a1973deac912b85f07493d6",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1136244,
+          "outputBytes": 122800,
+          "meanRGBErrorAfterResize": 3.119,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 693503,
+          "outputBytes": 223060,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 953753,
+          "outputBytes": 373712,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1157333,
+          "outputBytes": 125542,
+          "meanRGBErrorAfterResize": 3.2288,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1152991,
+          "outputBytes": 122056,
+          "meanRGBErrorAfterResize": 2.9451,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1154424,
+          "outputBytes": 125282,
+          "meanRGBErrorAfterResize": 3.1467,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            6
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1153393,
+          "outputBytes": 125806,
+          "meanRGBErrorAfterResize": 3.359,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            7
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1145809,
+          "outputBytes": 125162,
+          "meanRGBErrorAfterResize": 3.1749,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            8
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1139636,
+          "outputBytes": 122490,
+          "meanRGBErrorAfterResize": 3.11,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            9
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1163477,
+          "outputBytes": 125770,
+          "meanRGBErrorAfterResize": 3.2487,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            10
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1164654,
+          "outputBytes": 122550,
+          "meanRGBErrorAfterResize": 2.9692,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            11
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1161106,
+          "outputBytes": 124788,
+          "meanRGBErrorAfterResize": 3.1116,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            12
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1164408,
+          "outputBytes": 125532,
+          "meanRGBErrorAfterResize": 3.3677,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            13
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 1153362,
+          "outputBytes": 124702,
+          "meanRGBErrorAfterResize": 3.1927,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "furniture/model-11885.glb"
+    },
+    {
+      "inputBytes": 1538088,
+      "outputBytes": 290476,
+      "geometryUnchanged": true,
+      "inputSha256": "732d00647bfada3d2c52a53f67a3536c1f0b5d9d79c356f3fd2a321e3ee9f224",
+      "outputSha256": "b64dc199e7f6a2e0d03804a36c22084d141b2d425282b1c867cbb40f166e7ae5",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 709335,
+          "outputBytes": 24984,
+          "meanRGBErrorAfterResize": 1.6421,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 634638,
+          "outputBytes": 128184,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 102257,
+          "outputBytes": 45296,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-82.glb"
+    },
+    {
+      "inputBytes": 1517268,
+      "outputBytes": 292952,
+      "geometryUnchanged": true,
+      "inputSha256": "982f5279de6b255180563e2653cb036692227d4f551a474efbacfe4580a1e040",
+      "outputSha256": "23effcc19700fe0714d4cc7bf80555c58f39f9235a1b3f8b06104859317ef2ec",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 658157,
+          "outputBytes": 20260,
+          "meanRGBErrorAfterResize": 1.5398,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 664996,
+          "outputBytes": 135382,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 102257,
+          "outputBytes": 45296,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-83.glb"
+    },
+    {
+      "inputBytes": 1870984,
+      "outputBytes": 479884,
+      "geometryUnchanged": true,
+      "inputSha256": "34394093365ca56857198bf6f8579543c3b592d98f1895c9170867e44eaa7d93",
+      "outputSha256": "e9f2ea8a95b2526e90fe3a21acda0cc71ffacf4ac2d7d50ba9dee06fb740e4d5",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 583133,
+          "outputBytes": 18528,
+          "meanRGBErrorAfterResize": 1.3847,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 553706,
+          "outputBytes": 145902,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 642286,
+          "outputBytes": 223434,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-84.glb"
+    },
+    {
+      "inputBytes": 1317544,
+      "outputBytes": 308324,
+      "geometryUnchanged": true,
+      "inputSha256": "2066f43402c598092f83ca0a853523c257a03c5642eedaf1a0377325785f7300",
+      "outputSha256": "adfbd85532372fa9ec6215439605f06ec50f6381a823154cbe5294e675fb102d",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 511334,
+          "outputBytes": 19492,
+          "meanRGBErrorAfterResize": 1.3519,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 420989,
+          "outputBytes": 100044,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 293463,
+          "outputBytes": 96872,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-74.glb"
+    },
+    {
+      "inputBytes": 1313628,
+      "outputBytes": 304408,
+      "geometryUnchanged": true,
+      "inputSha256": "72fa221c7045102ad60a6fd9c86eba24c6ad9dba21239c7758980c9e51bef793",
+      "outputSha256": "9f16fb71bbb54d014894771875ac3771d65284f078b454551371742684bd3d49",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 511334,
+          "outputBytes": 19492,
+          "meanRGBErrorAfterResize": 1.3519,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 420989,
+          "outputBytes": 100044,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 293463,
+          "outputBytes": 96872,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-113.glb"
+    },
+    {
+      "inputBytes": 1870948,
+      "outputBytes": 479848,
+      "geometryUnchanged": true,
+      "inputSha256": "1598b57955e48c201c5f5303b8f60494c2c9cb8b8a2a3cee7336a7ab9c85e67d",
+      "outputSha256": "6a457ab461c4a4a75495f8849253e3f4f3fd0793313e36f160fda81c619a2fd5",
+      "profile": {
+        "maxTexture": 512,
+        "colorQuality": 90,
+        "lossless": false,
+        "version": 1
+      },
+      "images": [
+        {
+          "images": [
+            0
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 118,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            1
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 110,
+          "outputBytes": 36,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            2
+          ],
+          "from": [
+            32,
+            32
+          ],
+          "to": [
+            32,
+            32
+          ],
+          "encoding": "lossless",
+          "inputBytes": 114,
+          "outputBytes": 38,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            3
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "color-q90",
+          "inputBytes": 583133,
+          "outputBytes": 18528,
+          "meanRGBErrorAfterResize": 1.3847,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            4
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 553706,
+          "outputBytes": 145902,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        },
+        {
+          "images": [
+            5
+          ],
+          "from": [
+            1024,
+            1024
+          ],
+          "to": [
+            512,
+            512
+          ],
+          "encoding": "lossless",
+          "inputBytes": 642286,
+          "outputBytes": 223434,
+          "meanRGBErrorAfterResize": 0.0,
+          "alphaUnchangedAfterResize": true
+        }
+      ],
+      "file": "basement/basement-114.glb"
+    }
+  ]
+}

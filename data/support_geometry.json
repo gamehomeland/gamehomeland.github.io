@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source": "local-client-prefab-and-anchor",
+  "runtime": {
+    "name": "悬·1x1米（挂接）",
+    "furnitureId": 6551,
+    "representId": 18230,
+    "meshRepresentId": 18238,
+    "meshY": 1.0,
+    "socketY": 6.350000330712646e-05,
+    "socketIndex": 1,
+    "meshScale": 0.5
+  },
+  "evidence": {
+    "prefab_path": "data/source/Home/other/plane/reverse_1x1.prefab",
+    "mesh_path": "data/source/home/other/pallet002_01.mesh",
+    "anchor_path": "data/source/home/other/pallet002_01.mesh.jsonAP",
+    "mesh_matrix": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "anchor_center": [
+      0.0,
+      0.00012700000661425292,
+      0.0
+    ],
+    "anchor_tags": [
+      "H_Floor",
+      "H_Furniture"
+    ],
+    "represent_tags": "TransparentBase",
+    "details": "0;1;"
+  }
+}

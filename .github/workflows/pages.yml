@@ -1,0 +1,74 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
+    env:
+      ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.25.0
+          run_install: false
+          cache: true
+          cache_dependency_path: pnpm-lock.yaml
+      - name: Check publication links
+        run: node scripts/configure-site.mjs --check
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Check data and types
+        run: pnpm catalog && pnpm typecheck
+      - name: Test export core
+        run: pnpm test
+      - name: Test resource and blueprint tools
+        run: |
+          python3 -m pip install -r tools/requirements.txt
+          python3 -m unittest discover -s tests -p '*_test.py'
+      - name: Verify structure example
+        run: |
+          pnpm example:structure
+          python3 tools/inspect_blueprint.py artifacts/structure-example/four-cells.blueprintx --output artifacts/structure-example/fields.json
+      - name: Build website
+        run: pnpm build:pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: apps/web/dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

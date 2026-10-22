@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>家园蓝图 · 基础展示</title>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="header-left">
+          <a class="brand" href="#" aria-label="家园蓝图首页"
+            ><svg viewBox="0 0 40 40" aria-hidden="true">
+              <path d="M5 13 20 5l15 8-15 8Z" />
+              <path d="m5 20 15 8 15-8M5 27l15 8 15-8" /></svg
+            ><span
+              ><small>JX3 HOMELAND</small
+              ><strong>家园蓝图 <em class="demo-badge">基础展示</em></strong></span
+            ></a
+          >
+          <button id="developer-button" class="developer-entry" type="button">技术与开发</button>
+        </div>
+        <div class="top-actions">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到夜间模式">
+            夜间模式
+          </button>
+
+          <button id="mechanics-button" class="text-button" type="button">使用说明</button
+          ><button id="limits-button" class="text-button" type="button">家园限制</button>
+          <a
+            id="repository-link"
+            class="text-button repository-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-disabled="true"
+            >开源仓库</a
+          >
+        </div>
+      </header>
+      <aside class="demo-note" aria-label="演示版说明">
+        <strong>基础功能展示</strong>
+        <p>
+          <strong>仅展示部分家具及地下室组件，未覆盖全部家园功能。</strong
+          >提供实现思路与技术参考，欢迎基于源码二次开发。
+        </p>
+      </aside>
+      <nav class="work-tabs" role="tablist" aria-label="制作方式">
+        <button
+          id="mode-image"
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="image-workspace"
+          class="active"
+        >
+          <strong>图片转蓝图</strong><small>图片配色 · 墙面与地面 · 蓝图导出</small>
+        </button>
+        <button
+          id="furniture-button"
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="furniture-dialog"
+        >
+          <strong>3D 家园布置</strong><small>家具与地下室 · 布置与导出</small>
+        </button>
+      </nav>
+      <main id="image-workspace" class="workspace" role="tabpanel" aria-labelledby="mode-image">
+        <aside class="controls">
+          <form id="export-form">
+            <section class="control-section">
+              <h2><span class="step">1</span>选择图片</h2>
+              <div id="drop-zone" class="drop-zone">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="7" y="7" width="34" height="34" rx="6" />
+                  <circle cx="17" cy="18" r="3" />
+                  <path d="m8 34 10-10 8 8 6-6 9 10" /></svg
+                ><button id="choose-image" type="button">选择图片</button>
+                <p>支持拖放图片</p>
+                <small>PNG、JPG、WebP、GIF · 最多 50 MiB</small
+                ><input
+                  id="image-input"
+                  class="sr-only"
+                  type="file"
+                  accept="image/png,image/jpeg,image/webp,image/gif"
+                  aria-label="选择本机图片"
+                />
+              </div>
+              <div id="file-info" class="file-info" hidden>
+                <span id="file-name"></span><small id="file-size"></small
+                ><button id="change-image" type="button">更换</button>
+              </div>
+              <div class="examples">
+                <span>示例图片</span><button type="button" data-example="sample">加载示例</button>
+              </div>
+            </section>
+            <section class="control-section">
+              <h2><span class="step">2</span>摆放方式</h2>
+              <fieldset class="placement">
+                <legend class="sr-only">摆放方式</legend>
+                <label
+                  ><input type="radio" name="orientation" value="wall" checked /><span
+                    ><svg viewBox="0 0 28 28" aria-hidden="true">
+                      <rect x="5" y="3" width="18" height="20" rx="2" />
+                      <path d="M2 26h24M9 8h10M9 12h10" /></svg
+                    >墙面画</span
+                  ></label
+                ><label
+                  ><input type="radio" name="orientation" value="ground" /><span
+                    ><svg viewBox="0 0 28 28" aria-hidden="true">
+                      <path d="m2 18 12-8 12 8-12 8ZM8 14l12 8M8 22l12-8M14 10V3" /></svg
+                    >地面图案</span
+                  ></label
+                >
+              </fieldset>
+            </section>
+            <section class="control-section size-section">
+              <label class="size-label" for="long-edge"
+                ><span><span class="step">3</span>成品长边</span
+                ><small>另一边按图片比例计算</small></label
+              >
+              <div class="size-input">
+                <input
+                  id="long-edge"
+                  type="number"
+                  min="1"
+                  max="96"
+                  step="any"
+                  value="8"
+                  required
+                  aria-label="成品长边米数"
+                /><span>米</span>
+              </div>
+              <div id="size-presets" class="presets">
+                <button type="button" data-size="4">4 米</button
+                ><button type="button" data-size="8" class="selected">8 米</button
+                ><button type="button" data-size="12">12 米</button
+                ><button type="button" data-size="20">20 米</button>
+              </div>
+            </section>
+            <div class="advanced-entry">
+              <button
+                id="options-button"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="options-dialog"
+              >
+                <span>更多选项</span><span aria-hidden="true">›</span>
+              </button>
+            </div>
+            <dialog id="options-dialog" class="options-dialog" aria-labelledby="options-title">
+              <div class="dialog-heading">
+                <h2 id="options-title">更多选项</h2>
+                <button type="button" data-close-dialog aria-label="关闭更多选项">×</button>
+              </div>
+              <div class="dialog-body options-fields">
+                <section class="option-group">
+                  <label for="budget-mode">家具用量</label>
+                  <select id="budget-mode">
+                    <option value="auto">按图片细节自动规划</option>
+                    <option value="custom">填写可用家具数量</option>
+                  </select>
+                  <div id="custom-budget" hidden>
+                    <label for="furniture-limit">可用总件数（包含基座）</label>
+                    <input
+                      id="furniture-limit"
+                      type="number"
+                      min="2"
+                      step="1"
+                      inputmode="numeric"
+                      placeholder="填写可用的家具总件数"
+                      disabled
+                    />
+                  </div>
+                  <small>请按游戏剩余容量填写；较低用量可能减少图像细节。</small>
+                </section>
+                <section class="option-group">
+                  <label class="check-label"
+                    ><input id="experimental-materials" type="checkbox" />试用彩色琉璃配色</label
+                  >
+                  <small>适用于高精度墙面画，评分改善时采用；实际效果需在游戏中核对。</small>
+                </section>
+                <section class="option-group">
+                  <label class="check-label"
+                    ><input id="root-handle" type="checkbox" checked />显示整体操作基座</label
+                  ><small>关闭后隐藏操作基座的外观，保留组件结构；游戏内显示需核对。</small>
+                </section>
+              </div>
+              <div class="options-footer">
+                <button class="primary" type="button" data-close-dialog>返回制作</button>
+              </div>
+            </dialog>
+            <div class="generate-box">
+              <button id="generate" class="primary" type="submit" disabled>
+                生成蓝图 <span aria-hidden="true">→</span></button
+              ><button id="cancel" class="cancel" type="button" hidden>取消生成</button>
+              <p class="auto-note">配色、格数和拼布规格自动适配</p>
+            </div>
+          </form>
+        </aside>
+        <section class="preview-card" aria-label="图片与蓝图预览">
+          <div class="preview-heading">
+            <div>
+              <small>图片转蓝图 · 基础展示</small>
+              <h2 id="preview-title">图片与蓝图预览</h2>
+            </div>
+            <div class="tabs" role="group" aria-label="预览切换">
+              <button id="tab-before" type="button" class="active" aria-pressed="true">原图</button
+              ><button id="tab-after" type="button" aria-pressed="false" disabled>拼布效果</button>
+              <button id="tab-3d" type="button" aria-pressed="false" disabled>3D 预览</button>
+            </div>
+          </div>
+          <div id="preview-area" class="preview-area">
+            <div id="empty-state" class="empty-state">
+              <svg viewBox="0 0 180 150" aria-hidden="true">
+                <path class="tile-tan" d="m28 93 45-25 44 25-44 26Z" />
+                <path class="tile-cream" d="m73 68 44-25 44 25-44 25Z" />
+                <path class="tile-ochre" d="m28 41 45-25 44 25-44 27Z" />
+                <path
+                  class="tile-line"
+                  d="M28 93v12l45 26 44-26M73 68v12l44 25 44-25V68M28 41v12l45 27 44-27V41"
+                /></svg
+              ><strong>选择图片后生成蓝图</strong>
+              <p>支持墙面画与地面图案，尺寸和配色自动适配。</p>
+              <button
+                id="furniture-shortcut"
+                class="furniture-shortcut"
+                type="button"
+                aria-controls="furniture-dialog"
+              >
+                家具 3D 预览 →
+              </button>
+            </div>
+            <img id="preview-image" alt="当前图片预览" hidden />
+            <div id="preview-3d" class="preview-3d" hidden>
+              <div id="preview-canvas" class="preview-canvas"></div>
+              <div class="viewer-toolbar" role="group" aria-label="3D 观察工具">
+                <button id="view-front" type="button">正面</button>
+                <button id="view-side" type="button">侧面</button>
+                <button id="view-angle" type="button">斜视</button>
+                <button id="view-reset" type="button" title="恢复视角和缩放">重置</button>
+                <button id="view-expand" type="button" aria-pressed="false">放大查看</button>
+              </div>
+              <div class="viewer-options">
+                <label><input id="view-supports" type="checkbox" />基座示意</label>
+                <label><input id="view-wireframe" type="checkbox" />结构线</label>
+              </div>
+              <div class="viewer-caption">
+                <p id="viewer-message" role="status" aria-live="polite">正在准备 3D 预览…</p>
+                <button id="view-retry" type="button" hidden>重新加载</button>
+                <small id="viewer-help">拖动旋转 · 滚轮或双指缩放 · 右键平移</small>
+              </div>
+            </div>
+          </div>
+          <div id="progress-area" class="progress-area" hidden>
+            <div>
+              <strong id="progress-label">正在准备图片</strong><span id="elapsed">0 秒</span>
+            </div>
+            <progress id="progress" max="100" value="0"></progress>
+          </div>
+          <div id="status" class="status" role="status" aria-live="polite">
+            请选择图片并设置摆放方式与尺寸。
+          </div>
+          <div id="result-area" class="result-area" hidden>
+            <dl class="metrics">
+              <div>
+                <dt>成品尺寸</dt>
+                <dd id="result-size"></dd>
+              </div>
+              <div>
+                <dt>所需家具</dt>
+                <dd id="result-furniture"></dd>
+              </div>
+              <div>
+                <dt>图案格数</dt>
+                <dd id="result-grid"></dd>
+              </div>
+            </dl>
+            <div class="downloads">
+              <a id="download-package" class="primary" download
+                >下载完整包 <span aria-hidden="true">↓</span></a
+              ><a id="download-blueprint" class="secondary" download>仅下载蓝图</a>
+            </div>
+            <p>完整包包含蓝图、效果预览、家具清单和使用说明。</p>
+          </div>
+          <footer class="preview-footnote">
+            预览呈现拼布配色，游戏光照会影响实际颜色。微缩图案从正面或上方查看。
+          </footer>
+        </section>
+      </main>
+      <section
+        id="furniture-dialog"
+        class="furniture-dialog furniture-workspace"
+        hidden
+        role="tabpanel"
+        aria-labelledby="furniture-button"
+      >
+        <div class="dialog-heading">
+          <h2 id="furniture-title">
+            3D 家园布置<small>基础功能展示 · 仅收录部分家具与地下室组件</small>
+          </h2>
+          <div class="tabs" role="group" aria-label="家具工作方式">
+            <button id="furniture-preview-tab" type="button" aria-pressed="true" class="active">
+              单件预览
+            </button>
+            <button id="furniture-edit-tab" type="button" aria-pressed="false">在线布置</button>
+          </div>
+        </div>
+        <div class="furniture-layout">
+          <aside class="furniture-library">
+            <button id="furniture-open" class="secondary" type="button">打开模型文件</button>
+            <label id="scene-placement-label" class="scene-placement-label"
+              >新家具位置<select id="scene-placement">
+                <option value="">地面</option>
+              </select></label
+            >
+            <input
+              id="furniture-file"
+              class="sr-only"
+              type="file"
+              accept=".glb"
+              aria-label="选择 GLB 模型"
+            />
+            <p>支持 GLB · 最多 50 MiB</p>
+            <section id="furniture-samples-section" hidden>
+              <h3>部分家具示例</h3>
+              <p class="library-scope">
+                内置模型与贴图随项目提供。灰色条目仅供预览，其他条目可加入布置。
+              </p>
+              <label class="sr-only" for="furniture-search">搜索家具名称</label>
+              <input id="furniture-search" type="search" placeholder="搜索家具名称" />
+              <label class="sr-only" for="furniture-category">家具分类</label>
+              <select id="furniture-category">
+                <option value="">全部分类</option>
+              </select>
+              <p id="furniture-count" class="furniture-count"></p>
+              <div id="furniture-samples" class="furniture-samples"></div>
+              <p id="furniture-no-match" hidden>未找到匹配家具，请调整名称或分类。</p>
+            </section>
+            <p id="furniture-mode-help">选择家具后，可查看形状、结构线和模型尺寸。</p>
+          </aside>
+          <section class="furniture-view">
+            <div class="furniture-meta">
+              <h3 id="furniture-name">选择一件家具</h3>
+              <p id="furniture-stats"></p>
+              <label class="furniture-style-label" for="furniture-style"
+                >材质样式
+                <select id="furniture-style" disabled>
+                  <option>原始样式</option>
+                </select></label
+              >
+            </div>
+            <div class="furniture-stage">
+              <div id="furniture-canvas" class="preview-canvas"></div>
+              <div id="furniture-empty" class="furniture-empty">打开模型，或从左侧选择家具。</div>
+              <div class="viewer-toolbar" role="group" aria-label="家具观察工具">
+                <button id="furniture-front" type="button">正面</button>
+                <button id="furniture-side" type="button">侧面</button>
+                <button id="furniture-top" type="button">俯视</button>
+                <button id="furniture-angle" type="button">重置视角</button>
+              </div>
+              <div class="viewer-options">
+                <label><input id="furniture-wire" type="checkbox" />结构线</label>
+              </div>
+            </div>
+            <div class="furniture-info">
+              <p id="furniture-status" role="status" aria-live="polite">
+                请选择家具或导入模型文件。
+              </p>
+              <p id="furniture-note">样本展示几何与材质；场景光照和动态特效以游戏实际显示为准。</p>
+            </div>
+          </section>
+          <section id="scene-workspace" class="scene-workspace" hidden>
+            <div class="scene-main">
+              <div class="scene-projectbar">
+                <input id="scene-name" aria-label="布置名称" maxlength="80" value="我的布置" />
+                <span id="scene-draft" title="刷新当前标签页可恢复，关闭前请保存工程文件"
+                  >已暂存</span
+                >
+                <button
+                  id="scene-open"
+                  type="button"
+                  title="打开可编辑工程。游戏完整家园请使用“载入原整屋”。"
+                >
+                  打开工程
+                </button>
+                <button id="scene-save" type="button">保存工程</button>
+                <input
+                  id="scene-file"
+                  class="sr-only"
+                  type="file"
+                  accept=".json,.blueprintx"
+                  aria-label="打开布置工程或蓝图"
+                />
+              </div>
+              <div class="scene-tools" role="group" aria-label="布置操作">
+                <button id="scene-translate" type="button" aria-pressed="true">移动</button>
+                <button id="scene-rotate" type="button" aria-pressed="false">旋转</button>
+                <button id="scene-scale" type="button" aria-pressed="false">缩放</button>
+                <span class="tool-divider"></span>
+                <button id="scene-undo" type="button" disabled>撤销</button>
+                <button id="scene-redo" type="button" disabled>重做</button>
+                <button id="scene-all" type="button">查看全景</button>
+                <button id="scene-top" type="button">俯视</button>
+                <button id="scene-expand" type="button" aria-pressed="false">放大工作区</button>
+                <label><input id="scene-snap" type="checkbox" />吸附</label>
+              </div>
+              <div class="scene-landbar">
+                <button id="scene-land-open" type="button" class="scene-land-choice">
+                  <span class="land-choice-icon" aria-hidden="true">⌂</span>
+                  <span
+                    ><strong>选择户型 / 地块布局</strong
+                    ><small id="scene-land-name">点击选择社区地块、私宅或面积规格</small></span
+                  >
+                  <span aria-hidden="true">›</span>
+                </button>
+                <button id="scene-basement" type="button" aria-pressed="false">地下室挖掘</button>
+                <button id="scene-base-open" type="button">载入原整屋</button>
+                <button id="scene-base-focus" class="secondary" type="button" hidden>
+                  连通原房间
+                </button>
+                <button id="scene-land-view" type="button" disabled>俯视地块</button>
+              </div>
+              <div class="scene-stage"><div id="scene-canvas" class="preview-canvas"></div></div>
+              <div class="scene-bottom">
+                <div id="scene-export-options" class="scene-export-options" hidden>
+                  <label
+                    >地下室导出方式<select id="scene-export-mode">
+                      <option value="merge">合并到现有整屋 · 保留原布置</option>
+                      <option value="new">新建整屋 · 替换原布置</option>
+                    </select></label
+                  >
+                  <input id="scene-base-file" type="file" accept=".blueprintx" hidden />
+                  <small id="scene-base-status"
+                    >载入游戏保存的整屋蓝图后，可预览原房间并继续连通。</small
+                  >
+                  <small id="scene-original-status"></small>
+                </div>
+                <p id="scene-status" role="status" aria-live="polite">
+                  从左侧选择家具加入布置。点击家具选中，拖动操作轴调整。
+                </p>
+                <div>
+                  <span id="scene-count">0 件家具</span
+                  ><button id="scene-clear" type="button">清空</button>
+                  <button id="scene-package" class="secondary" type="button" disabled>
+                    导出完整包
+                  </button>
+                  <button id="scene-export" class="primary" type="button" disabled>导出蓝图</button>
+                </div>
+              </div>
+            </div>
+            <aside class="scene-properties">
+              <section id="basement-tools" class="basement-tools" hidden>
+                <div class="basement-heading">
+                  <h3>地下室</h3>
+                  <button id="basement-close" type="button">完成</button>
+                </div>
+                <p>按组件网格挖掘；相邻单元自动连通。</p>
+                <div class="basement-fields">
+                  <label
+                    >组件规格<select id="basement-size">
+                      <option value="4">4 米组件</option>
+                      <option value="8">8 米组件</option>
+                    </select></label
+                  >
+                  <label>材质<select id="basement-material"></select></label>
+                  <label class="basement-wide">工作层<select id="basement-level"></select></label>
+                </div>
+                <div class="basement-actions">
+                  <button id="basement-dig" type="button" aria-pressed="true">挖掘</button
+                  ><button id="basement-fill" type="button" aria-pressed="false">回填</button>
+                  <button id="basement-place" type="button" aria-pressed="false">选择地板</button>
+                </div>
+                <label class="basement-slice"
+                  ><input id="basement-slice" type="checkbox" checked />当前层剖面</label
+                >
+                <button id="basement-focus" type="button">查看地下室</button>
+                <p id="basement-hint">点击画布格点挖掘。下层必须与地表洞口或已有通道连通。</p>
+                <details class="basement-coordinate">
+                  <summary>按坐标操作</summary>
+                  <div class="basement-fields">
+                    <label>X（米）<input id="basement-x" type="number" value="0" step="4" /></label>
+                    <label>Z（米）<input id="basement-z" type="number" value="0" step="4" /></label>
+                  </div>
+                  <button id="basement-apply" type="button">应用到此格</button>
+                </details>
+                <p id="basement-summary">尚无地下室单元</p>
+                <p id="basement-model-note">按需载入地下室模型与贴图。</p>
+                <button id="basement-model-open" type="button">打开地下室模型</button>
+                <input id="basement-model-files" type="file" accept=".glb" multiple hidden />
+                <p class="basement-export-note">
+                  地下室使用整屋蓝图。保留已有布置时，请在下方选择原整屋文件进行合并。
+                </p>
+              </section>
+              <div class="scene-quick-actions">
+                <button id="scene-focus" type="button" disabled>聚焦</button>
+                <button id="scene-ground" type="button" disabled>落地</button>
+                <button id="scene-copy" type="button" disabled>复制</button>
+                <button id="scene-delete" type="button" disabled>删除</button>
+              </div>
+              <p id="scene-selection-empty">选中家具后可调整位置、朝向和尺寸。</p>
+              <div id="scene-inspector" hidden>
+                <h3 id="scene-selected-name"></h3>
+                <label class="scene-detail-label"
+                  >所在区域<select id="scene-support">
+                    <option value="">地面</option>
+                  </select></label
+                >
+                <fieldset>
+                  <legend>位置（米）</legend>
+                  <div class="scene-xyz">
+                    <label
+                      >X<input id="scene-pos-x" type="number" step="0.01" aria-label="位置 X"
+                    /></label>
+                    <label
+                      >Y<input id="scene-pos-y" type="number" step="0.01" aria-label="位置 Y"
+                    /></label>
+                    <label
+                      >Z<input id="scene-pos-z" type="number" step="0.01" aria-label="位置 Z"
+                    /></label>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend>旋转（度）</legend>
+                  <div class="scene-xyz">
+                    <label
+                      >X<input id="scene-rot-x" type="number" step="1" aria-label="旋转 X"
+                    /></label>
+                    <label
+                      >Y<input id="scene-rot-y" type="number" step="1" aria-label="旋转 Y"
+                    /></label>
+                    <label
+                      >Z<input id="scene-rot-z" type="number" step="1" aria-label="旋转 Z"
+                    /></label>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend id="scene-scale-label">缩放</legend>
+                  <div class="scene-xyz">
+                    <label
+                      >X<input id="scene-scale-x" type="number" step="0.01" aria-label="缩放 X"
+                    /></label>
+                    <label
+                      >Y<input id="scene-scale-y" type="number" step="0.01" aria-label="缩放 Y"
+                    /></label>
+                    <label
+                      >Z<input id="scene-scale-z" type="number" step="0.01" aria-label="缩放 Z"
+                    /></label>
+                  </div>
+                </fieldset>
+                <label class="scene-detail-label"
+                  >家具样式<select id="scene-detail"></select
+                ></label>
+                <p id="scene-resource-note"></p>
+              </div>
+              <h3>场景家具</h3>
+              <div id="scene-objects" class="scene-objects"></div>
+            </aside>
+          </section>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <span>基础实现与技术文档 · 支持二次开发</span>
+        <div class="footer-actions">
+          <button id="palette-button" class="text-button" type="button">可用色卡</button>
+        </div>
+      </footer>
+      <aside class="project-stance">
+        <p>
+          谢绝
+          <span>txjydps.online/pindou2jx3/</span>
+          的作者及相关开发团队浏览本网站，以及使用、复制、修改或再发布本项目源码与衍生版本。其他开发者可自由使用、修改和二次开发。
+          实现思路公开分享，不必把一项功能当作独家珍宝。会做的人，不止你们。
+        </p>
+      </aside>
+    </div>
+    <dialog id="land-dialog" class="land-dialog" aria-labelledby="land-title">
+      <div class="dialog-heading">
+        <h2 id="land-title">地块布局</h2>
+        <button id="land-close" type="button" aria-label="关闭地块布局">×</button>
+      </div>
+      <div class="land-content">
+        <aside class="land-choices">
+          <label for="land-location">选择户型或社区</label
+          ><select id="land-location"></select>
+          <div id="land-plots" class="land-plots"></div>
+        </aside>
+        <section class="land-overview">
+          <h3 id="land-caption"></h3>
+          <svg id="land-map" role="group" aria-label="地块平面布局"></svg>
+          <p>按地块坐标展示平面范围，未还原地形、道路与周边景物。</p>
+        </section>
+      </div>
+      <footer class="land-footer">
+        <div>
+          <strong id="land-selected"></strong><small id="land-size"></small
+          ><small id="land-error" role="status"></small>
+        </div>
+        <button id="land-none" type="button" class="secondary">不设范围</button
+        ><button id="land-apply" type="button" class="primary">用于布置</button>
+      </footer>
+    </dialog>
+    <dialog id="mechanics-dialog" class="mechanics-dialog" aria-labelledby="mechanics-title">
+      <div class="dialog-heading">
+        <h2 id="mechanics-title">使用说明</h2>
+        <button type="button" data-close-dialog aria-label="关闭使用说明">×</button>
+      </div>
+      <div id="mechanics-content" class="dialog-body" tabindex="0"></div>
+    </dialog>
+
+    <dialog id="developer-dialog" class="mechanics-dialog" aria-labelledby="developer-title">
+      <div class="dialog-heading">
+        <h2 id="developer-title">技术与开发</h2>
+        <button type="button" data-close-dialog aria-label="关闭开发文档">×</button>
+      </div>
+      <div id="developer-content" class="dialog-body" tabindex="0"></div>
+    </dialog>
+    <dialog id="limits-dialog" class="mechanics-dialog" aria-labelledby="limits-title">
+      <div class="dialog-heading">
+        <h2 id="limits-title">家园限制</h2>
+        <button type="button" data-close-dialog aria-label="关闭家园限制">×</button>
+      </div>
+      <div id="limits-content" class="dialog-body" tabindex="0"></div>
+    </dialog>
+    <dialog id="palette-dialog" class="mechanics-dialog" aria-labelledby="palette-title">
+      <div class="dialog-heading">
+        <h2 id="palette-title">可用色卡</h2>
+        <button type="button" data-close-dialog aria-label="关闭色卡">×</button>
+      </div>
+      <div id="palette-content" class="dialog-body" tabindex="0"></div>
+    </dialog>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

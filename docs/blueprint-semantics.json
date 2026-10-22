@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "scope": "对应所核对V7蓝图及同版本模块。字段含义来自保存、加载、渲染兼容转换和JSON参数读取的交叉对应；不是完整游戏内效果验收。",
+  "modules": {
+    "JX3RepresentX64.dll": "41a444e3ca632dc6ebebd386d6047d7ddc8d39098be707ac78ad7b8a83e4b4da",
+    "KG3DEngineDX11EX64.dll": "05b74c00cea379d1bb74d5fbb3ea84f6390856823a1aa1856facc1e6e768b8cb"
+  },
+  "model_flags": {
+    "bit0": "reverseTransmitPoint",
+    "scope": "type0传送家具的方向反转状态；其他位与其他节点分支不扩大解释。",
+    "evidence_rvas": [
+      "0x8e4960",
+      "0x8df820",
+      "0x8bc3e0",
+      "0x8cedd0",
+      "0x8c3eb0"
+    ]
+  },
+  "ground": {
+    "vector": "scaleXYZ",
+    "layerField0": "appliqueResourceId",
+    "layerField1": "instanceId",
+    "cell": "绘制权重u8；渲染数据按byte/255.0归一化。",
+    "evidence_rvas": [
+      "0x86def0",
+      "0x86bbd0",
+      "0x86e7c0",
+      "0x86ede0",
+      "0x86f020"
+    ]
+  },
+  "foliage": {
+    "vector": "scaleXYZ",
+    "cellByte1": "原始渲染字节；仍不解释为百分比或密度。",
+    "evidence_rvas": [
+      "0x87a910",
+      "0x87c4c0",
+      "0x87b090"
+    ]
+  },
+  "subgroup": {
+    "presence": "hasMultiPlaneContainer",
+    "groupField": "sourceTagMask",
+    "evidence_rvas": [
+      "0x8d2b80",
+      "0x88de00",
+      "0x889a30",
+      "0x8e5160"
+    ],
+    "bits": {
+      "1": "01",
+      "2": "02",
+      "4": "03",
+      "8": "wall",
+      "16": "roof"
+    },
+    "unclassified": 4294967295,
+    "origin": "由3D节点UserData字符串匹配这些标签子串生成，未命中为0xffffffff；combine子串决定是否创建MultiPlaneContainer。"
+  },
+  "light": {
+    "storedBytes": 184,
+    "expandedRuntimeBytes": 344,
+    "fields": [
+      {
+        "name": "kind",
+        "offset": 0,
+        "type": "u32",
+        "jsonKey": "Type"
+      },
+      {
+        "name": "baseColor",
+        "offset": 4,
+        "type": "vec4",
+        "jsonKey": "BaseColor"
+      },
+      {
+        "name": "intensity",
+        "offset": 20,
+        "type": "f32",
+        "jsonKey": "Intensity"
+      },
+      {
+        "name": "dynamic",
+        "offset": 80,
+        "type": "u32",
+        "jsonKey": "IsDynamic"
+      },
+      {
+        "name": "shadowStrength",
+        "offset": 84,
+        "type": "f32",
+        "jsonKey": "ShadowStrength"
+      },
+      {
+        "name": "depthBias",
+        "offset": 88,
+        "type": "f32",
+        "jsonKey": "DepthBias"
+      },
+      {
+        "name": "shadowTextureSize",
+        "offset": 92,
+        "type": "u32",
+        "jsonKey": "TextureSize"
+      },
+      {
+        "name": "nearPlane",
+        "offset": 96,
+        "type": "f32",
+        "jsonKey": "NearPlane"
+      },
+      {
+        "name": "forPlayer",
+        "offset": 100,
+        "type": "u32",
+        "jsonKey": "ForPlayer"
+      },
+      {
+        "name": "materialAddress",
+        "offset": 108,
+        "type": "address64",
+        "jsonKey": "PLMaterialPath"
+      },
+      {
+        "name": "intensityAttenuation",
+        "offset": 116,
+        "type": "f32",
+        "jsonKey": "PLIntensityAtten"
+      },
+      {
+        "name": "frequency",
+        "offset": 120,
+        "type": "f32",
+        "jsonKey": "PLFrequency"
+      },
+      {
+        "name": "flashDarkness",
+        "offset": 124,
+        "type": "f32",
+        "jsonKey": "PLFlashDarkness"
+      },
+      {
+        "name": "textureMaskAddress",
+        "offset": 128,
+        "type": "address64",
+        "jsonKey": "PLTextureMaskPath"
+      },
+      {
+        "name": "forRTX",
+        "offset": 136,
+        "type": "u32",
+        "jsonKey": "ForRTX"
+      },
+      {
+        "name": "iesAddress",
+        "offset": 140,
+        "type": "address64",
+        "jsonKey": "TextureIES"
+      },
+      {
+        "name": "useIESIntensity",
+        "offset": 148,
+        "type": "u32",
+        "jsonKey": "UseIESIntensity"
+      },
+      {
+        "name": "iesIntensityScale",
+        "offset": 152,
+        "type": "f32",
+        "jsonKey": "IESIntensityScale"
+      },
+      {
+        "name": "sourceLength",
+        "offset": 156,
+        "type": "f32",
+        "jsonKey": "SourceLength"
+      },
+      {
+        "name": "maskLength",
+        "offset": 160,
+        "type": "f32",
+        "jsonKey": "MaskLength"
+      },
+      {
+        "name": "maskScale",
+        "offset": 164,
+        "type": "f32",
+        "jsonKey": "MaskScale"
+      },
+      {
+        "name": "maskOuterLength",
+        "offset": 168,
+        "type": "f32",
+        "jsonKey": "MaskOuterLength"
+      },
+      {
+        "name": "maskPosPow",
+        "offset": 172,
+        "type": "vec3",
+        "jsonKey": "MaskPosPow"
+      }
+    ],
+    "variantFields": {
+      "0": [
+        {
+          "name": "radius",
+          "offset": 24,
+          "type": "f32",
+          "jsonKey": "Radius"
+        },
+        {
+          "name": "innerRadius",
+          "offset": 28,
+          "type": "f32",
+          "jsonKey": "PLInnerRadius"
+        }
+      ],
+      "1": [
+        {
+          "name": "radius",
+          "offset": 24,
+          "type": "f32",
+          "jsonKey": "Radius"
+        },
+        {
+          "name": "length",
+          "offset": 28,
+          "type": "f32",
+          "jsonKey": "Length"
+        }
+      ],
+      "2": [
+        {
+          "name": "length",
+          "offset": 24,
+          "type": "f32",
+          "jsonKey": "Length"
+        },
+        {
+          "name": "cutoff",
+          "offset": 28,
+          "type": "f32",
+          "jsonKey": "Cutoff"
+        }
+      ]
+    },
+    "unresolvedCommonRanges": [
+      {
+        "offset": 32,
+        "bytes": 48
+      },
+      {
+        "offset": 104,
+        "bytes": 4
+      }
+    ],
+    "pointerPolicy": "108/128是运行时路径指针，加载时由末尾字符串重建；140在已核对复制路径清零。离线解析不能解引用，也不能把地址当资源ID。",
+    "notPreservedByCompatibility": [
+      "runtime offsets 232..343中的新增字段；例如JSON StartTime/EndTime位于这一扩展区域。"
+    ],
+    "evidence": {
+      "represent": [
+        "0x8e4580",
+        "0x8822d0",
+        "0x8dd820",
+        "0x8d0370",
+        "0x8d1bf0"
+      ],
+      "renderer": [
+        "0x51f0b0",
+        "0x51f1b0",
+        "0x54c170",
+        "0x54c370",
+        "0xcbcc20"
+      ]
+    },
+    "notes": [
+      "类型1在转换中会复制32/36两处联合体值，但JSON读取路径对32存在另一处写入；在核对最终消费端之前不将两者命名为稳定参数。",
+      "BaseColor与Intensity在JSON读取过程中可能预乘，原始参数值不能直接等同屏幕RGB。"
+    ]
+  },
+  "scene_bounds": {
+    "order": [
+      "minX",
+      "minY",
+      "minZ",
+      "maxX",
+      "maxY",
+      "maxZ"
+    ],
+    "evidence_rvas": [
+      "0x8c0420",
+      "0x8ce580",
+      "0x8cdc20",
+      "0x8850d0"
+    ]
+  },
+  "cascade": {
+    "extraByte": "兼容保留原值；所核对两条V7加载路径直接跳过此字节，构造器内部默认值为1。",
+    "evidence_rvas": [
+      "0x8e4280",
+      "0x8dd820",
+      "0x8df820",
+      "0x873ba0"
+    ]
+  }
+}

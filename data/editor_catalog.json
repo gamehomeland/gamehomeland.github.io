@@ -1,0 +1,2053 @@
+{
+  "schemaVersion": 1,
+  "unitsPerMeter": 100,
+  "sourceIndexSha256": "750d67de3679b6645befd6074bd712c8e4ac408d0ede05d0e501fa28ecf11ec8",
+  "scope": "普通Mesh家具的局部布置。空缩放范围按游戏操作层禁用缩放；不推定任意旋转。Prefab、笔刷和不明资源不进入此编辑目录。",
+  "resources": [
+    {
+      "key": "model-19315",
+      "name": "天青照影方椅",
+      "category": "桌椅",
+      "representId": 19315,
+      "furnitureType": 1,
+      "furnitureId": 7144,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "68cd1e78db653dfce1eab4a61d4dbfb3d80ae6ec62b3691372d7109034d240ad",
+      "modelSha256Aliases": [
+        "78b106b6f305c66db0887dc5b79e838715851dcac0085646aa7576a8fa9f0715",
+        "9020368a872ae4d6b0bb0963ce498991dff35645bcae1075be24ded9b1ad3100",
+        "938d62f236fc1ecd2f3b00044c354c7ddc87e63271586c37fff9d1df664f455e"
+      ],
+      "sourceMeshSha256": "1f18994781db47a5abafdfb23739fd88fafc82406c315db82b4c20f22ca51297",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -0.5343843698501587,
+        -0.0007759931613691151,
+        -0.30127018690109253
+      ],
+      "boundsMax": [
+        0.5661008358001709,
+        0.36808112263679504,
+        0.3606754541397095
+      ],
+      "triangles": 1402,
+      "resourcePath": "data/source/Home/furniture/chair/chair1_1_1067_HD.Mesh"
+    },
+    {
+      "key": "model-20831",
+      "name": "香薰蜡烛",
+      "category": "灯饰",
+      "representId": 20831,
+      "furnitureType": 1,
+      "furnitureId": 7935,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "freeRotation": true,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "570a4296042f53fbc503a9261712dd30c699d97ecc026ecdf84de969ebb3800c",
+      "modelSha256Aliases": [
+        "357e130f2edbe82b0ed347f58b9e76ab405d4937be996f333df0db21e89b056e",
+        "37cd4916deac4164f3fc26d6bdb7f7808950dadf7392d19a2c7193ef04eddfe5",
+        "ac10993e7b2420012af7fa98c382b65565fadbd073d3e727185e72cdf039988c"
+      ],
+      "sourceMeshSha256": "949fa3280bff6f4df9f5205dd0ac71b88a503e5546c4a68f3ac0dc4298e184b6",
+      "detailNames": [],
+      "boundsMin": [
+        -0.11608748137950897,
+        -0.0052773910574615,
+        -0.14578528702259064
+      ],
+      "boundsMax": [
+        0.11608757823705673,
+        0.2725296914577484,
+        0.14578528702259064
+      ],
+      "triangles": 224,
+      "resourcePath": "data/source/Home/furniture/ornament/Ornament4_2_1011_HD.Mesh"
+    },
+    {
+      "key": "model-21034",
+      "name": "黄3·2米",
+      "category": "拼布与基座",
+      "representId": 21034,
+      "furnitureType": 1,
+      "furnitureId": 8058,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "freeRotation": true,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "4c3bdb00fb91c1d05b758c277b6633f4b3bc9ebd0b122032d9675eff4b940df4",
+      "modelSha256Aliases": [
+        "059c587e13cc44302dd2742906021721b7c7c23a38dae04fd4b9e17e08d3db7f",
+        "4fda394257eb695254ad95d94123aec58c4bdd5a0654c8e2589b731b1b3a1a23",
+        "953cb22a8d24d80427973852d6266f884374b0c6734aaac9cac9db7a66a2f06a"
+      ],
+      "sourceMeshSha256": "075b58cb3683000c236a41c4d27c90c8c9073bd7c1038464811f41ced614c7ec",
+      "detailNames": [],
+      "boundsMin": [
+        -1.0,
+        -0.02500000037252903,
+        -1.0
+      ],
+      "boundsMax": [
+        1.0,
+        0.02500000037252903,
+        1.0
+      ],
+      "triangles": 12,
+      "resourcePath": "data/source/Home/furniture/wallpaper/Wallpaper1_3_1001_HD/Wallpaper1_3_200A3_HD.Mesh"
+    },
+    {
+      "key": "model-20784",
+      "name": "云笺鹤羽案",
+      "category": "桌椅",
+      "representId": 20784,
+      "furnitureType": 1,
+      "furnitureId": 7896,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "72425be17441c4c298f2964d2e9a05c30d5ecd020f3f93accb1300e6fd0f19b9",
+      "modelSha256Aliases": [
+        "3d21002a888656ccd6465adb7d7b10616b758dbd0fcf6649c36ea601b7e38e18",
+        "d52bc40aa71cdf1a89106ff6c3c118ee8cf330a6a273174c8b2b127ffe83773d",
+        "ee1bc34fcff8a73e355c973af2d4a868b7aa53ded3fc5ecd79cd202aa804b013"
+      ],
+      "sourceMeshSha256": "77ab2b07deea9aac37afc0afa9685ee52abec1e973bea727488162e0a1e06045",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.7255406379699707,
+        -0.02153441682457924,
+        -0.827105700969696
+      ],
+      "boundsMax": [
+        2.1087608337402344,
+        1.2569022178649902,
+        0.9087127447128296
+      ],
+      "triangles": 4946,
+      "resourcePath": "data/source/Home/furniture/table/Table1_1_1050_HD.Mesh"
+    },
+    {
+      "key": "model-19314",
+      "name": "碧空之眼玉石桌",
+      "category": "桌椅",
+      "representId": 19314,
+      "furnitureType": 1,
+      "furnitureId": 7143,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "d791e70d1ccf3a5596b9e43e1b710d917a6c4e0a09cf2a9c048f0e3f8a04901d",
+      "modelSha256Aliases": [
+        "34d7403970c73dbe37336ba41d540f6a622b1ae5774747851e4158de6a1993ed",
+        "ad69350372a70921658d86f9e04b30cf4da3ab4df88cfffbda4ba3cd8a243db9",
+        "e81f69423718ba4141acaaae82c146e1b2863f1c2ec46bf4e0c2a501c1e5805c"
+      ],
+      "sourceMeshSha256": "b32fd8ce449798aa3687fb55c6bc13c7c8edf46fd93a9295b18f1ce3b35cdfce",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.1822706460952759,
+        -2.1800994787213313e-08,
+        -0.5971927046775818
+      ],
+      "boundsMax": [
+        0.9666363596916199,
+        0.65264493227005,
+        0.597192645072937
+      ],
+      "triangles": 3026,
+      "resourcePath": "data/source/Home/furniture/table/table2_1_2052_HD.Mesh"
+    },
+    {
+      "key": "model-18157",
+      "name": "秋意软椅",
+      "category": "桌椅",
+      "representId": 18157,
+      "furnitureType": 1,
+      "furnitureId": 6497,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "eacb073a5594bb6dd0a5d264bb0c087092d01180b02f3ad26d64e2a20df4214b",
+      "modelSha256Aliases": [
+        "0f7e2bd8d34bc25fa704e9cd7c1d4342657a46afd890a674b8db754a2a0385f1",
+        "7f9d44d649a13e783337d40a2c387beeeedc32ec723c0e7d5361ec271a92057d",
+        "d3913c71c11bf2722d4f810a8f51af6508ea79a58b98186fc98e2414ab04611b"
+      ],
+      "sourceMeshSha256": "c5f3bf995d1b649875d7b109ca69c4f8422e667f4ccdf2cb3b763ed4442da721",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -0.3607243001461029,
+        -0.0002446495636831969,
+        -0.24615463614463806
+      ],
+      "boundsMax": [
+        0.3607243001461029,
+        0.3490530848503113,
+        0.24615463614463806
+      ],
+      "triangles": 606,
+      "resourcePath": "data/source/Home/furniture/chair/Chair1_1_1055_HD.Mesh"
+    },
+    {
+      "key": "model-20778",
+      "name": "鹤唳松云榻",
+      "category": "床榻屏风",
+      "representId": 20778,
+      "furnitureType": 1,
+      "furnitureId": 7890,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "ca7189b5a535b604d6bc49216f32b36b525ab56d34ed435a8b9f3b9ddcadf555",
+      "modelSha256Aliases": [
+        "a0ffe1cf67eeccf0f631bdbd755828cc4618e48a00f34ef126e169e3afd75a84",
+        "a2fcb9536cb390f7e4ddefe1de6d705f78b3319bc5d9866b958b45ce39619799",
+        "b6014a639f346e5e9e751b623317c6707cd98f91624a3cfdd3a8c7bfd5cdf870"
+      ],
+      "sourceMeshSha256": "2b1f578ac80b40e7bba9dcf48ab3039cfa7581e576eb2e8e3b1368d1fa6e622b",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.726772427558899,
+        -1.3952634390079766e-06,
+        -1.925796389579773
+      ],
+      "boundsMax": [
+        1.726772427558899,
+        1.5796399116516113,
+        1.925796389579773
+      ],
+      "triangles": 5762,
+      "resourcePath": "data/source/Home/furniture/bed/Bed2_1_1035_HD.Mesh"
+    },
+    {
+      "key": "model-19309",
+      "name": "夜缀星穹床",
+      "category": "床榻屏风",
+      "representId": 19309,
+      "furnitureType": 1,
+      "furnitureId": 7138,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "7f908f21ac95a3169132f88b4e80e059fc9ad6fa754f426bc59e11b48e2c2890",
+      "modelSha256Aliases": [
+        "1558f90bd145d74693ef2cd6d98d27774a912a037e67014a9302b937d168e981",
+        "8abf3b225472750b56a896e158b14a0e6f97afc1344274de779860c31cd435da",
+        "a0af578d33549bebc3e1b45f49e2fee9545dcfeee87acce7d2c66ed6cafb180b"
+      ],
+      "sourceMeshSha256": "26a52682d71b74dd7712b4b24d85ae3c43c73c1792457be12406709386620fe3",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -2.4469153881073,
+        -1.9378661875180114e-07,
+        -2.7288379669189453
+      ],
+      "boundsMax": [
+        2.411796808242798,
+        3.7037200927734375,
+        1.4676251411437988
+      ],
+      "triangles": 3481,
+      "resourcePath": "data/source/Home/furniture/bed/bed3_1_1055_HD.Mesh"
+    },
+    {
+      "key": "model-18842",
+      "name": "沉醉东风床",
+      "category": "床榻屏风",
+      "representId": 18842,
+      "furnitureType": 1,
+      "furnitureId": 6788,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "46ccfc04b1b224eed651fc48e06d2a3f74d87d026910b90848f0cd926f5f166a",
+      "modelSha256Aliases": [
+        "548c93560a947332434c0caba2790b4c4309af3691db36515b75d6d6d2a20588",
+        "9543334b94c1a2cf3774983fcfd119c0c45bcdc0ec9a1dbd31e161fb6f0f89bc",
+        "acc5557b7b114e1d5c6e47937050932a36fb2bc63a0c32dc12d768e2be89fa5a"
+      ],
+      "sourceMeshSha256": "5e23445d1b07b29c2d496b2ba47daf4d5dea0cb2b9f75e3870479d79a3ef8118",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -2.426828622817993,
+        0.0,
+        -1.4847745895385742
+      ],
+      "boundsMax": [
+        2.426828384399414,
+        1.0600656270980835,
+        1.2782994508743286
+      ],
+      "triangles": 1639,
+      "resourcePath": "data/source/Home/furniture/bed/Bed2_1_1029_HD.Mesh"
+    },
+    {
+      "key": "model-21286",
+      "name": "虚天鼎·仿",
+      "category": "摆件",
+      "representId": 21286,
+      "furnitureType": 1,
+      "furnitureId": 8298,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "9754f9a0bd9839204df4acda1bdba0c8f33fd4ef8f9023fb3785eb832c003fac",
+      "modelSha256Aliases": [
+        "431391b104d856e0e22e444ea01b80de1aaea1438c0b990ace47e69a78689cc9",
+        "964cbd1f0044ec788ae37aa5f51a54f7e2f02fa42eac2f8803da8b140d34cfa2",
+        "ad3cc0869590de61932fa78ed5501fc86803f5f0bd30f8d665704c7e0f1703ff"
+      ],
+      "sourceMeshSha256": "808b2275efa884ca726cd14aa9fe2754ec842375cb6baaba2c6d71c8f77717d2",
+      "detailNames": [],
+      "boundsMin": [
+        -2.0133471488952637,
+        -1.4988182783781667e-07,
+        -1.268926978111267
+      ],
+      "boundsMax": [
+        2.0133471488952637,
+        3.5736801624298096,
+        1.2689262628555298
+      ],
+      "triangles": 6360,
+      "resourcePath": "data/source/Home/furniture/ornament/Ornament1_1_1471_HD.Mesh"
+    },
+    {
+      "key": "model-20844",
+      "name": "醉浣芙蓉盆",
+      "category": "摆件",
+      "representId": 20844,
+      "furnitureType": 1,
+      "furnitureId": 7948,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "a5da13963d5cd3a3a390dfba71b3239c8f32df92b6c399cc7a3ac49fa532be31",
+      "modelSha256Aliases": [
+        "0cdfef58dee06882b6f3d6a2112295e2f6581c154429250a1e78e4fbd0083859",
+        "69193adb32bed38d6cc6b8df795b886ba6c8fd617221b4471a23f1f8e13b6400",
+        "dc2d3560a4beafbd58e25904128f17aff14a05c1d0e65ffa3f25a78e0149704f"
+      ],
+      "sourceMeshSha256": "4628a75a1027e606400b475c54dc84823ed2a380ebc1a9e244cce1595f3be39d",
+      "detailNames": [],
+      "boundsMin": [
+        -4.087436199188232,
+        -0.07989125698804855,
+        -3.638309955596924
+      ],
+      "boundsMax": [
+        3.3675622940063477,
+        4.36005973815918,
+        2.569331169128418
+      ],
+      "triangles": 9899,
+      "resourcePath": "data/source/Home/furniture/chair/Chair4_1_1054_HD.Mesh"
+    },
+    {
+      "key": "model-19716",
+      "name": "花枝垂蔓盆架",
+      "category": "摆件",
+      "representId": 19716,
+      "furnitureType": 1,
+      "furnitureId": 7397,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "de0ea03de9db746dc4349d4ead73495ae7883ad2a31d21a1996b4b2870bd8b00",
+      "modelSha256Aliases": [
+        "1ea82a0a48a56209d67e8760613a2917d550b73dc7193086547782179ee08c9d",
+        "7b5cd4512af29c13868798a2a3ab75d93310b5aa83cc04c4f5be3eb3f43bc308",
+        "d9a329684600cccfff1d33828fa4b28f7785d4bda0cc1feff68b7c0985033017"
+      ],
+      "sourceMeshSha256": "9276eb00cda040f2f4b4374faf21e9c177c4f37926fd8e7c27a852724d4f9627",
+      "detailNames": [],
+      "boundsMin": [
+        -0.9019036889076233,
+        -6.099077243248985e-09,
+        -0.9031066298484802
+      ],
+      "boundsMax": [
+        0.6058545112609863,
+        1.9807528257369995,
+        0.4506981372833252
+      ],
+      "triangles": 5100,
+      "resourcePath": "data/source/Home/furniture/shelf/shelf2_1_1032_HD.Mesh"
+    },
+    {
+      "key": "model-21276",
+      "name": "素木·圆柱",
+      "category": "建筑",
+      "representId": 21276,
+      "furnitureType": 1,
+      "furnitureId": 8290,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": true,
+      "scaleRanges": [
+        [
+          0.1,
+          10.0
+        ],
+        [
+          0.1,
+          10.0
+        ],
+        [
+          0.1,
+          10.0
+        ]
+      ],
+      "freeRotation": true,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "3516436dbb559f846e1051dfd32469983889ca65817c09204a52cee5286ba60b",
+      "modelSha256Aliases": [
+        "08949c3334c97281e668887afb1d3b75141f86925425c40a134b3ecf44b91c9f",
+        "3745b2c08e2ea3fafa3d58d55ab7fbdca4fc429fea577ba83a200e2e9189a9f8",
+        "6ec36a7d598fa9ec2914ab82e8ed1594c9de67a34429519edda61c0b24326b5c"
+      ],
+      "sourceMeshSha256": "d8c97e03baa189fb773e4330824970667396ca29a7f0b1ace8879ffc8282c772",
+      "detailNames": [],
+      "boundsMin": [
+        -0.482962965965271,
+        0.0,
+        -0.4829632639884949
+      ],
+      "boundsMax": [
+        0.4829629063606262,
+        9.986910820007324,
+        0.482962965965271
+      ],
+      "triangles": 48,
+      "resourcePath": "data/source/Home/furniture/Blocks/MT/MT_blocks_M_pillar06_normal_02_100_100_1000s_HD.mesh"
+    },
+    {
+      "key": "model-19213",
+      "name": "门8米·二",
+      "category": "建筑",
+      "representId": 19213,
+      "furnitureType": 1,
+      "furnitureId": 7042,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "a3da61860553a8ca31d3687477f8bc23360b6da41a9729e3795a1dd791ed06b8",
+      "modelSha256Aliases": [
+        "9c9b3f9a5a96acc060eb5db80ff5d055bee79b02fdec7d3de692188a74f33dc4",
+        "acc3c3fa27df27f6c910a4d2d2e28d86d1caac7ae6647cbf5739fc3147646727",
+        "bd8eeedbb31edce810e88e79a8084432ddd251da5f2831e02924a4dbdca62df2"
+      ],
+      "sourceMeshSha256": "07788b4a773c82c236bb3868ac3cd3e38dd6b581af0a3ec9d6f2b41fe9126367",
+      "detailNames": [],
+      "boundsMin": [
+        -3.9999988079071045,
+        0.0,
+        -0.05000665783882141
+      ],
+      "boundsMax": [
+        3.9999988079071045,
+        4.999999523162842,
+        0.04999355971813202
+      ],
+      "triangles": 192,
+      "resourcePath": "data/source/Home/furniture/Blocks/TF_Hblocks_M_house01/TF_Hblocks_M_door01_normal_02_10_800_500_HD.Mesh"
+    },
+    {
+      "key": "model-20864",
+      "name": "正修君·竹",
+      "category": "庭院",
+      "representId": 20864,
+      "furnitureType": 1,
+      "furnitureId": 7964,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "freeRotation": true,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "6d2d350e7076f4abcfe14dbe2061396ffcb3d38f42d65754c759098416a8a758",
+      "modelSha256Aliases": [
+        "11bf3c0ab077a7980aa2ae8e5ece55180b89ec8188ec32548893f0e908213d87",
+        "1e84c080469f50c5dd70f2311a5b4a35f81079736a3f91215ac7b2ee03134987",
+        "64935cd99d3ad7530311f9c9b4db3c5144c0b5e9a7e453251ee96f2813dbaa42"
+      ],
+      "sourceMeshSha256": "c0cd473c85f4c7a180d9ef4e8cb843fb0e3a6af9640f3d42711f33a51a7b861e",
+      "detailNames": [],
+      "boundsMin": [
+        -0.5,
+        0.029999999329447746,
+        -1.0
+      ],
+      "boundsMax": [
+        0.5,
+        0.029999999329447746,
+        1.0
+      ],
+      "triangles": 2,
+      "resourcePath": "data/source/Home/furniture/ornament/Ornament1_2_1146_HD.Mesh"
+    },
+    {
+      "key": "model-21288",
+      "name": "叠平仲",
+      "category": "桌椅",
+      "representId": 21288,
+      "furnitureType": 1,
+      "furnitureId": 8300,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "0e388e86a19e348091007095d642cee97d40e289a6750bd41c9620ca1d5c864e",
+      "modelSha256Aliases": [
+        "cc164c2314fb5fa13a5af07dcaaf91c4b0d0590aa82402605f6c566ff487748a",
+        "cd4022cf77fb0aedf2c4dd3362ff3aacc02bef4eda318294e02a62181927642c",
+        "efd74a4436ba4fb73410b65c74f7568ce33e73930e18794ad4a6133339124d80"
+      ],
+      "sourceMeshSha256": "1bb57eb0edcd5e0424303f6ba07e7b3709b1193395b3da3718f2637c9d5deb2f",
+      "detailNames": [],
+      "boundsMin": [
+        -0.2988460063934326,
+        -0.004176940303295851,
+        -0.228846475481987
+      ],
+      "boundsMax": [
+        0.33502185344696045,
+        1.1306380033493042,
+        0.4079614281654358
+      ],
+      "triangles": 5972,
+      "resourcePath": "data/source/Home/furniture/chair/Chair3_1_1034_HD.Mesh"
+    },
+    {
+      "key": "model-21287",
+      "name": "云兔提珠",
+      "category": "床榻屏风",
+      "representId": 21287,
+      "furnitureType": 1,
+      "furnitureId": 8299,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "f7e0ef1c8e8d118b44ffc85f05a65a3b65b45a5e5eb69e2d00882f5dfb39f6b6",
+      "modelSha256Aliases": [
+        "26d51dbae2b4a77fa7dff7cd4f14582d00ea9d4e77361d11570858b5070c50ab",
+        "8391b3879934c06f9c5e39cc1920d552241eacf5e842ab364d5dd1a02466e3ea",
+        "c766a6e4aaa20782e086a780880eed2b83b38f009b954b05445f99996f8af60d"
+      ],
+      "sourceMeshSha256": "c3babbe1fa01d3af4c81566d30c5ea664626f83fad0cbd3c212ab8fe400c5850",
+      "detailNames": [],
+      "boundsMin": [
+        -3.5175936222076416,
+        -9.689330937590057e-08,
+        -1.0201071500778198
+      ],
+      "boundsMax": [
+        3.55487060546875,
+        4.475925922393799,
+        1.0707541704177856
+      ],
+      "triangles": 5170,
+      "resourcePath": "data/source/Home/furniture/byobu/Byobu2_1_1077_HD.Mesh"
+    },
+    {
+      "key": "model-21278",
+      "name": "渡良辰",
+      "category": "床榻屏风",
+      "representId": 21278,
+      "furnitureType": 1,
+      "furnitureId": 8292,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "c13fdf817c60b2feaa93c57af9635749cc276157dcfb68f74cad0c24e0205398",
+      "modelSha256Aliases": [
+        "01c76a32aba7b3c2e4525e1d3608483dbd1da2b9b9632d95dfb5f09b60231a31",
+        "5164c1fb5d47b3b0a5729c4b669fe7619cf7ff90289e90cadc6d18da2c9fcecd",
+        "d124cf7e7e0899e74aa8dd69832c8b01d8234cec4e9e79b21ceaf330e5746403"
+      ],
+      "sourceMeshSha256": "e3653b19648290dffd66a2f5a4d2e5321b1a29ef5987c0d4512b24e42d57e3d1",
+      "detailNames": [],
+      "boundsMin": [
+        -2.7667977809906006,
+        -0.008758961223065853,
+        -2.5111589431762695
+      ],
+      "boundsMax": [
+        3.834172248840332,
+        4.603912353515625,
+        2.509138822555542
+      ],
+      "triangles": 29039,
+      "resourcePath": "data/source/Home/furniture/bed/Bed3_1_1070_HD.Mesh"
+    },
+    {
+      "key": "model-20782",
+      "name": "青羽衔书",
+      "category": "床榻屏风",
+      "representId": 20782,
+      "furnitureType": 1,
+      "furnitureId": 7894,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "85629682111c86887120a8f0f516eb181af606d973f53ebd2bda8d2cb85a40d4",
+      "modelSha256Aliases": [
+        "21ed52ee31978fac0c33c2641df182f81b8dbc6bf36c2e7cf1cef8671346fdbc",
+        "a21dd76c71ea4c8326d52873970fb4f4f6e657348c2192f4844dd0b7e9119233",
+        "d1600567bc3b1c80fe0a3c4ca4c3f3bf85aef167774ed402d7038c5f853e8bc1"
+      ],
+      "sourceMeshSha256": "26eaee723e2e70cde06116ec86197acec91c70ba312e15cf02bb75b75a8c0ef5",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.065649390220642,
+        3.027915917996893e-09,
+        -0.3921782672405243
+      ],
+      "boundsMax": [
+        1.072899341583252,
+        2.000138521194458,
+        0.39185452461242676
+      ],
+      "triangles": 2037,
+      "resourcePath": "data/source/Home/furniture/cabinet/Cabinet2_1_1116_HD.mesh"
+    },
+    {
+      "key": "model-20783",
+      "name": "雪鹤归",
+      "category": "床榻屏风",
+      "representId": 20783,
+      "furnitureType": 1,
+      "furnitureId": 7895,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "adb9556badede947abded3be1c262cbc1550a16001642bfffc5c17769d2098eb",
+      "modelSha256Aliases": [
+        "7a277419a8b995d32085d3fc1f76cb7a86b1053fe004bb6bef76574a510bfa31",
+        "7eb6fe1756ad8deb199515d8b833ae43716b9167cf0c05d769ea4cd03834da0f",
+        "e96b930fbea5703c7784d2a092345cd519a9e51f1e2845466dd81e11cc82c43f"
+      ],
+      "sourceMeshSha256": "940234102996905c2279cbc960524210b1171dde4f4f6bc867e3c43403371f58",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -0.48640286922454834,
+        -0.002380786929279566,
+        -0.3225232660770416
+      ],
+      "boundsMax": [
+        0.48640286922454834,
+        2.7430474758148193,
+        0.3225232660770416
+      ],
+      "triangles": 1632,
+      "resourcePath": "data/source/Home/furniture/cabinet/Cabinet2_1_1103_HD.Mesh"
+    },
+    {
+      "key": "model-20785",
+      "name": "羽化登仙台",
+      "category": "桌椅",
+      "representId": 20785,
+      "furnitureType": 1,
+      "furnitureId": 7897,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "91648476d748b3923fee75aa2e51c8a5ea1e01b3b9887772ee9052867b6b6488",
+      "modelSha256Aliases": [
+        "23ee3f0439d56c9a1417db0e6d1b7b13862b1f5654ea998d0ee26b559df338f1",
+        "a47f227e31097933a7e5b0c18e6a0a8d987bc47548a76a01fa4150b2058aa5d0",
+        "d07b58177396c2c5b56cf87f6a81aa629207d7ffede1941b554a91f5e5fe8a43"
+      ],
+      "sourceMeshSha256": "fdda852b371544709fb839962b73bb52a302c15ddc9ac23ec4fa074a4f2ba73a",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.3620080947875977,
+        0.029999982565641403,
+        -1.3620080947875977
+      ],
+      "boundsMax": [
+        1.3620082139968872,
+        1.40330171585083,
+        1.3620080947875977
+      ],
+      "triangles": 5964,
+      "resourcePath": "data/source/Home/furniture/table/Table2_1_2055_HD.Mesh"
+    },
+    {
+      "key": "model-20786",
+      "name": "抱朴凳",
+      "category": "桌椅",
+      "representId": 20786,
+      "furnitureType": 1,
+      "furnitureId": 7898,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "1704dc97099f8252e7dee1707172e9e4c6f1977b89618cc27cccab3c96327ef8",
+      "modelSha256Aliases": [
+        "7b52ddcbbbb0a33e88861b5509f6ee8c7255ddf98154b9a1a0b1443347d17819",
+        "ae89a787d78d72efdfbebbb31063f1565333f4ab7d3e99410fdeca814c49566c",
+        "cdd8472bf4730c5626e06a53c8869fa86d9250df586c1d8ea5766694947ff977"
+      ],
+      "sourceMeshSha256": "4c11a474c63ce16119a606e665b9652b510df03dc96f18c506cd0ef397ead2c6",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -0.155750572681427,
+        -1.8167495952070567e-08,
+        -0.1557505875825882
+      ],
+      "boundsMax": [
+        0.155750572681427,
+        0.3083275258541107,
+        0.1557505875825882
+      ],
+      "triangles": 1258,
+      "resourcePath": "data/source/Home/furniture/chair/Chair2_1_1028_HD.Mesh"
+    },
+    {
+      "key": "model-20788",
+      "name": "栖风弄影",
+      "category": "床榻屏风",
+      "representId": 20788,
+      "furnitureType": 1,
+      "furnitureId": 7900,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "3ae07a870d49cb8cf8f546f9d771710d7ea1d00924647668b87353d228aec2c8",
+      "modelSha256Aliases": [
+        "3f0ae122a273a2d9fed44ce5bca1593979c36ec87959e3329c20dbcd7f68b94a",
+        "7aca486dab07184a7c3f7c6f7b45f7f0a2407464abe05ace39a303c9e89321e2",
+        "f08186140bf4111671c5b11f5e12ef7a563385054c92ed6c4482bf286638226a"
+      ],
+      "sourceMeshSha256": "28b4f1229427744855ef196a043f2852082702917cd3d31c8a653d7603fef8b7",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.1467646360397339,
+        0.000979978940449655,
+        -0.26536762714385986
+      ],
+      "boundsMax": [
+        1.1467646360397339,
+        2.436337947845459,
+        0.11097513884305954
+      ],
+      "triangles": 846,
+      "resourcePath": "data/source/Home/furniture/byobu/Byobu1_1_1105_HD.Mesh"
+    },
+    {
+      "key": "model-20789",
+      "name": "雪羽翩跹",
+      "category": "床榻屏风",
+      "representId": 20789,
+      "furnitureType": 1,
+      "furnitureId": 7901,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "71b4e5b3e1d5dc721897a626ca81d1dc87aa4259155ffa175294ba2538b468b1",
+      "modelSha256Aliases": [
+        "1989fa56a5e05768945d626547427e234699c6a4b91dd47241756a9906e3c0cd",
+        "337f597a7c69d0e3c9bd847f0f478ee746f82617439ccaf596d1575d28e0df28",
+        "3e3e9cbaf44220b7c3cbc2e679e129a29ace3945c9f248fa4dab3371416f52ec"
+      ],
+      "sourceMeshSha256": "e8f0078c2e4fbe22f005e1d8ab49f43e0ac2bcaef292445f9ed87ac7af0ab48d",
+      "detailNames": [
+        "原",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -1.5658515691757202,
+        -0.0007061199867166579,
+        -0.8825660943984985
+      ],
+      "boundsMax": [
+        1.5658515691757202,
+        3.274400234222412,
+        1.1454929113388062
+      ],
+      "triangles": 2318,
+      "resourcePath": "data/source/Home/furniture/byobu/Byobu1_1_1106_HD.Mesh"
+    },
+    {
+      "key": "model-20811",
+      "name": "太真碧昙盆栽",
+      "category": "庭院",
+      "representId": 20811,
+      "furnitureType": 1,
+      "furnitureId": 7915,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "95e5d3c2f3ca9e8fd56ffbd0c566b49d956cfffa883c9a5f0c5c602c52a8e04f",
+      "modelSha256Aliases": [
+        "07d2f3121805be30e8b4bfb9bf53da04ccb7c17cacf9fafa8f887c9776314bdc",
+        "38a688f493bf44a3ccc8700864298c89d3b3452d0129e4429a5542e6a4a7810f",
+        "e3f4ad734e1f1b733d46ac018282552f52b404a908d71c23672b11ee0d7bc171"
+      ],
+      "sourceMeshSha256": "077701b46353b55b8f8779b569c2b45c0f3ec43bcf5074304a4cc1b408babf05",
+      "detailNames": [],
+      "boundsMin": [
+        -0.6481107473373413,
+        -0.0005802884115837514,
+        -0.48684364557266235
+      ],
+      "boundsMax": [
+        0.6749510169029236,
+        1.5389926433563232,
+        0.457894891500473
+      ],
+      "triangles": 4663,
+      "resourcePath": "data/source/Home/furniture/bonsai/Bonsai1_1_1042_HD.Mesh"
+    },
+    {
+      "key": "model-20812",
+      "name": "闲庭嗅芳盆栽",
+      "category": "庭院",
+      "representId": 20812,
+      "furnitureType": 1,
+      "furnitureId": 7916,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "bacd51b7ecbb4f12f7c359952795894c6c54b008f817da8b3ab477300ef65c19",
+      "modelSha256Aliases": [
+        "8aa121f036243b7d0b1098c7118d283e342b99dce620b62c2b58005ccb00d6ed",
+        "8b8ef6f4b01f98eaec47714d2bac6cec738293b9f53c4145310f1f1f6afd1a1c",
+        "d46ad265e3ceb904a5758f7054f9fe7575ff01299c6d088743a460f61a980348"
+      ],
+      "sourceMeshSha256": "063ab15090831ccf15bfbb8719ab0ce620c0a6e1c720de54b8123d415369ff91",
+      "detailNames": [],
+      "boundsMin": [
+        -0.47928568720817566,
+        0.0,
+        -0.956072211265564
+      ],
+      "boundsMax": [
+        0.493748277425766,
+        1.7562472820281982,
+        0.9560725688934326
+      ],
+      "triangles": 4774,
+      "resourcePath": "data/source/Home/furniture/bonsai/Bonsai1_1_1043_HD.Mesh"
+    },
+    {
+      "key": "model-20824",
+      "name": "玄霜镂月瓶",
+      "category": "庭院",
+      "representId": 20824,
+      "furnitureType": 1,
+      "furnitureId": 7928,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "freeRotation": true,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "6442c55bce5d605b777a0dda26581c40ae8522df74534b553c72f3db23807175",
+      "modelSha256Aliases": [
+        "2db138e585d0b1d8fdf26a9562979ded4cdecb356cdc50710158df08159b83a4",
+        "3c85c1ac29393c7c94b951c0ed6192ebe068757fa3ad8c12008ed5f13df24e1c",
+        "a0a4db9f70ec8e48881c6287580cc888e4647aa6a12f1fda22ebe986bcac7e8b"
+      ],
+      "sourceMeshSha256": "074a82b571a2531736405b8754cbbc843c589be043f0dc10aaaf1b77a5856f37",
+      "detailNames": [],
+      "boundsMin": [
+        -0.44103771448135376,
+        0.0,
+        -0.27549445629119873
+      ],
+      "boundsMax": [
+        0.8447447419166565,
+        1.0255180597305298,
+        0.3820819854736328
+      ],
+      "triangles": 5482,
+      "resourcePath": "data/source/Home/furniture/bonsai/Bonsai1_1_1041_HD.Mesh"
+    },
+    {
+      "key": "model-20840",
+      "name": "玉隐幽芳",
+      "category": "桌椅",
+      "representId": 20840,
+      "furnitureType": 1,
+      "furnitureId": 7944,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "8c5b5de476c0bf4b9aa44fdb35b5fe5ce9935bcf252ff635501f5407a9ca044b",
+      "modelSha256Aliases": [
+        "4ab39413c9d1b05c03a33bdeb8ee5b3d24ac0aaad00c7d651e6d4b1f931b04ed",
+        "66065501033b10db2c72a9027c23eb635b08d1cba84a4a66b98021686aac57c1",
+        "f4f8e5c565b9704e76cc9c0677348f62d19fc32c2854efa5c77a2b18ae01073e"
+      ],
+      "sourceMeshSha256": "2dbc0af2d53532d826ec24a0fa39f816ae02a2e70ff0df44bb0d6e89c5f1336d",
+      "detailNames": [],
+      "boundsMin": [
+        -1.2720301151275635,
+        0.0006019496941007674,
+        -0.6016156673431396
+      ],
+      "boundsMax": [
+        0.6601402163505554,
+        1.6349040269851685,
+        0.6016156673431396
+      ],
+      "triangles": 5377,
+      "resourcePath": "data/source/Home/furniture/chair/Chair7_1_1002_HD.Mesh"
+    },
+    {
+      "key": "model-20644",
+      "name": "旱鸭躺平驿",
+      "category": "桌椅",
+      "representId": 20644,
+      "furnitureType": 1,
+      "furnitureId": 7770,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "6e32ed8baa1fdc9658326b9ee42e287f455a09ab234e74a96181f72024f46fc7",
+      "modelSha256Aliases": [
+        "1023cce38415e74c3a4e2cf7e2487052946883f7401758c5b30560a78d3215a7",
+        "130f2dc28cd3d53a1356d213c1fc56321d0dc2044bfcf7865e6ce3ed888980d4",
+        "a22550f6847d550859a502258758c8d4350ed0ccd74196ff16a7fa75959a38be"
+      ],
+      "sourceMeshSha256": "76fbf12643e74290be579bffa98a14695d168eed8b326efb180eb452133aea5d",
+      "detailNames": [],
+      "boundsMin": [
+        -3.4594228267669678,
+        0.020817236974835396,
+        -2.31915283203125
+      ],
+      "boundsMax": [
+        3.6125173568725586,
+        3.249385356903076,
+        1.8823450803756714
+      ],
+      "triangles": 20048,
+      "resourcePath": "data/source/Home/furniture/chair/Chair4_1_1062_HD.Mesh"
+    },
+    {
+      "key": "model-20643",
+      "name": "烟雨纷纷屏",
+      "category": "床榻屏风",
+      "representId": 20643,
+      "furnitureType": 1,
+      "furnitureId": 7769,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "f522e8d2f0547bd87f2b83d58244c7af3fcbf1c1d8db76666d445008540acce1",
+      "modelSha256Aliases": [
+        "47ef047c98074da4b62a4966e0d00f919487232640a3bff5cb35fc77bc101869",
+        "88e3e1523e5a5c1d6cc13a76e1de8d851c3dcb40502282a39c7be7df87263d9e",
+        "a56ec94ed49442226214992bcabf8e4e5e1a913733eb0f4ed52c047e129edd74"
+      ],
+      "sourceMeshSha256": "1598a184387d1447ad25fcd21fd8a880531fc2f00b296a24ed853c02a4c5d584",
+      "detailNames": [
+        "原色",
+        "红",
+        "黄",
+        "绿",
+        "蓝",
+        "紫"
+      ],
+      "boundsMin": [
+        -3.988616943359375,
+        -0.0005129787605255842,
+        -0.6059291958808899
+      ],
+      "boundsMax": [
+        4.264876842498779,
+        2.8912527561187744,
+        0.485300749540329
+      ],
+      "triangles": 10495,
+      "resourcePath": "data/source/Home/furniture/byobu/Byobu1_1_1111_HD.Mesh"
+    },
+    {
+      "key": "model-20636",
+      "name": "甜梦云驹",
+      "category": "庭院",
+      "representId": 20636,
+      "furnitureType": 1,
+      "furnitureId": 7762,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "d505ee458582f18f961143c0906ab2381332828b9f2a175c76a2222b2c1b6c43",
+      "modelSha256Aliases": [
+        "a55eee425c2dd20a8be63c3b77352304e41160f98967953337030953928df183",
+        "e5d66376eecf13aac73615513ca52f5bc024f3407190190f89af0ea3ce0e4935",
+        "e929978a19294ed694e9585ece7822c661bda69586e020207aaf056bd458d816"
+      ],
+      "sourceMeshSha256": "fbf0929ab15a7e081c54256800c6a6400de396248756a43c969f4b375191e74d",
+      "detailNames": [],
+      "boundsMin": [
+        -0.6330168843269348,
+        -0.0017843146342784166,
+        -0.29542800784111023
+      ],
+      "boundsMax": [
+        0.6518284678459167,
+        0.9688889980316162,
+        0.29542800784111023
+      ],
+      "triangles": 1706,
+      "resourcePath": "data/source/Home/furniture/bonsai/Bonsai3_2_1026_HD.Mesh"
+    },
+    {
+      "key": "model-19684",
+      "name": "一丛竹盆景",
+      "category": "庭院",
+      "representId": 19684,
+      "furnitureType": 1,
+      "furnitureId": 7372,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "d85c109ed7a624c129e48c526d391cead51fd00f1e804d354c2fe7c095cb6568",
+      "modelSha256Aliases": [
+        "4ecd07ef42420f5515c969af3672418b82cf1cf1fedbf06c9f40ea114909ee53",
+        "50835fbd87aaa7ec3e26c4143685e0547b9d168db62a4c24cc0512e2a3121cc1",
+        "85f9dbc598d9af8c6b01efc7f7ad00a6137af14d61c3e774a0b9f509f00c8d13"
+      ],
+      "sourceMeshSha256": "913faf06e0e490f3eb891e7c422410d12e3478a222def65ad0be384700264fcd",
+      "detailNames": [],
+      "boundsMin": [
+        -1.1354752779006958,
+        0.0,
+        -0.5157791376113892
+      ],
+      "boundsMax": [
+        0.9064068794250488,
+        0.9775451421737671,
+        0.5157792568206787
+      ],
+      "triangles": 1370,
+      "resourcePath": "data/source/Home/furniture/bonsai/bonsai1_1_1039_HD.Mesh"
+    },
+    {
+      "key": "model-19711",
+      "name": "陶陶兔兔洞",
+      "category": "床榻屏风",
+      "representId": 19711,
+      "furnitureType": 1,
+      "furnitureId": 7392,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "e12d2a697c723e8c7483c2ac8d1c17021300075751d4dc722b2eb648513b4408",
+      "modelSha256Aliases": [
+        "4f3f05efe6e1730e18d79eff7659e4e3d3565b375741b662c819e3eab6c7b897",
+        "afe1aa3f3ec01b8bae4bca6dc114af24c4db1959f1e23787a1a686430a6dad78",
+        "d20d492ca028ac482ac298366dde051acd0392962fb444bdf46136ee60072863"
+      ],
+      "sourceMeshSha256": "9f46471f4fc35c1278a96f5e6fffcf222216fa9f4b8b400d5aec50a35f65a598",
+      "detailNames": [],
+      "boundsMin": [
+        -4.856899261474609,
+        -0.002795441774651408,
+        -2.601902961730957
+      ],
+      "boundsMax": [
+        4.3128581047058105,
+        4.479801177978516,
+        3.052008628845215
+      ],
+      "triangles": 17356,
+      "resourcePath": "data/source/Home/furniture/bed/bed3_1_1057_HD.Mesh"
+    },
+    {
+      "key": "model-19593",
+      "name": "金扇满树盆栽",
+      "category": "庭院",
+      "representId": 19593,
+      "furnitureType": 1,
+      "furnitureId": 7315,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "43fa12133f38d080bbcba289c877658c0e5f88e7ef9ab71bdded29200bb7b9ca",
+      "modelSha256Aliases": [
+        "646f7a61cd39e042b2e0e1c6cbac6c5cb44d11347bec9558e5d1c5e90d8b88a6",
+        "96442711d37334072fa95cf2244ba4e90cba643ddf92303b662d6c42d14c5c43",
+        "f0537cfcc8403a32dcf614eeeca84c44740aab2d2b86c399f5a23978896d3178"
+      ],
+      "sourceMeshSha256": "1079cc3d6fa486709e3775214f9b062a0bdd20c5c0d39252d38b92e49783646e",
+      "detailNames": [],
+      "boundsMin": [
+        -1.1592097282409668,
+        0.0022833924740552902,
+        -0.5740906000137329
+      ],
+      "boundsMax": [
+        1.2065659761428833,
+        3.334874153137207,
+        0.8412243127822876
+      ],
+      "triangles": 1225,
+      "resourcePath": "data/source/Home/furniture/bonsai/bonsai3_2_1027_HD.Mesh"
+    },
+    {
+      "key": "model-19715",
+      "name": "陶然饮茶案",
+      "category": "桌椅",
+      "representId": 19715,
+      "furnitureType": 1,
+      "furnitureId": 7396,
+      "defaultDetail": 0,
+      "details": [
+        0
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "ce2eeeb73d03d804a3c5cb4138a0e8bad673f015ca93b99a22b233c279b7c90b",
+      "modelSha256Aliases": [
+        "0be288effa9933edfd046023cede68c9d1e1558df8e7212dd8ed51ba108faf7f",
+        "4e6d77f1fb64245e73e497999432592a5710e5eec62c72548f8b15ca0af2f56c",
+        "b547cef7b64b6df4e427baa585920c4b74057d442b02c4b86d0122cf7fc5cd7d"
+      ],
+      "sourceMeshSha256": "a151306286af44a4cd9774177e481f3c62f812d73ec451c44dbaa5845071dc67",
+      "detailNames": [],
+      "boundsMin": [
+        -1.800673007965088,
+        -0.00044576474465429783,
+        -1.4370527267456055
+      ],
+      "boundsMax": [
+        1.5345019102096558,
+        1.3057043552398682,
+        0.7537457346916199
+      ],
+      "triangles": 6803,
+      "resourcePath": "data/source/Home/furniture/table/table2_1_3001_HD.Mesh"
+    },
+    {
+      "key": "model-11885",
+      "name": "夏木听风榻",
+      "category": "床榻屏风",
+      "representId": 11885,
+      "furnitureType": 1,
+      "furnitureId": 3330,
+      "defaultDetail": 0,
+      "details": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nonUniform": false,
+      "scaleRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "freeRotation": false,
+      "heightRangeM": [
+        -4.0,
+        8.0
+      ],
+      "modelSha256": "4f14c697238787e274a409b5610d14567d0fd6468a1973deac912b85f07493d6",
+      "modelSha256Aliases": [
+        "d23344586a88ae38efeae9509019b76793a7da55d67419d28ba1156b0e74841b"
+      ],
+      "sourceMeshSha256": "a587d9d8665126740df1599f4489ae410d060a34f4f0a22ac91a08cd24e550c7",
+      "detailNames": [
+        "原始样式",
+        "原始样式",
+        "原始样式",
+        "原始样式",
+        "原始样式",
+        "原始样式"
+      ],
+      "boundsMin": [
+        -2.543255567550659,
+        0.004111831542104483,
+        -1.2658722400665283
+      ],
+      "boundsMax": [
+        2.344402551651001,
+        2.7442984580993652,
+        1.0639252662658691
+      ],
+      "triangles": 8778,
+      "resourcePath": "data/source/Home/furniture/bed/Bed3_1_1018.Mesh"
+    }
+  ]
+}

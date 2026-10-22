@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "sampledMeshFiles": 216,
+  "supportedGeometryLayouts": 180,
+  "unsupported": [
+    {
+      "file": "wj_ytz登录石灯001_003_hd.mesh",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "file": "wj_ly灯笼005a_hd.mesh",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "观澜煮茗茶案",
+      "resource": 17832,
+      "category": "桌椅",
+      "meshSha256": "02666a0cb6abd4178422a8b83562157a4a1e3ee581646882bafbb92a07d159c1",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "丘山野食桌",
+      "resource": 11894,
+      "category": "桌椅",
+      "meshSha256": "510226fbe2165a4a0273def9884200d8cf98322741b170c2eb72c188eb111cd5",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "煮书泼茶案",
+      "resource": 9800,
+      "category": "桌椅",
+      "meshSha256": "9dd21c1ac5b13214ee5990e02006723650c236240dbe70ef0c8df8b60f8ec750",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "文柏木经案",
+      "resource": 1487,
+      "category": "桌椅",
+      "meshSha256": "71bdd03d936913b6bf5db56c08144be36ff10c2cf1b7ac03ecd6f2f5f1a0bda8",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "栅足长凳",
+      "resource": 1525,
+      "category": "桌椅",
+      "meshSha256": "a677243081f05503013bbe33d31d3feff2d825ca0c01033ca87b820b1465941e",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "帮主扶手椅",
+      "resource": 8128,
+      "category": "桌椅",
+      "meshSha256": "1f44b12873c39f91ec30a46b33280e14fb8403343832a61b578d0d8cddaff192",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "兔兔摇酒胡椅",
+      "resource": 9172,
+      "category": "桌椅",
+      "meshSha256": "e198da30f5de9b174b77052a9c2c5dd25f67467c78cd3939f4615efaac24a1d7",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "珠贝瑚心床",
+      "resource": 17784,
+      "category": "床榻屏风",
+      "meshSha256": "7d2aa9924607f0a5feef9b58353ff8528db9dfb2054e818bd1dc156d8f93ed93",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "叶抟竹木柜",
+      "resource": 11891,
+      "category": "床榻屏风",
+      "meshSha256": "88bbb45fadec96a5a46365257519d26cd5c27c07adb1135aa706a99b661eab92",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "香枕软榻",
+      "resource": 9753,
+      "category": "床榻屏风",
+      "meshSha256": "dd7bfbc09a2130d6cc232b03282595303186faa9ceb5369f99d35c22d40ef35f",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "黄杨攒边花柜",
+      "resource": 1507,
+      "category": "床榻屏风",
+      "meshSha256": "32dccdc3501207e1c0acfdae1e2424b036aeb68bf53af10b03c4f8e7a02379a4",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "桑木药柜",
+      "resource": 6008,
+      "category": "床榻屏风",
+      "meshSha256": "447393b8efd58d068775afb651ba37bb2022fc902bfbeca61e6384cc4111cb49",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "寝梦佳期床",
+      "resource": 13496,
+      "category": "床榻屏风",
+      "meshSha256": "a5edbf8fbc3c5f8b593ffd43358580523299cf7f85b7f225061e56da097d4bc9",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "海水朝日屏风",
+      "resource": 15073,
+      "category": "床榻屏风",
+      "meshSha256": "c1e12a1acc391dded29a73a7983b1780e85b6434bc296cad2fc34c61f199d53c",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xec000000；不能套用未压缩流"
+    },
+    {
+      "name": "江枫入梦·闲逸榻",
+      "resource": 15568,
+      "category": "床榻屏风",
+      "meshSha256": "395009f110429b8774e2ebc3da41fb9cba120866f5e1829271cd73e26d8d3611",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "伴君幽独盆",
+      "resource": 11910,
+      "category": "摆件",
+      "meshSha256": "185daab3d9fd34d3d854db39acb57f381d771a5f039d0032586afc96a9db8657",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "观溪山瓶",
+      "resource": 10014,
+      "category": "摆件",
+      "meshSha256": "d115c4e6debddd52ba0d616e66f743dc4940cd3b861ead5006c30fa08969c198",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "九州港胆瓶·芦花",
+      "resource": 1589,
+      "category": "摆件",
+      "meshSha256": "2674e4bd11f3309b0f22854d3e19c02ba43c5b2b26b60b4b122665c3a1722c0f",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "意萦圜·鼎立",
+      "resource": 1436,
+      "category": "摆件",
+      "meshSha256": "f560a3566dc28adb83e7ec69609163db3aa25eeffa61278a7619fe02c131130c",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "浣花盆架",
+      "resource": 13430,
+      "category": "摆件",
+      "meshSha256": "c3ed6d97561a6cb78692fc0521f8ffae581233823c333b505227d0833f84b6ff",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "碧海花苑瓶",
+      "resource": 14242,
+      "category": "摆件",
+      "meshSha256": "4fc0b3768fe982f7c78fbf8cc15ca04c90e8f4b470e394833fe8660b320bbaf0",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "旧石板桥·十一",
+      "resource": 11977,
+      "category": "建筑",
+      "meshSha256": "84117c48ec342cf2aad375aefb1a8abb46d86ccc7495d39db272af1b605a2105",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "闲云木桥·十",
+      "resource": 10991,
+      "category": "建筑",
+      "meshSha256": "fc1fbebac7cb5ef74eb1da5bea0dae4b1135e4a401d0057b61e904516b887708",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "晴野竹桥·五",
+      "resource": 8299,
+      "category": "建筑",
+      "meshSha256": "3822196273372c901943dc2bf3f053f9fe6c1aa4f56f9334e3d431e52a8f7e2d",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "门8米·七",
+      "resource": 11587,
+      "category": "建筑",
+      "meshSha256": "3ed91ae3dfb20ca152ff90d2dd5178f4f78f636d75a374f3f51e79774ab8d6e3",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "花楹影月门",
+      "resource": 14730,
+      "category": "建筑",
+      "meshSha256": "1560bfc59442a63d5d2a003cf17f1f4b5f42c0a211489138b074a6a594141528",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "巫山石板",
+      "resource": 11771,
+      "category": "庭院",
+      "meshSha256": "92a5d0ef97cbbef7ed994568781de428192cb724bc56055d84fa72fb7e504be4",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "绿竹墙·五",
+      "resource": 7854,
+      "category": "庭院",
+      "meshSha256": "d1d200ec87720d197c37a56fde9f646f79297b61d1734241a83abb1b54168a57",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "淇竹篱·三",
+      "resource": 8939,
+      "category": "庭院",
+      "meshSha256": "2c40a7fc5e0798c63fcc56dc0042e5242db500e61b7daa1ece0319c8447170bb",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "白陶百花纹花盆",
+      "resource": 13444,
+      "category": "庭院",
+      "meshSha256": "87e9ee6f4d7f55781a03cd60840580c241faa43e2bf5e514cb9056595c2def46",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe0000000；不能套用未压缩流"
+    },
+    {
+      "name": "松坐绝巅盆景",
+      "resource": 19685,
+      "category": "庭院",
+      "meshSha256": "c29140114aa72f0ef11f2dc094f57141ccd5b39816b4c39822a400e3308204a9",
+      "supported": false,
+      "reason": "包含尚未支持的层级或附加流"
+    },
+    {
+      "name": "墨雨拂纱秋千",
+      "resource": 19701,
+      "category": "桌椅",
+      "meshSha256": "0306905249bf9197bc198ae36c800a20adab2fb83ce734b5c6645d0164728184",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "云阙巡游",
+      "resource": 19526,
+      "category": "桌椅",
+      "meshSha256": "37190a03618634a8c6c776f4898cd51e993c695f682529e6f2de98f2abcb671a",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    },
+    {
+      "name": "九霄坠凡",
+      "resource": 19527,
+      "category": "桌椅",
+      "meshSha256": "c24015f3d90689caeba7de327d54c7528eea70174c1d7900b2e164fc82790ff4",
+      "supported": false,
+      "reason": "暂不支持此Mesh布局标记0xe4000000；不能套用未压缩流"
+    }
+  ],
+  "glbChecks": [
+    {
+      "name": "model-1.glb",
+      "file": "pallet002_01.mesh",
+      "vertices": 31,
+      "triangles": 12,
+      "meshSha256": "6f256672f0440e1d93eb3fd6dc936c9d8e3ddcbb6b56d2878553f68e28083d5b",
+      "glbSha256": "2f938e46d8b6835b52572437eab677e4d5473367f8824af84368464840598f13",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "model-2.glb",
+      "file": "Wallpaper1_3_200A3_HD.Mesh",
+      "vertices": 24,
+      "triangles": 12,
+      "meshSha256": "075b58cb3683000c236a41c4d27c90c8c9073bd7c1038464811f41ced614c7ec",
+      "glbSha256": "059c587e13cc44302dd2742906021721b7c7c23a38dae04fd4b9e17e08d3db7f",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "model-3.glb",
+      "file": "wj_街灯001_hd.mesh",
+      "vertices": 1820,
+      "triangles": 1174,
+      "meshSha256": "87fa3501036d882891758c263c33bed5e073c5e6a55a073ae53888162b775f10",
+      "glbSha256": "1b66cc510b8f9636840eaf5a058e64e6b71fc3da73bbf95cac1a9643636056d9",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "model-4.glb",
+      "file": "chair1_1_1067_HD.Mesh",
+      "vertices": 1049,
+      "triangles": 1402,
+      "meshSha256": "1f18994781db47a5abafdfb23739fd88fafc82406c315db82b4c20f22ca51297",
+      "glbSha256": "938d62f236fc1ecd2f3b00044c354c7ddc87e63271586c37fff9d1df664f455e",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "model-5.glb",
+      "file": "Ornament4_2_1011_HD.Mesh",
+      "vertices": 234,
+      "triangles": 224,
+      "meshSha256": "949fa3280bff6f4df9f5205dd0ac71b88a503e5546c4a68f3ac0dc4298e184b6",
+      "glbSha256": "37cd4916deac4164f3fc26d6bdb7f7808950dadf7392d19a2c7193ef04eddfe5",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20784.glb",
+      "furnitureName": "云笺鹤羽案",
+      "resourceId": 20784,
+      "vertices": 4382,
+      "triangles": 4946,
+      "meshSha256": "77ab2b07deea9aac37afc0afa9685ee52abec1e973bea727488162e0a1e06045",
+      "glbSha256": "d52bc40aa71cdf1a89106ff6c3c118ee8cf330a6a273174c8b2b127ffe83773d",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19314.glb",
+      "furnitureName": "碧空之眼玉石桌",
+      "resourceId": 19314,
+      "vertices": 2412,
+      "triangles": 3026,
+      "meshSha256": "b32fd8ce449798aa3687fb55c6bc13c7c8edf46fd93a9295b18f1ce3b35cdfce",
+      "glbSha256": "e81f69423718ba4141acaaae82c146e1b2863f1c2ec46bf4e0c2a501c1e5805c",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-18157.glb",
+      "furnitureName": "秋意软椅",
+      "resourceId": 18157,
+      "vertices": 868,
+      "triangles": 606,
+      "meshSha256": "c5f3bf995d1b649875d7b109ca69c4f8422e667f4ccdf2cb3b763ed4442da721",
+      "glbSha256": "d3913c71c11bf2722d4f810a8f51af6508ea79a58b98186fc98e2414ab04611b",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20778.glb",
+      "furnitureName": "鹤唳松云榻",
+      "resourceId": 20778,
+      "vertices": 5819,
+      "triangles": 5762,
+      "meshSha256": "2b1f578ac80b40e7bba9dcf48ab3039cfa7581e576eb2e8e3b1368d1fa6e622b",
+      "glbSha256": "b6014a639f346e5e9e751b623317c6707cd98f91624a3cfdd3a8c7bfd5cdf870",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19309.glb",
+      "furnitureName": "夜缀星穹床",
+      "resourceId": 19309,
+      "vertices": 4099,
+      "triangles": 3481,
+      "meshSha256": "26a52682d71b74dd7712b4b24d85ae3c43c73c1792457be12406709386620fe3",
+      "glbSha256": "1558f90bd145d74693ef2cd6d98d27774a912a037e67014a9302b937d168e981",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-18842.glb",
+      "furnitureName": "沉醉东风床",
+      "resourceId": 18842,
+      "vertices": 1543,
+      "triangles": 1639,
+      "meshSha256": "5e23445d1b07b29c2d496b2ba47daf4d5dea0cb2b9f75e3870479d79a3ef8118",
+      "glbSha256": "548c93560a947332434c0caba2790b4c4309af3691db36515b75d6d6d2a20588",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-21286.glb",
+      "furnitureName": "虚天鼎·仿",
+      "resourceId": 21286,
+      "vertices": 5799,
+      "triangles": 6360,
+      "meshSha256": "808b2275efa884ca726cd14aa9fe2754ec842375cb6baaba2c6d71c8f77717d2",
+      "glbSha256": "ad3cc0869590de61932fa78ed5501fc86803f5f0bd30f8d665704c7e0f1703ff",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20844.glb",
+      "furnitureName": "醉浣芙蓉盆",
+      "resourceId": 20844,
+      "vertices": 8406,
+      "triangles": 9899,
+      "meshSha256": "4628a75a1027e606400b475c54dc84823ed2a380ebc1a9e244cce1595f3be39d",
+      "glbSha256": "69193adb32bed38d6cc6b8df795b886ba6c8fd617221b4471a23f1f8e13b6400",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19716.glb",
+      "furnitureName": "花枝垂蔓盆架",
+      "resourceId": 19716,
+      "vertices": 5392,
+      "triangles": 5100,
+      "meshSha256": "9276eb00cda040f2f4b4374faf21e9c177c4f37926fd8e7c27a852724d4f9627",
+      "glbSha256": "d9a329684600cccfff1d33828fa4b28f7785d4bda0cc1feff68b7c0985033017",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-21276.glb",
+      "furnitureName": "素木·圆柱",
+      "resourceId": 21276,
+      "vertices": 52,
+      "triangles": 48,
+      "meshSha256": "d8c97e03baa189fb773e4330824970667396ca29a7f0b1ace8879ffc8282c772",
+      "glbSha256": "08949c3334c97281e668887afb1d3b75141f86925425c40a134b3ecf44b91c9f",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19213.glb",
+      "furnitureName": "门8米·二",
+      "resourceId": 19213,
+      "vertices": 248,
+      "triangles": 192,
+      "meshSha256": "07788b4a773c82c236bb3868ac3cd3e38dd6b581af0a3ec9d6f2b41fe9126367",
+      "glbSha256": "9c9b3f9a5a96acc060eb5db80ff5d055bee79b02fdec7d3de692188a74f33dc4",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20864.glb",
+      "furnitureName": "正修君·竹",
+      "resourceId": 20864,
+      "vertices": 4,
+      "triangles": 2,
+      "meshSha256": "c0cd473c85f4c7a180d9ef4e8cb843fb0e3a6af9640f3d42711f33a51a7b861e",
+      "glbSha256": "11bf3c0ab077a7980aa2ae8e5ece55180b89ec8188ec32548893f0e908213d87",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-21288.glb",
+      "furnitureName": "叠平仲",
+      "resourceId": 21288,
+      "vertices": 4608,
+      "triangles": 5972,
+      "meshSha256": "1bb57eb0edcd5e0424303f6ba07e7b3709b1193395b3da3718f2637c9d5deb2f",
+      "glbSha256": "cc164c2314fb5fa13a5af07dcaaf91c4b0d0590aa82402605f6c566ff487748a",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-21287.glb",
+      "furnitureName": "云兔提珠",
+      "resourceId": 21287,
+      "vertices": 4841,
+      "triangles": 5170,
+      "meshSha256": "c3babbe1fa01d3af4c81566d30c5ea664626f83fad0cbd3c212ab8fe400c5850",
+      "glbSha256": "8391b3879934c06f9c5e39cc1920d552241eacf5e842ab364d5dd1a02466e3ea",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-21278.glb",
+      "furnitureName": "渡良辰",
+      "resourceId": 21278,
+      "vertices": 23085,
+      "triangles": 29039,
+      "meshSha256": "e3653b19648290dffd66a2f5a4d2e5321b1a29ef5987c0d4512b24e42d57e3d1",
+      "glbSha256": "d124cf7e7e0899e74aa8dd69832c8b01d8234cec4e9e79b21ceaf330e5746403",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20782.glb",
+      "furnitureName": "青羽衔书",
+      "resourceId": 20782,
+      "vertices": 2581,
+      "triangles": 2037,
+      "meshSha256": "26eaee723e2e70cde06116ec86197acec91c70ba312e15cf02bb75b75a8c0ef5",
+      "glbSha256": "d1600567bc3b1c80fe0a3c4ca4c3f3bf85aef167774ed402d7038c5f853e8bc1",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20783.glb",
+      "furnitureName": "雪鹤归",
+      "resourceId": 20783,
+      "vertices": 1772,
+      "triangles": 1632,
+      "meshSha256": "940234102996905c2279cbc960524210b1171dde4f4f6bc867e3c43403371f58",
+      "glbSha256": "7a277419a8b995d32085d3fc1f76cb7a86b1053fe004bb6bef76574a510bfa31",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20785.glb",
+      "furnitureName": "羽化登仙台",
+      "resourceId": 20785,
+      "vertices": 5306,
+      "triangles": 5964,
+      "meshSha256": "fdda852b371544709fb839962b73bb52a302c15ddc9ac23ec4fa074a4f2ba73a",
+      "glbSha256": "23ee3f0439d56c9a1417db0e6d1b7b13862b1f5654ea998d0ee26b559df338f1",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20786.glb",
+      "furnitureName": "抱朴凳",
+      "resourceId": 20786,
+      "vertices": 1261,
+      "triangles": 1258,
+      "meshSha256": "4c11a474c63ce16119a606e665b9652b510df03dc96f18c506cd0ef397ead2c6",
+      "glbSha256": "ae89a787d78d72efdfbebbb31063f1565333f4ab7d3e99410fdeca814c49566c",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20788.glb",
+      "furnitureName": "栖风弄影",
+      "resourceId": 20788,
+      "vertices": 946,
+      "triangles": 846,
+      "meshSha256": "28b4f1229427744855ef196a043f2852082702917cd3d31c8a653d7603fef8b7",
+      "glbSha256": "7aca486dab07184a7c3f7c6f7b45f7f0a2407464abe05ace39a303c9e89321e2",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20789.glb",
+      "furnitureName": "雪羽翩跹",
+      "resourceId": 20789,
+      "vertices": 1890,
+      "triangles": 2318,
+      "meshSha256": "e8f0078c2e4fbe22f005e1d8ab49f43e0ac2bcaef292445f9ed87ac7af0ab48d",
+      "glbSha256": "3e3e9cbaf44220b7c3cbc2e679e129a29ace3945c9f248fa4dab3371416f52ec",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20811.glb",
+      "furnitureName": "太真碧昙盆栽",
+      "resourceId": 20811,
+      "vertices": 4532,
+      "triangles": 4663,
+      "meshSha256": "077701b46353b55b8f8779b569c2b45c0f3ec43bcf5074304a4cc1b408babf05",
+      "glbSha256": "38a688f493bf44a3ccc8700864298c89d3b3452d0129e4429a5542e6a4a7810f",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20812.glb",
+      "furnitureName": "闲庭嗅芳盆栽",
+      "resourceId": 20812,
+      "vertices": 4444,
+      "triangles": 4774,
+      "meshSha256": "063ab15090831ccf15bfbb8719ab0ce620c0a6e1c720de54b8123d415369ff91",
+      "glbSha256": "d46ad265e3ceb904a5758f7054f9fe7575ff01299c6d088743a460f61a980348",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20824.glb",
+      "furnitureName": "玄霜镂月瓶",
+      "resourceId": 20824,
+      "vertices": 4849,
+      "triangles": 5482,
+      "meshSha256": "074a82b571a2531736405b8754cbbc843c589be043f0dc10aaaf1b77a5856f37",
+      "glbSha256": "2db138e585d0b1d8fdf26a9562979ded4cdecb356cdc50710158df08159b83a4",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20840.glb",
+      "furnitureName": "玉隐幽芳",
+      "resourceId": 20840,
+      "vertices": 5797,
+      "triangles": 5377,
+      "meshSha256": "2dbc0af2d53532d826ec24a0fa39f816ae02a2e70ff0df44bb0d6e89c5f1336d",
+      "glbSha256": "66065501033b10db2c72a9027c23eb635b08d1cba84a4a66b98021686aac57c1",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20644.glb",
+      "furnitureName": "旱鸭躺平驿",
+      "resourceId": 20644,
+      "vertices": 16989,
+      "triangles": 20048,
+      "meshSha256": "76fbf12643e74290be579bffa98a14695d168eed8b326efb180eb452133aea5d",
+      "glbSha256": "1023cce38415e74c3a4e2cf7e2487052946883f7401758c5b30560a78d3215a7",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20643.glb",
+      "furnitureName": "烟雨纷纷屏",
+      "resourceId": 20643,
+      "vertices": 7412,
+      "triangles": 10495,
+      "meshSha256": "1598a184387d1447ad25fcd21fd8a880531fc2f00b296a24ed853c02a4c5d584",
+      "glbSha256": "a56ec94ed49442226214992bcabf8e4e5e1a913733eb0f4ed52c047e129edd74",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-20636.glb",
+      "furnitureName": "甜梦云驹",
+      "resourceId": 20636,
+      "vertices": 1166,
+      "triangles": 1706,
+      "meshSha256": "fbf0929ab15a7e081c54256800c6a6400de396248756a43c969f4b375191e74d",
+      "glbSha256": "e929978a19294ed694e9585ece7822c661bda69586e020207aaf056bd458d816",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19684.glb",
+      "furnitureName": "一丛竹盆景",
+      "resourceId": 19684,
+      "vertices": 1828,
+      "triangles": 1370,
+      "meshSha256": "913faf06e0e490f3eb891e7c422410d12e3478a222def65ad0be384700264fcd",
+      "glbSha256": "4ecd07ef42420f5515c969af3672418b82cf1cf1fedbf06c9f40ea114909ee53",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19711.glb",
+      "furnitureName": "陶陶兔兔洞",
+      "resourceId": 19711,
+      "vertices": 16136,
+      "triangles": 17356,
+      "meshSha256": "9f46471f4fc35c1278a96f5e6fffcf222216fa9f4b8b400d5aec50a35f65a598",
+      "glbSha256": "4f3f05efe6e1730e18d79eff7659e4e3d3565b375741b662c819e3eab6c7b897",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19593.glb",
+      "furnitureName": "金扇满树盆栽",
+      "resourceId": 19593,
+      "vertices": 1138,
+      "triangles": 1225,
+      "meshSha256": "1079cc3d6fa486709e3775214f9b062a0bdd20c5c0d39252d38b92e49783646e",
+      "glbSha256": "96442711d37334072fa95cf2244ba4e90cba643ddf92303b662d6c42d14c5c43",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "name": "furniture-19715.glb",
+      "furnitureName": "陶然饮茶案",
+      "resourceId": 19715,
+      "vertices": 5848,
+      "triangles": 6803,
+      "meshSha256": "a151306286af44a4cd9774177e481f3c62f812d73ec451c44dbaa5845071dc67",
+      "glbSha256": "0be288effa9933edfd046023cede68c9d1e1558df8e7212dd8ed51ba108faf7f",
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "validator": "Khronos gltf-validator 2.0.0-dev.3.10",
+  "unitsPerMeter": 100,
+  "includedGameModelsInSource": 0,
+  "originalMaterialsConverted": false,
+  "prefabPlacementReproduced": false,
+  "gameImportVerified": false
+}

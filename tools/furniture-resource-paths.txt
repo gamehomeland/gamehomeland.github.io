@@ -1,0 +1,5 @@
+UI/Scheme/Case/Homeland/Homeland_FurnitureInfo.tab
+UI/Scheme/Case/Homeland/Homeland_FurnitureCatg.tab
+Represent/homeland/ID_Model.txt
+Represent/homeland/ID_Brush.txt
+Represent/homeland/ID_CustomBrush.txt

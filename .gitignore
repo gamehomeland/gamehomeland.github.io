@@ -1,0 +1,16 @@
+node_modules/
+artifacts/
+apps/web/dist/
+packages/core/dist/
+packages/core/src/*.generated.ts
+apps/web/src/content.generated.ts
+client-extract/
+catalog-candidate/
+*.exe
+*.obj
+__pycache__/
+.venv/
+.DS_Store
+*.log
+.env
+.env.*
