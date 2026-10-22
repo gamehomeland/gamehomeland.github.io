@@ -1,0 +1,304 @@
+[
+  {
+    "file": "model-3.glb",
+    "name": "西苑亭灯 · 网格",
+    "category": "灯饰",
+    "note": "贴图与材质预览；光照采用网页中性照明。仅显示灯具网格，未包含预制体灯光。",
+    "sha256": "9166d58ee50907b7c55ca1a1f02fb2e3b2ab69c89ce295eaeeb5bf33be7312fa"
+  },
+  {
+    "file": "model-4.glb",
+    "name": "天青照影方椅",
+    "category": "桌椅",
+    "resourceId": 19315,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "68cd1e78db653dfce1eab4a61d4dbfb3d80ae6ec62b3691372d7109034d240ad"
+  },
+  {
+    "file": "model-5.glb",
+    "name": "香薰蜡烛",
+    "category": "灯饰",
+    "resourceId": 20831,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "570a4296042f53fbc503a9261712dd30c699d97ecc026ecdf84de969ebb3800c"
+  },
+  {
+    "file": "model-2.glb",
+    "name": "拼布",
+    "category": "拼布与基座",
+    "resourceId": 21034,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "4c3bdb00fb91c1d05b758c277b6633f4b3bc9ebd0b122032d9675eff4b940df4"
+  },
+  {
+    "file": "model-1.glb",
+    "name": "挂接基座",
+    "category": "拼布与基座",
+    "note": "贴图与材质预览；光照采用网页中性照明。基座为原始模型大小。",
+    "sha256": "b7739a8fe7b7d3c97d52aed38b517253256368d2ba9c8e1b695711167ea46d91"
+  },
+  {
+    "file": "furniture-20784.glb",
+    "name": "云笺鹤羽案",
+    "category": "桌椅",
+    "resourceId": 20784,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "72425be17441c4c298f2964d2e9a05c30d5ecd020f3f93accb1300e6fd0f19b9"
+  },
+  {
+    "file": "furniture-19314.glb",
+    "name": "碧空之眼玉石桌",
+    "category": "桌椅",
+    "resourceId": 19314,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "d791e70d1ccf3a5596b9e43e1b710d917a6c4e0a09cf2a9c048f0e3f8a04901d"
+  },
+  {
+    "file": "furniture-18157.glb",
+    "name": "秋意软椅",
+    "category": "桌椅",
+    "resourceId": 18157,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "eacb073a5594bb6dd0a5d264bb0c087092d01180b02f3ad26d64e2a20df4214b"
+  },
+  {
+    "file": "furniture-20778.glb",
+    "name": "鹤唳松云榻",
+    "category": "床榻屏风",
+    "resourceId": 20778,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "ca7189b5a535b604d6bc49216f32b36b525ab56d34ed435a8b9f3b9ddcadf555"
+  },
+  {
+    "file": "furniture-19309.glb",
+    "name": "夜缀星穹床",
+    "category": "床榻屏风",
+    "resourceId": 19309,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "7f908f21ac95a3169132f88b4e80e059fc9ad6fa754f426bc59e11b48e2c2890"
+  },
+  {
+    "file": "furniture-18842.glb",
+    "name": "沉醉东风床",
+    "category": "床榻屏风",
+    "resourceId": 18842,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "46ccfc04b1b224eed651fc48e06d2a3f74d87d026910b90848f0cd926f5f166a"
+  },
+  {
+    "file": "furniture-21286.glb",
+    "name": "虚天鼎·仿",
+    "category": "摆件",
+    "resourceId": 21286,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "9754f9a0bd9839204df4acda1bdba0c8f33fd4ef8f9023fb3785eb832c003fac"
+  },
+  {
+    "file": "furniture-20844.glb",
+    "name": "醉浣芙蓉盆",
+    "category": "摆件",
+    "resourceId": 20844,
+    "note": "贴图与材质预览；光照采用网页中性照明。水面为静态近似。",
+    "sha256": "a5da13963d5cd3a3a390dfba71b3239c8f32df92b6c399cc7a3ac49fa532be31"
+  },
+  {
+    "file": "furniture-19716.glb",
+    "name": "花枝垂蔓盆架",
+    "category": "摆件",
+    "resourceId": 19716,
+    "note": "贴图与材质预览；光照采用网页中性照明。水面为静态近似。",
+    "sha256": "de0ea03de9db746dc4349d4ead73495ae7883ad2a31d21a1996b4b2870bd8b00"
+  },
+  {
+    "file": "furniture-21276.glb",
+    "name": "素木·圆柱",
+    "category": "建筑",
+    "resourceId": 21276,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "3516436dbb559f846e1051dfd32469983889ca65817c09204a52cee5286ba60b"
+  },
+  {
+    "file": "furniture-19213.glb",
+    "name": "门8米·二",
+    "category": "建筑",
+    "resourceId": 19213,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "a3da61860553a8ca31d3687477f8bc23360b6da41a9729e3795a1dd791ed06b8"
+  },
+  {
+    "file": "furniture-20864.glb",
+    "name": "正修君·竹",
+    "category": "庭院",
+    "resourceId": 20864,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "6d2d350e7076f4abcfe14dbe2061396ffcb3d38f42d65754c759098416a8a758"
+  },
+  {
+    "file": "furniture-21288.glb",
+    "name": "叠平仲",
+    "category": "桌椅",
+    "resourceId": 21288,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "0e388e86a19e348091007095d642cee97d40e289a6750bd41c9620ca1d5c864e"
+  },
+  {
+    "file": "furniture-21287.glb",
+    "name": "云兔提珠",
+    "category": "床榻屏风",
+    "resourceId": 21287,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "f7e0ef1c8e8d118b44ffc85f05a65a3b65b45a5e5eb69e2d00882f5dfb39f6b6"
+  },
+  {
+    "file": "furniture-21278.glb",
+    "name": "渡良辰",
+    "category": "床榻屏风",
+    "resourceId": 21278,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "c13fdf817c60b2feaa93c57af9635749cc276157dcfb68f74cad0c24e0205398"
+  },
+  {
+    "file": "furniture-20782.glb",
+    "name": "青羽衔书",
+    "category": "床榻屏风",
+    "resourceId": 20782,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "85629682111c86887120a8f0f516eb181af606d973f53ebd2bda8d2cb85a40d4"
+  },
+  {
+    "file": "furniture-20783.glb",
+    "name": "雪鹤归",
+    "category": "床榻屏风",
+    "resourceId": 20783,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "adb9556badede947abded3be1c262cbc1550a16001642bfffc5c17769d2098eb"
+  },
+  {
+    "file": "furniture-20785.glb",
+    "name": "羽化登仙台",
+    "category": "桌椅",
+    "resourceId": 20785,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "91648476d748b3923fee75aa2e51c8a5ea1e01b3b9887772ee9052867b6b6488"
+  },
+  {
+    "file": "furniture-20786.glb",
+    "name": "抱朴凳",
+    "category": "桌椅",
+    "resourceId": 20786,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "1704dc97099f8252e7dee1707172e9e4c6f1977b89618cc27cccab3c96327ef8"
+  },
+  {
+    "file": "furniture-20788.glb",
+    "name": "栖风弄影",
+    "category": "床榻屏风",
+    "resourceId": 20788,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "3ae07a870d49cb8cf8f546f9d771710d7ea1d00924647668b87353d228aec2c8"
+  },
+  {
+    "file": "furniture-20789.glb",
+    "name": "雪羽翩跹",
+    "category": "床榻屏风",
+    "resourceId": 20789,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "71b4e5b3e1d5dc721897a626ca81d1dc87aa4259155ffa175294ba2538b468b1"
+  },
+  {
+    "file": "furniture-20811.glb",
+    "name": "太真碧昙盆栽",
+    "category": "庭院",
+    "resourceId": 20811,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "95e5d3c2f3ca9e8fd56ffbd0c566b49d956cfffa883c9a5f0c5c602c52a8e04f"
+  },
+  {
+    "file": "furniture-20812.glb",
+    "name": "闲庭嗅芳盆栽",
+    "category": "庭院",
+    "resourceId": 20812,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "bacd51b7ecbb4f12f7c359952795894c6c54b008f817da8b3ab477300ef65c19"
+  },
+  {
+    "file": "furniture-20824.glb",
+    "name": "玄霜镂月瓶",
+    "category": "庭院",
+    "resourceId": 20824,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "6442c55bce5d605b777a0dda26581c40ae8522df74534b553c72f3db23807175"
+  },
+  {
+    "file": "furniture-20840.glb",
+    "name": "玉隐幽芳",
+    "category": "桌椅",
+    "resourceId": 20840,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "8c5b5de476c0bf4b9aa44fdb35b5fe5ce9935bcf252ff635501f5407a9ca044b"
+  },
+  {
+    "file": "furniture-20644.glb",
+    "name": "旱鸭躺平驿",
+    "category": "桌椅",
+    "resourceId": 20644,
+    "note": "贴图与材质预览；光照采用网页中性照明。水面为静态近似。",
+    "sha256": "6e32ed8baa1fdc9658326b9ee42e287f455a09ab234e74a96181f72024f46fc7"
+  },
+  {
+    "file": "furniture-20643.glb",
+    "name": "烟雨纷纷屏",
+    "category": "床榻屏风",
+    "resourceId": 20643,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "f522e8d2f0547bd87f2b83d58244c7af3fcbf1c1d8db76666d445008540acce1"
+  },
+  {
+    "file": "furniture-20636.glb",
+    "name": "甜梦云驹",
+    "category": "庭院",
+    "resourceId": 20636,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "d505ee458582f18f961143c0906ab2381332828b9f2a175c76a2222b2c1b6c43"
+  },
+  {
+    "file": "furniture-19684.glb",
+    "name": "一丛竹盆景",
+    "category": "庭院",
+    "resourceId": 19684,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "d85c109ed7a624c129e48c526d391cead51fd00f1e804d354c2fe7c095cb6568"
+  },
+  {
+    "file": "furniture-19711.glb",
+    "name": "陶陶兔兔洞",
+    "category": "床榻屏风",
+    "resourceId": 19711,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "e12d2a697c723e8c7483c2ac8d1c17021300075751d4dc722b2eb648513b4408"
+  },
+  {
+    "file": "furniture-19593.glb",
+    "name": "金扇满树盆栽",
+    "category": "庭院",
+    "resourceId": 19593,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "43fa12133f38d080bbcba289c877658c0e5f88e7ef9ab71bdded29200bb7b9ca"
+  },
+  {
+    "file": "furniture-19715.glb",
+    "name": "陶然饮茶案",
+    "category": "桌椅",
+    "resourceId": 19715,
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "ce2eeeb73d03d804a3c5cb4138a0e8bad673f015ca93b99a22b233c279b7c90b"
+  },
+  {
+    "file": "model-11885.glb",
+    "resourceId": 11885,
+    "name": "夏木听风榻",
+    "category": "床榻屏风",
+    "note": "贴图与材质预览；光照采用网页中性照明。",
+    "sha256": "4f14c697238787e274a409b5610d14567d0fd6468a1973deac912b85f07493d6"
+  }
+]
