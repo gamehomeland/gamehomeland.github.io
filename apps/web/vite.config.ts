@@ -1,9 +1,12 @@
 import { defineConfig } from 'vite';
 import { fileURLToPath } from 'node:url';
+import siteConfig from '../../site.config.json';
+import { pageSeo } from './seo';
 export default defineConfig(({ mode }) => ({
   root: fileURLToPath(new URL('.', import.meta.url)),
   base: './',
   publicDir: fileURLToPath(new URL('../../assets/', import.meta.url)),
+  plugins: mode === 'pages' ? [pageSeo(siteConfig)] : [],
   build: {
     outDir: 'dist',
     emptyOutDir: true,

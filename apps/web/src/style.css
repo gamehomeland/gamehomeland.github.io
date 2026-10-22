@@ -400,6 +400,42 @@
 .work-tabs button:hover {
   background: var(--hover);
 }
+.site-guide {
+  margin-top: 24px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  font-size: 13px;
+}
+.site-guide h2 {
+  margin: 0 0 14px;
+  font-size: 17px;
+}
+.site-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.site-guide h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+.site-guide p,
+.site-guide ol {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.site-guide ol {
+  padding-left: 20px;
+}
+@media (max-width: 700px) {
+  .site-guide-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
 .project-stance {
   display: flex;
   align-items: baseline;

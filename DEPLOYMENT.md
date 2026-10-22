@@ -35,6 +35,14 @@ pnpm build:pages
 
 `pnpm check` 包含资料校验、类型检查、核心测试、网页与离线文件构建。`pnpm build:pages` 生成用于托管的 `apps/web/dist/`，不包含开发运行检查页。Vite 使用相对资源路径 `base: './'`，请保留完整目录结构，包括 `models/`。
 
+`pnpm build:pages` 还会根据 `site.config.json` 自动生成首页 canonical、社交分享元信息、网站与在线工具的结构化数据，以及下列发现文件：
+
+- [robots.txt](https://jx3homeland.com/robots.txt)：爬取规则与 sitemap 地址。
+- [sitemap.xml](https://jx3homeland.com/sitemap.xml)：当前仅列出实际独立的首页；工具标签和说明弹窗属于同一页面，不作为独立 URL 收录。
+- [llms.txt](https://jx3homeland.com/llms.txt)：用途、操作说明、使用范围与源码入口的机器可读摘要。
+
+这些文件随产物进入 `page` 分支，部署完成后才能从上述地址访问。普通网页、离线页与桌面构建不注入这些线上地址和结构化数据。
+
 工作流还会检查 Python 工具和蓝图结构示例，可在本地复现：
 
 ```sh

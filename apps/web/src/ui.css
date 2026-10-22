@@ -242,7 +242,10 @@ p {
   background: var(--paper);
   font-size: 13px;
 }
-.demo-note > strong {
+.demo-note h1 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
   white-space: nowrap;
   color: var(--ink);
 }

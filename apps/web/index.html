@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="剑网3家园蓝图在线工具，支持剑网3家园拼豆、剑网3家园拼布图案制作，图片转墙面画与地面蓝图，提供3D家具布置、地下室编辑及蓝图导出。图片在本机处理，无需上传；仅展示部分功能，实际效果需在游戏内核对。"
+    />
+    <meta
+      name="keywords"
+      content="剑网3家园蓝图,剑网3家园拼豆,剑网3家园拼布,剑网3图片转蓝图,剑网3家园墙面画,剑网3家园地面图案,剑网3家园布置"
+    />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <title>剑网3家园蓝图</title>
   </head>
@@ -39,11 +47,11 @@
           >
         </div>
       </header>
-      <aside class="demo-note" aria-label="演示版说明">
-        <strong>基础功能展示</strong>
+      <aside class="demo-note" aria-label="网站简介">
+        <h1>剑网3家园蓝图</h1>
         <p>
-          <strong>仅展示部分家具及地下室组件，未覆盖全部家园功能。</strong
-          >提供实现思路与技术参考，欢迎基于源码二次开发。
+          将图片转换为拼布组件，制作剑网3家园拼豆风格的墙面画与地面图案，支持剑网3家园拼布配色与蓝图导出。
+          <strong>仅展示部分家具及地下室功能，预览效果需在游戏内核对。</strong>
         </p>
       </aside>
       <nav class="work-tabs" role="tablist" aria-label="制作方式">
@@ -559,6 +567,34 @@
               <div id="scene-objects" class="scene-objects"></div>
             </aside>
           </section>
+        </div>
+      </section>
+      <section class="site-guide" aria-labelledby="site-guide-title">
+        <h2 id="site-guide-title">剑网3家园拼豆与拼布制作说明</h2>
+        <div class="site-guide-grid">
+          <article>
+            <h3>如何将图片制作成家园蓝图？</h3>
+            <ol>
+              <li>选择图片，设置墙面画或地面图案及成品尺寸。</li>
+              <li>生成蓝图，核对拼布预览、配色和家具用量。</li>
+              <li>下载完整包，按家具清单准备库存，从游戏局部组件入口导入。</li>
+            </ol>
+          </article>
+          <article>
+            <h3>图片需要上传吗？</h3>
+            <p>
+              图片在本机浏览器内处理，不会上传，无需注册或登录。支持 PNG、JPG、静态 WebP 和
+              GIF，单文件最多 50 MiB、800 万像素；GIF 仅处理第一帧。
+            </p>
+          </article>
+          <article>
+            <h3>导出后可以直接在游戏中使用吗？</h3>
+            <p>
+              图片完整包包含蓝图、预览、家具清单和说明。3D
+              家具布置及地下室编辑仅覆盖部分资源；地下室使用整屋蓝图入口。
+              导入前保存原家园，核对库存、容量及导入类型；实际颜色、摆放与保存效果需在游戏内验证。
+            </p>
+          </article>
         </div>
       </section>
       <footer class="page-footer">
