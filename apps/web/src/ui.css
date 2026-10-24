@@ -141,6 +141,7 @@ p {
 }
 .header-left {
   display: flex;
+  min-width: 0;
   gap: 22px;
   align-items: center;
   flex-wrap: wrap;
@@ -163,11 +164,14 @@ p {
 }
 .brand {
   display: flex;
+  min-width: 0;
+  max-width: 100%;
   gap: 12px;
   align-items: center;
   color: var(--ink);
 }
 .brand svg {
+  flex-shrink: 0;
   width: 44px;
   height: 44px;
   fill: var(--strong-line);
@@ -177,6 +181,7 @@ p {
 }
 .brand span {
   display: grid;
+  min-width: 0;
   gap: 2px;
 }
 .brand small {
@@ -246,7 +251,7 @@ p {
   margin: 0;
   font-size: 16px;
   line-height: 1.4;
-  white-space: nowrap;
+  white-space: normal;
   color: var(--ink);
 }
 .demo-note p {

@@ -351,8 +351,14 @@
 
 .brand strong {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 9px;
+}
+.brand .brand-tagline {
+  font-size: 11px;
+  letter-spacing: 0;
+  font-weight: 400;
 }
 .demo-badge {
   font-style: normal;

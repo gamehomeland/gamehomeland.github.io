@@ -7,11 +7,12 @@ import { build } from 'vite';
 import { pageSeo } from '../apps/web/seo';
 
 test('静态构建生成一致的 canonical、结构化数据和可发现的 sitemap', async () => {
+  const title = '剑网3家园蓝图生成(家园拼豆)';
   const folder = mkdtempSync(join(tmpdir(), 'homeland-seo-'));
   try {
     writeFileSync(
       join(folder, 'index.html'),
-      '<!doctype html><html lang="zh-CN"><head><title>剑网3家园蓝图</title></head><body><h1>剑网3家园蓝图</h1></body></html>',
+      `<!doctype html><html lang="zh-CN"><head><title>${title}</title></head><body><h1>${title}</h1></body></html>`,
     );
     for (const [siteUrl, xmlUrl, sitemapUrl] of [
       [
@@ -35,13 +36,19 @@ test('静态构建生成一致的 canonical、结构化数据和可发现的 sit
       });
       const read = (name: string) => readFileSync(join(folder, 'dist', name), 'utf8');
       const html = read('index.html');
-      assert.match(html, /<title>剑网3家园蓝图<\/title>/);
+      assert.ok(html.includes(`<title>${title}</title>`));
+      assert.ok(html.includes(`property="og:title" content="${title}"`));
+      assert.ok(html.includes(`name="twitter:title" content="${title}"`));
       assert.ok(html.includes(`rel="canonical" href="${xmlUrl}"`));
       assert.ok(html.includes(`property="og:url" content="${xmlUrl}"`));
       const data = JSON.parse(
         /<script type="application\/ld\+json">([\s\S]*?)<\/script>/.exec(html)![1],
       );
       assert.equal(data['@context'], 'https://schema.org');
+      assert.deepEqual(
+        data['@graph'].map((item: { name: string }) => item.name),
+        [title, title],
+      );
       assert.deepEqual(
         data['@graph'].map((item: { url: string }) => item.url),
         [siteUrl, siteUrl],
@@ -56,7 +63,7 @@ test('静态构建生成一致的 canonical、结构化数据和可发现的 sit
       assert.equal((read('sitemap.xml').match(/<loc>/g) ?? []).length, 1);
       assert.equal(read('robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${sitemapUrl}\n`);
       assert.ok(read('llms.txt').includes(`[源码仓库](${repositoryUrl})`));
-      assert.ok(read('llms.txt').includes(`[剑网3家园蓝图](${siteUrl})`));
+      assert.ok(read('llms.txt').includes(`[${title}](${siteUrl})`));
     }
   } finally {
     rmSync(folder, { recursive: true, force: true });
